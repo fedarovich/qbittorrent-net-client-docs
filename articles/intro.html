@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Introduction </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Introduction ">
+    <meta name="generator" content="docfx 2.35.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="introduction">Introduction</h1>
+
+<h2 id="setup">Setup</h2>
+<h3 id="installing-release-version">Installing release version</h3>
+<div class="tabGroup" id="tabgroup_5PEFIiQtHk">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_5PEFIiQtHk_stable-nuget-pm" role="tab" aria-controls="tabpanel_5PEFIiQtHk_stable-nuget-pm" data-tab="stable-nuget-pm" tabindex="0" aria-selected="true">NuGet (PM CONSOLE)</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_5PEFIiQtHk_stable-nuget-exe" role="tab" aria-controls="tabpanel_5PEFIiQtHk_stable-nuget-exe" data-tab="stable-nuget-exe" tabindex="-1">nuget.exe</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_5PEFIiQtHk_stable-dotnet" role="tab" aria-controls="tabpanel_5PEFIiQtHk_stable-dotnet" data-tab="stable-dotnet" tabindex="-1">.Net CLI</a>
+</li>
+</ul>
+<section id="tabpanel_5PEFIiQtHk_stable-nuget-pm" role="tabpanel" data-tab="stable-nuget-pm">
+<pre><code class="lang-powershell">Install-Package QBittorrent.Client
+</code></pre></section>
+<section id="tabpanel_5PEFIiQtHk_stable-nuget-exe" role="tabpanel" data-tab="stable-nuget-exe" aria-hidden="true" hidden="hidden">
+<pre><code class="lang-powershell">nuget.exe install QBittorrent.Client
+</code></pre></section>
+<section id="tabpanel_5PEFIiQtHk_stable-dotnet" role="tabpanel" data-tab="stable-dotnet" aria-hidden="true" hidden="hidden">
+<pre><code class="lang-powershell">dotnet add package QBittorrent.Client
+</code></pre></section>
+</div>
+<h3 id="installing-prerelease-version-from-myget">Installing prerelease version from MyGet</h3>
+<div class="tabGroup" id="tabgroup_5PEFIiQtHk-1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_5PEFIiQtHk-1_pre-nuget-pm" role="tab" aria-controls="tabpanel_5PEFIiQtHk-1_pre-nuget-pm" data-tab="pre-nuget-pm" tabindex="0" aria-selected="true">NuGet (PM CONSOLE)</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_5PEFIiQtHk-1_pre-nuget-exe" role="tab" aria-controls="tabpanel_5PEFIiQtHk-1_pre-nuget-exe" data-tab="pre-nuget-exe" tabindex="-1">nuget.exe</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_5PEFIiQtHk-1_pre-dotnet" role="tab" aria-controls="tabpanel_5PEFIiQtHk-1_pre-dotnet" data-tab="pre-dotnet" tabindex="-1">.Net CLI</a>
+</li>
+</ul>
+<section id="tabpanel_5PEFIiQtHk-1_pre-nuget-pm" role="tabpanel" data-tab="pre-nuget-pm">
+<pre><code class="lang-powershell">Install-Package QBittorrent.Client -Source https://www.myget.org/F/fedarovich/api/v3/index.json -IncludePrerelease
+</code></pre></section>
+<section id="tabpanel_5PEFIiQtHk-1_pre-nuget-exe" role="tabpanel" data-tab="pre-nuget-exe" aria-hidden="true" hidden="hidden">
+<pre><code class="lang-powershell">nuget.exe install QBittorrent.Client -Source https://www.myget.org/F/fedarovich/api/v3/index.json -PreRelease
+</code></pre></section>
+<section id="tabpanel_5PEFIiQtHk-1_pre-dotnet" role="tabpanel" data-tab="pre-dotnet" aria-hidden="true" hidden="hidden">
+<pre><code class="lang-powershell">dotnet add package QBittorrent.Client -v 0.9.0-*
+</code></pre></section>
+</div>
+<h2 id="using-the-library">Using the library</h2>
+<p>Create an instance of See documentation on <a class="xref" href="../api/QBittorrent.Client.QBittorrentClient.html"><code>QBittorrentClient</code></a> for more information. class and pass the qBittorrent web interface URL to the constructor.</p>
+<pre><code class="lang-cs">var client = new QBittorrentClient(new Uri(&quot;http://127.0.0.1:8080/));
+</code></pre><p>If your qBittorrent instance requires authentication call <code>LoginAsync</code> method:</p>
+<pre><code class="lang-cs">await client.LoginAsync(&quot;login&quot;, &quot;password&quot;);
+</code></pre><p>Now you can use the <code>client</code> instance to query qBittorrent status, list/add/remove torrents, etc. See documentation on <a class="xref" href="../api/QBittorrent.Client.QBittorrentClient.html"><code>QBittorrentClient</code></a> for more information.</p>
+<div class="IMPORTANT"><h5>Important</h5><p>It is import to reuse the same <code>client</code> instance across the application, because it stores cookies required by qBittorrent web API.</p>
+</div>
+<p>Do not forget to dispose the <code>client</code> after you has finished your work with it:</p>
+<pre><code class="lang-cs">client.Dispose();
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/docs/articles/intro.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

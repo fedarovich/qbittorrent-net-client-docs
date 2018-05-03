@@ -1,0 +1,3109 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class QBittorrentClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class QBittorrentClient
+   ">
+    <meta name="generator" content="docfx 2.35.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="QBittorrent.Client.QBittorrentClient">
+  
+  
+  <h1 id="QBittorrent_Client_QBittorrentClient" data-uid="QBittorrent.Client.QBittorrentClient" class="text-break">Class QBittorrentClient
+  </h1>
+  <div class="markdown level0 summary"><p>Provides access to qBittorrent remote API.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">QBittorrentClient</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="QBittorrent.Client.IQBittorrentClient.html">IQBittorrentClient</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="QBittorrent.Client.html">QBittorrent.Client</a></h6>
+  <h6><strong>Assembly</strong>: QBittorrent.Client.dll</h6>
+  <h5 id="QBittorrent_Client_QBittorrentClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class QBittorrentClient : IQBittorrentClient, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient__ctor_System_Uri_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.%23ctor(System.Uri)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L32">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient__ctor_" data-uid="QBittorrent.Client.QBittorrentClient.#ctor*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient__ctor_System_Uri_" data-uid="QBittorrent.Client.QBittorrentClient.#ctor(System.Uri)">QBittorrentClient(Uri)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QBittorrent.Client.QBittorrentClient.html">QBittorrentClient</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QBittorrentClient(Uri uri)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a></td>
+        <td><span class="parametername">uri</span></td>
+        <td><p>qBittorrent remote server URI.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient__ctor_System_Uri_System_Net_Http_HttpMessageHandler_System_Boolean_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.%23ctor(System.Uri%2CSystem.Net.Http.HttpMessageHandler%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L43">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient__ctor_" data-uid="QBittorrent.Client.QBittorrentClient.#ctor*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient__ctor_System_Uri_System_Net_Http_HttpMessageHandler_System_Boolean_" data-uid="QBittorrent.Client.QBittorrentClient.#ctor(System.Uri,System.Net.Http.HttpMessageHandler,System.Boolean)">QBittorrentClient(Uri, HttpMessageHandler, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="QBittorrent.Client.QBittorrentClient.html">QBittorrentClient</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QBittorrentClient(Uri uri, HttpMessageHandler handler, bool disposeHandler)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a></td>
+        <td><span class="parametername">uri</span></td>
+        <td><p>qBittorrent remote server URI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.http.httpmessagehandler">HttpMessageHandler</a></td>
+        <td><span class="parametername">handler</span></td>
+        <td><p>Custom HTTP message handler.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">disposeHandler</span></td>
+        <td><p>The value indicating whether the <code data-dev-comment-type="paramref" class="paramref">handler</code> must be disposed when disposing this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_DefaultRequestHeaders.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.DefaultRequestHeaders%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L76">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_DefaultRequestHeaders_" data-uid="QBittorrent.Client.QBittorrentClient.DefaultRequestHeaders*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_DefaultRequestHeaders" data-uid="QBittorrent.Client.QBittorrentClient.DefaultRequestHeaders">DefaultRequestHeaders</h4>
+  <div class="markdown level1 summary"><p>Gets the headers which should be sent with each request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestHeaders DefaultRequestHeaders { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.http.headers.httprequestheaders">HttpRequestHeaders</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_Timeout.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.Timeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L67">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_Timeout_" data-uid="QBittorrent.Client.QBittorrentClient.Timeout*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_Timeout" data-uid="QBittorrent.Client.QBittorrentClient.Timeout">Timeout</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the timespan to wait before the request times out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Timeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_AddCategoryAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.AddCategoryAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L568">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_AddCategoryAsync_" data-uid="QBittorrent.Client.QBittorrentClient.AddCategoryAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_AddCategoryAsync_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.AddCategoryAsync(System.String,System.Threading.CancellationToken)">AddCategoryAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Adds the category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task AddCategoryAsync(string category, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>The category name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_AddTorrentsAsync_QBittorrent_Client_AddTorrentFilesRequest_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.AddTorrentsAsync(QBittorrent.Client.AddTorrentFilesRequest%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L395">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_AddTorrentsAsync_" data-uid="QBittorrent.Client.QBittorrentClient.AddTorrentsAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_AddTorrentsAsync_QBittorrent_Client_AddTorrentFilesRequest_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.AddTorrentsAsync(QBittorrent.Client.AddTorrentFilesRequest,System.Threading.CancellationToken)">AddTorrentsAsync(AddTorrentFilesRequest, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Adds the torrent files to download.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task AddTorrentsAsync(AddTorrentFilesRequest request, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QBittorrent.Client.AddTorrentFilesRequest.html">AddTorrentFilesRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_AddTorrentsAsync_QBittorrent_Client_AddTorrentUrlsRequest_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.AddTorrentsAsync(QBittorrent.Client.AddTorrentUrlsRequest%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L423">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_AddTorrentsAsync_" data-uid="QBittorrent.Client.QBittorrentClient.AddTorrentsAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_AddTorrentsAsync_QBittorrent_Client_AddTorrentUrlsRequest_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.AddTorrentsAsync(QBittorrent.Client.AddTorrentUrlsRequest,System.Threading.CancellationToken)">AddTorrentsAsync(AddTorrentUrlsRequest, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Adds the torrent URLs or magnet-links to download.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task AddTorrentsAsync(AddTorrentUrlsRequest request, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QBittorrent.Client.AddTorrentUrlsRequest.html">AddTorrentUrlsRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_AddTorrentsCoreAsync_System_Uri_System_Net_Http_MultipartFormDataContent_QBittorrent_Client_AddTorrentRequest_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.AddTorrentsCoreAsync(System.Uri%2CSystem.Net.Http.MultipartFormDataContent%2CQBittorrent.Client.AddTorrentRequest%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L449">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_AddTorrentsCoreAsync_" data-uid="QBittorrent.Client.QBittorrentClient.AddTorrentsCoreAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_AddTorrentsCoreAsync_System_Uri_System_Net_Http_MultipartFormDataContent_QBittorrent_Client_AddTorrentRequest_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.AddTorrentsCoreAsync(System.Uri,System.Net.Http.MultipartFormDataContent,QBittorrent.Client.AddTorrentRequest,System.Threading.CancellationToken)">AddTorrentsCoreAsync(Uri, MultipartFormDataContent, AddTorrentRequest, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Adds the torrents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task AddTorrentsCoreAsync(Uri uri, MultipartFormDataContent data, AddTorrentRequest request, CancellationToken token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a></td>
+        <td><span class="parametername">uri</span></td>
+        <td><p>The URI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.http.multipartformdatacontent">MultipartFormDataContent</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QBittorrent.Client.AddTorrentRequest.html">AddTorrentRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_AddTrackersAsync_System_String_System_Collections_Generic_IEnumerable_System_Uri__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.AddTrackersAsync(System.String%2CSystem.Collections.Generic.IEnumerable%7BSystem.Uri%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1106">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_AddTrackersAsync_" data-uid="QBittorrent.Client.QBittorrentClient.AddTrackersAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_AddTrackersAsync_System_String_System_Collections_Generic_IEnumerable_System_Uri__System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.AddTrackersAsync(System.String,System.Collections.Generic.IEnumerable{System.Uri},System.Threading.CancellationToken)">AddTrackersAsync(String, IEnumerable&lt;Uri&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Adds the trackers to the torrent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task AddTrackersAsync(string hash, IEnumerable&lt;Uri&gt; trackers, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;</td>
+        <td><span class="parametername">trackers</span></td>
+        <td><p>The trackers.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_ChangeTorrentPriorityAsync_System_Collections_Generic_IEnumerable_System_String__QBittorrent_Client_TorrentPriorityChange_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.ChangeTorrentPriorityAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CQBittorrent.Client.TorrentPriorityChange%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L912">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_ChangeTorrentPriorityAsync_" data-uid="QBittorrent.Client.QBittorrentClient.ChangeTorrentPriorityAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_ChangeTorrentPriorityAsync_System_Collections_Generic_IEnumerable_System_String__QBittorrent_Client_TorrentPriorityChange_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.ChangeTorrentPriorityAsync(System.Collections.Generic.IEnumerable{System.String},QBittorrent.Client.TorrentPriorityChange,System.Threading.CancellationToken)">ChangeTorrentPriorityAsync(IEnumerable&lt;String&gt;, TorrentPriorityChange, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Changes the torrent priority.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ChangeTorrentPriorityAsync(IEnumerable&lt;string&gt; hashes, TorrentPriorityChange change, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QBittorrent.Client.TorrentPriorityChange.html">TorrentPriorityChange</a></td>
+        <td><span class="parametername">change</span></td>
+        <td><p>The priority change.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_DeleteAsync_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.DeleteAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Boolean%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1004">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_DeleteAsync_" data-uid="QBittorrent.Client.QBittorrentClient.DeleteAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_DeleteAsync_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.DeleteAsync(System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Threading.CancellationToken)">DeleteAsync(IEnumerable&lt;String&gt;, Boolean, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Deletes the torrents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(IEnumerable&lt;string&gt; hashes, bool deleteDownloadedData = false, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">deleteDownloadedData</span></td>
+        <td><p><span class="xref">true</span> to delete the downloaded data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_DeleteCategoriesAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.DeleteCategoriesAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L596">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_DeleteCategoriesAsync_" data-uid="QBittorrent.Client.QBittorrentClient.DeleteCategoriesAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_DeleteCategoriesAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.DeleteCategoriesAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)">DeleteCategoriesAsync(IEnumerable&lt;String&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Deletes the categories.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteCategoriesAsync(IEnumerable&lt;string&gt; categories, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">categories</span></td>
+        <td><p>The list of categories&apos; names.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_Dispose.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1379">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_Dispose_" data-uid="QBittorrent.Client.QBittorrentClient.Dispose*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_Dispose" data-uid="QBittorrent.Client.QBittorrentClient.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetAlternativeSpeedLimitsEnabledAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetAlternativeSpeedLimitsEnabledAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1212">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetAlternativeSpeedLimitsEnabledAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetAlternativeSpeedLimitsEnabledAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetAlternativeSpeedLimitsEnabledAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetAlternativeSpeedLimitsEnabledAsync(System.Threading.CancellationToken)">GetAlternativeSpeedLimitsEnabledAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the value indicating whether the alternative speed limits are enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; GetAlternativeSpeedLimitsEnabledAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetApiVersionAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetApiVersionAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L131">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetApiVersionAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetApiVersionAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetApiVersionAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetApiVersionAsync(System.Threading.CancellationToken)">GetApiVersionAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the current API version of the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetApiVersionAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetDefaultSavePathAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetDefaultSavePathAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L378">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetDefaultSavePathAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetDefaultSavePathAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetDefaultSavePathAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetDefaultSavePathAsync(System.Threading.CancellationToken)">GetDefaultSavePathAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get the path to the folder where the downloaded files are saved by default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetDefaultSavePathAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetGlobalDownloadLimitAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetGlobalDownloadLimitAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L820">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetGlobalDownloadLimitAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetGlobalDownloadLimitAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetGlobalDownloadLimitAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetGlobalDownloadLimitAsync(System.Threading.CancellationToken)">GetGlobalDownloadLimitAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the global download speed limit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;long? &gt; GetGlobalDownloadLimitAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetGlobalTransferInfoAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetGlobalTransferInfoAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L322">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetGlobalTransferInfoAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetGlobalTransferInfoAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetGlobalTransferInfoAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetGlobalTransferInfoAsync(System.Threading.CancellationToken)">GetGlobalTransferInfoAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the global transfer information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GlobalTransferInfo&gt; GetGlobalTransferInfoAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QBittorrent.Client.GlobalTransferInfo.html">GlobalTransferInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetGlobalUploadLimitAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetGlobalUploadLimitAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L863">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetGlobalUploadLimitAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetGlobalUploadLimitAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetGlobalUploadLimitAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetGlobalUploadLimitAsync(System.Threading.CancellationToken)">GetGlobalUploadLimitAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the global upload speed limit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;long? &gt; GetGlobalUploadLimitAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetLogAsync_QBittorrent_Client_TorrentLogSeverity_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetLogAsync(QBittorrent.Client.TorrentLogSeverity%2CSystem.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1190">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetLogAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetLogAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetLogAsync_QBittorrent_Client_TorrentLogSeverity_System_Int32_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetLogAsync(QBittorrent.Client.TorrentLogSeverity,System.Int32,System.Threading.CancellationToken)">GetLogAsync(TorrentLogSeverity, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the server log.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TorrentLogEntry&gt;&gt; GetLogAsync(TorrentLogSeverity severity = TorrentLogSeverity.Normal | TorrentLogSeverity.Info | TorrentLogSeverity.Warning | TorrentLogSeverity.Critical | TorrentLogSeverity.All, int afterId = -1, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QBittorrent.Client.TorrentLogSeverity.html">TorrentLogSeverity</a></td>
+        <td><span class="parametername">severity</span></td>
+        <td><p>The severity of log entries to return. <a class="xref" href="QBittorrent.Client.TorrentLogSeverity.html#QBittorrent_Client_TorrentLogSeverity_All">All</a> by default.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">afterId</span></td>
+        <td><p>Return the entries with the ID greater than the specified one.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QBittorrent.Client.TorrentLogEntry.html">TorrentLogEntry</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetMinApiVersionAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetMinApiVersionAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L143">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetMinApiVersionAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetMinApiVersionAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetMinApiVersionAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetMinApiVersionAsync(System.Threading.CancellationToken)">GetMinApiVersionAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get the minimum API version supported by server. Any application designed to work with an API version greater than or equal to the minimum API version is guaranteed to work.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetMinApiVersionAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetPartialDataAsync_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetPartialDataAsync(System.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L337">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetPartialDataAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetPartialDataAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetPartialDataAsync_System_Int32_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetPartialDataAsync(System.Int32,System.Threading.CancellationToken)">GetPartialDataAsync(Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the partial data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PartialData&gt; GetPartialDataAsync(int responseId = 0, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">responseId</span></td>
+        <td><p>The response identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QBittorrent.Client.PartialData.html">PartialData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetPeerPartialDataAsync_System_String_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetPeerPartialDataAsync(System.String%2CSystem.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L354">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetPeerPartialDataAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetPeerPartialDataAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetPeerPartialDataAsync_System_String_System_Int32_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetPeerPartialDataAsync(System.String,System.Int32,System.Threading.CancellationToken)">GetPeerPartialDataAsync(String, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the peer partial data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PeerPartialData&gt; GetPeerPartialDataAsync(string hash, int responseId = 0, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">responseId</span></td>
+        <td><p>The response identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QBittorrent.Client.PeerPartialData.html">PeerPartialData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetQBittorrentVersionAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetQBittorrentVersionAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L155">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetQBittorrentVersionAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetQBittorrentVersionAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetQBittorrentVersionAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetQBittorrentVersionAsync(System.Threading.CancellationToken)">GetQBittorrentVersionAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the qBittorrent version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetQBittorrentVersionAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetTorrentContentsAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetTorrentContentsAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L213">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetTorrentContentsAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentContentsAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetTorrentContentsAsync_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentContentsAsync(System.String,System.Threading.CancellationToken)">GetTorrentContentsAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the torrent contents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;TorrentContent&gt;&gt; GetTorrentContentsAsync(string hash, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="QBittorrent.Client.TorrentContent.html">TorrentContent</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetTorrentDownloadLimitAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetTorrentDownloadLimitAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L687">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetTorrentDownloadLimitAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentDownloadLimitAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetTorrentDownloadLimitAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentDownloadLimitAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)">GetTorrentDownloadLimitAsync(IEnumerable&lt;String&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the torrent download speed limit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyDictionary&lt;string, long? &gt;&gt; GetTorrentDownloadLimitAsync(IEnumerable&lt;string&gt; hashes, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a>&gt;&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetTorrentListAsync_QBittorrent_Client_TorrentListQuery_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetTorrentListAsync(QBittorrent.Client.TorrentListQuery%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L167">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetTorrentListAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentListAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetTorrentListAsync_QBittorrent_Client_TorrentListQuery_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentListAsync(QBittorrent.Client.TorrentListQuery,System.Threading.CancellationToken)">GetTorrentListAsync(TorrentListQuery, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the torrent list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;TorrentInfo&gt;&gt; GetTorrentListAsync(TorrentListQuery query = null, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QBittorrent.Client.TorrentListQuery.html">TorrentListQuery</a></td>
+        <td><span class="parametername">query</span></td>
+        <td><p>The query.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="QBittorrent.Client.TorrentInfo.html">TorrentInfo</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetTorrentPiecesHashesAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetTorrentPiecesHashesAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L301">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetTorrentPiecesHashesAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentPiecesHashesAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetTorrentPiecesHashesAsync_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentPiecesHashesAsync(System.String,System.Threading.CancellationToken)">GetTorrentPiecesHashesAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the hashes of the torrent pieces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;string&gt;&gt; GetTorrentPiecesHashesAsync(string hash, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetTorrentPiecesStatesAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetTorrentPiecesStatesAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L279">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetTorrentPiecesStatesAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentPiecesStatesAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetTorrentPiecesStatesAsync_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentPiecesStatesAsync(System.String,System.Threading.CancellationToken)">GetTorrentPiecesStatesAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the states of the torrent pieces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;TorrentPieceState&gt;&gt; GetTorrentPiecesStatesAsync(string hash, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="QBittorrent.Client.TorrentPieceState.html">TorrentPieceState</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetTorrentPropertiesAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetTorrentPropertiesAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L191">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetTorrentPropertiesAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentPropertiesAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetTorrentPropertiesAsync_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentPropertiesAsync(System.String,System.Threading.CancellationToken)">GetTorrentPropertiesAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the torrent generic properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TorrentProperties&gt; GetTorrentPropertiesAsync(string hash, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QBittorrent.Client.TorrentProperties.html">TorrentProperties</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetTorrentTrackersAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetTorrentTrackersAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L235">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetTorrentTrackersAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentTrackersAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetTorrentTrackersAsync_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentTrackersAsync(System.String,System.Threading.CancellationToken)">GetTorrentTrackersAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the torrent trackers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;TorrentTracker&gt;&gt; GetTorrentTrackersAsync(string hash, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="QBittorrent.Client.TorrentTracker.html">TorrentTracker</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetTorrentUploadLimitAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetTorrentUploadLimitAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L754">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetTorrentUploadLimitAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentUploadLimitAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetTorrentUploadLimitAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentUploadLimitAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)">GetTorrentUploadLimitAsync(IEnumerable&lt;String&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the torrent upload speed limit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyDictionary&lt;string, long? &gt;&gt; GetTorrentUploadLimitAsync(IEnumerable&lt;string&gt; hashes, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a>&gt;&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetTorrentWebSeedsAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetTorrentWebSeedsAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L257">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetTorrentWebSeedsAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentWebSeedsAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetTorrentWebSeedsAsync_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetTorrentWebSeedsAsync(System.String,System.Threading.CancellationToken)">GetTorrentWebSeedsAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the torrent web seeds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;Uri&gt;&gt; GetTorrentWebSeedsAsync(string hash, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_LoginAsync_System_String_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.LoginAsync(System.String%2CSystem.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L89">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_LoginAsync_" data-uid="QBittorrent.Client.QBittorrentClient.LoginAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_LoginAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.LoginAsync(System.String,System.String,System.Threading.CancellationToken)">LoginAsync(String, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Authenticates this client with the remote qBittorrent server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task LoginAsync(string username, string password, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">username</span></td>
+        <td><p>The username.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>The password.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_LogoutAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.LogoutAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L112">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_LogoutAsync_" data-uid="QBittorrent.Client.QBittorrentClient.LogoutAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_LogoutAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.LogoutAsync(System.Threading.CancellationToken)">LogoutAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Clears authentication on the remote qBittorrent server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task LogoutAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_PauseAllAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.PauseAllAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L507">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_PauseAllAsync_" data-uid="QBittorrent.Client.QBittorrentClient.PauseAllAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_PauseAllAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.PauseAllAsync(System.Threading.CancellationToken)">PauseAllAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Pauses all torrents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task PauseAllAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_PauseAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.PauseAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L484">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_PauseAsync_" data-uid="QBittorrent.Client.QBittorrentClient.PauseAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_PauseAsync_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.PauseAsync(System.String,System.Threading.CancellationToken)">PauseAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Pauses the torrent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task PauseAsync(string hash, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_RecheckAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.RecheckAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1165">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_RecheckAsync_" data-uid="QBittorrent.Client.QBittorrentClient.RecheckAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_RecheckAsync_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.RecheckAsync(System.String,System.Threading.CancellationToken)">RecheckAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Rechecks the torrent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RecheckAsync(string hash, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_RenameAsync_System_String_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.RenameAsync(System.String%2CSystem.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1071">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_RenameAsync_" data-uid="QBittorrent.Client.QBittorrentClient.RenameAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_RenameAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.RenameAsync(System.String,System.String,System.Threading.CancellationToken)">RenameAsync(String, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Renames the torrent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RenameAsync(string hash, string newName, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">newName</span></td>
+        <td><p>The new name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_ResumeAllAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.ResumeAllAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L547">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_ResumeAllAsync_" data-uid="QBittorrent.Client.QBittorrentClient.ResumeAllAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_ResumeAllAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.ResumeAllAsync(System.Threading.CancellationToken)">ResumeAllAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Resumes all torrents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ResumeAllAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_ResumeAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.ResumeAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L524">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_ResumeAsync_" data-uid="QBittorrent.Client.QBittorrentClient.ResumeAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_ResumeAsync_System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.ResumeAsync(System.String,System.Threading.CancellationToken)">ResumeAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Resumes the torrent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ResumeAsync(string hash, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetAutomaticTorrentManagementAsync_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetAutomaticTorrentManagementAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Boolean%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1242">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetAutomaticTorrentManagementAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetAutomaticTorrentManagementAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetAutomaticTorrentManagementAsync_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetAutomaticTorrentManagementAsync(System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Threading.CancellationToken)">SetAutomaticTorrentManagementAsync(IEnumerable&lt;String&gt;, Boolean, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the automatic torrent management.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetAutomaticTorrentManagementAsync(IEnumerable&lt;string&gt; hashes, bool enabled, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetFilePriorityAsync_System_String_System_Int32_QBittorrent_Client_TorrentContentPriority_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetFilePriorityAsync(System.String%2CSystem.Int32%2CQBittorrent.Client.TorrentContentPriority%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L961">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetFilePriorityAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetFilePriorityAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetFilePriorityAsync_System_String_System_Int32_QBittorrent_Client_TorrentContentPriority_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetFilePriorityAsync(System.String,System.Int32,QBittorrent.Client.TorrentContentPriority,System.Threading.CancellationToken)">SetFilePriorityAsync(String, Int32, TorrentContentPriority, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the file priority.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetFilePriorityAsync(string hash, int fileId, TorrentContentPriority priority, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The torrent hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">fileId</span></td>
+        <td><p>The file identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="QBittorrent.Client.TorrentContentPriority.html">TorrentContentPriority</a></td>
+        <td><span class="parametername">priority</span></td>
+        <td><p>The priority.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetForceStartAsync_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetForceStartAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Boolean%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1272">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetForceStartAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetForceStartAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetForceStartAsync_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetForceStartAsync(System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Threading.CancellationToken)">SetForceStartAsync(IEnumerable&lt;String&gt;, Boolean, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the force start.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetForceStartAsync(IEnumerable&lt;string&gt; hashes, bool enabled, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetGlobalDownloadLimitAsync_System_Int64_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetGlobalDownloadLimitAsync(System.Int64%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L838">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetGlobalDownloadLimitAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetGlobalDownloadLimitAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetGlobalDownloadLimitAsync_System_Int64_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetGlobalDownloadLimitAsync(System.Int64,System.Threading.CancellationToken)">SetGlobalDownloadLimitAsync(Int64, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the global download speed limit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetGlobalDownloadLimitAsync(long limit, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>The limit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetGlobalUploadLimitAsync_System_Int64_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetGlobalUploadLimitAsync(System.Int64%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L881">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetGlobalUploadLimitAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetGlobalUploadLimitAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetGlobalUploadLimitAsync_System_Int64_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetGlobalUploadLimitAsync(System.Int64,System.Threading.CancellationToken)">SetGlobalUploadLimitAsync(Int64, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the global upload speed limit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetGlobalUploadLimitAsync(long limit, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>The limit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetLocationAsync_System_Collections_Generic_IEnumerable_System_String__System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetLocationAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1036">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetLocationAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetLocationAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetLocationAsync_System_Collections_Generic_IEnumerable_System_String__System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetLocationAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)">SetLocationAsync(IEnumerable&lt;String&gt;, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the location of the torrents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetLocationAsync(IEnumerable&lt;string&gt; hashes, string newLocation, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">newLocation</span></td>
+        <td><p>The new location.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetSuperSeedingAsync_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetSuperSeedingAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Boolean%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1302">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetSuperSeedingAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetSuperSeedingAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetSuperSeedingAsync_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetSuperSeedingAsync(System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Threading.CancellationToken)">SetSuperSeedingAsync(IEnumerable&lt;String&gt;, Boolean, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the super seeding asynchronous.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetSuperSeedingAsync(IEnumerable&lt;string&gt; hashes, bool enabled, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetTorrentCategoryAsync_System_Collections_Generic_IEnumerable_System_String__System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetTorrentCategoryAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L650">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetTorrentCategoryAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetTorrentCategoryAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetTorrentCategoryAsync_System_Collections_Generic_IEnumerable_System_String__System_String_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetTorrentCategoryAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)">SetTorrentCategoryAsync(IEnumerable&lt;String&gt;, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the torrent category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetTorrentCategoryAsync(IEnumerable&lt;string&gt; hashes, string category, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>The category.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetTorrentDownloadLimitAsync_System_Collections_Generic_IEnumerable_System_String__System_Int64_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetTorrentDownloadLimitAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Int64%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L720">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetTorrentDownloadLimitAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetTorrentDownloadLimitAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetTorrentDownloadLimitAsync_System_Collections_Generic_IEnumerable_System_String__System_Int64_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetTorrentDownloadLimitAsync(System.Collections.Generic.IEnumerable{System.String},System.Int64,System.Threading.CancellationToken)">SetTorrentDownloadLimitAsync(IEnumerable&lt;String&gt;, Int64, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the torrent download speed limit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetTorrentDownloadLimitAsync(IEnumerable&lt;string&gt; hashes, long limit, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>The limit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetTorrentUploadLimitAsync_System_Collections_Generic_IEnumerable_System_String__System_Int64_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetTorrentUploadLimitAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Int64%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L787">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetTorrentUploadLimitAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetTorrentUploadLimitAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetTorrentUploadLimitAsync_System_Collections_Generic_IEnumerable_System_String__System_Int64_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetTorrentUploadLimitAsync(System.Collections.Generic.IEnumerable{System.String},System.Int64,System.Threading.CancellationToken)">SetTorrentUploadLimitAsync(IEnumerable&lt;String&gt;, Int64, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sets the torrent upload speed limit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetTorrentUploadLimitAsync(IEnumerable&lt;string&gt; hashes, long limit, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>The limit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_ToggleAlternativeSpeedLimitsAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.ToggleAlternativeSpeedLimitsAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1225">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_ToggleAlternativeSpeedLimitsAsync_" data-uid="QBittorrent.Client.QBittorrentClient.ToggleAlternativeSpeedLimitsAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_ToggleAlternativeSpeedLimitsAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.ToggleAlternativeSpeedLimitsAsync(System.Threading.CancellationToken)">ToggleAlternativeSpeedLimitsAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Toggles the alternative speed limits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ToggleAlternativeSpeedLimitsAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_ToggleFirstLastPiecePrioritizedAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.ToggleFirstLastPiecePrioritizedAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1332">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_ToggleFirstLastPiecePrioritizedAsync_" data-uid="QBittorrent.Client.QBittorrentClient.ToggleFirstLastPiecePrioritizedAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_ToggleFirstLastPiecePrioritizedAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.ToggleFirstLastPiecePrioritizedAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)">ToggleFirstLastPiecePrioritizedAsync(IEnumerable&lt;String&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Toggles the first and last piece priority.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ToggleFirstLastPiecePrioritizedAsync(IEnumerable&lt;string&gt; hashes, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_ToggleSequentialDownloadAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.ToggleSequentialDownloadAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1357">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_ToggleSequentialDownloadAsync_" data-uid="QBittorrent.Client.QBittorrentClient.ToggleSequentialDownloadAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_ToggleSequentialDownloadAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.ToggleSequentialDownloadAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)">ToggleSequentialDownloadAsync(IEnumerable&lt;String&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Toggles the sequential download.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ToggleSequentialDownloadAsync(IEnumerable&lt;string&gt; hashes, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The torrent hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="QBittorrent.Client.IQBittorrentClient.html">IQBittorrentClient</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_DeleteCategoryAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Threading_CancellationToken_">QBittorrentClientExtensions.DeleteCategoryAsync(IQBittorrentClient, String, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_SetTorrentCategoryAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_String_System_Threading_CancellationToken_">QBittorrentClientExtensions.SetTorrentCategoryAsync(IQBittorrentClient, String, String, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_GetTorrentDownloadLimitAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Threading_CancellationToken_">QBittorrentClientExtensions.GetTorrentDownloadLimitAsync(IQBittorrentClient, String, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_SetTorrentDownloadLimitAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Int64_System_Threading_CancellationToken_">QBittorrentClientExtensions.SetTorrentDownloadLimitAsync(IQBittorrentClient, String, Int64, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_GetTorrentUploadLimitAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Threading_CancellationToken_">QBittorrentClientExtensions.GetTorrentUploadLimitAsync(IQBittorrentClient, String, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_SetTorrentUploadLimitAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Int64_System_Threading_CancellationToken_">QBittorrentClientExtensions.SetTorrentUploadLimitAsync(IQBittorrentClient, String, Int64, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_ChangeTorrentPriorityAsync_QBittorrent_Client_IQBittorrentClient_System_String_QBittorrent_Client_TorrentPriorityChange_System_Threading_CancellationToken_">QBittorrentClientExtensions.ChangeTorrentPriorityAsync(IQBittorrentClient, String, TorrentPriorityChange, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_DeleteAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Boolean_System_Threading_CancellationToken_">QBittorrentClientExtensions.DeleteAsync(IQBittorrentClient, String, Boolean, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_SetLocationAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_String_System_Threading_CancellationToken_">QBittorrentClientExtensions.SetLocationAsync(IQBittorrentClient, String, String, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_AddTrackerAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Uri_System_Threading_CancellationToken_">QBittorrentClientExtensions.AddTrackerAsync(IQBittorrentClient, String, Uri, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_SetAutomaticTorrentManagementAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Boolean_System_Threading_CancellationToken_">QBittorrentClientExtensions.SetAutomaticTorrentManagementAsync(IQBittorrentClient, String, Boolean, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_SetForceStartAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Boolean_System_Threading_CancellationToken_">QBittorrentClientExtensions.SetForceStartAsync(IQBittorrentClient, String, Boolean, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_SetSuperSeedingAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Boolean_System_Threading_CancellationToken_">QBittorrentClientExtensions.SetSuperSeedingAsync(IQBittorrentClient, String, Boolean, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_ToggleFirstLastPiecePrioritizedAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Threading_CancellationToken_">QBittorrentClientExtensions.ToggleFirstLastPiecePrioritizedAsync(IQBittorrentClient, String, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html#QBittorrent_Client_QBittorrentClientExtensions_ToggleSequentialDownloadAsync_QBittorrent_Client_IQBittorrentClient_System_String_System_Threading_CancellationToken_">QBittorrentClientExtensions.ToggleSequentialDownloadAsync(IQBittorrentClient, String, CancellationToken)</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="QBittorrent.Client.IQBittorrentClient.html">IQBittorrentClient</a></div>
+      <div><a class="xref" href="QBittorrent.Client.QBittorrentClientExtensions.html">QBittorrentClientExtensions</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L23" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
