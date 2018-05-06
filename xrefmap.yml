@@ -700,6 +700,32 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.IQBittorrentClient.GetGlobalUploadLimitAsync
   nameWithType: IQBittorrentClient.GetGlobalUploadLimitAsync
+- uid: QBittorrent.Client.IQBittorrentClient.GetLegacyApiVersionAsync(System.Threading.CancellationToken)
+  name: GetLegacyApiVersionAsync(CancellationToken)
+  href: api/QBittorrent.Client.IQBittorrentClient.html#QBittorrent_Client_IQBittorrentClient_GetLegacyApiVersionAsync_System_Threading_CancellationToken_
+  commentId: M:QBittorrent.Client.IQBittorrentClient.GetLegacyApiVersionAsync(System.Threading.CancellationToken)
+  fullName: QBittorrent.Client.IQBittorrentClient.GetLegacyApiVersionAsync(System.Threading.CancellationToken)
+  nameWithType: IQBittorrentClient.GetLegacyApiVersionAsync(CancellationToken)
+- uid: QBittorrent.Client.IQBittorrentClient.GetLegacyApiVersionAsync*
+  name: GetLegacyApiVersionAsync
+  href: api/QBittorrent.Client.IQBittorrentClient.html#QBittorrent_Client_IQBittorrentClient_GetLegacyApiVersionAsync_
+  commentId: Overload:QBittorrent.Client.IQBittorrentClient.GetLegacyApiVersionAsync
+  isSpec: "True"
+  fullName: QBittorrent.Client.IQBittorrentClient.GetLegacyApiVersionAsync
+  nameWithType: IQBittorrentClient.GetLegacyApiVersionAsync
+- uid: QBittorrent.Client.IQBittorrentClient.GetLegacyMinApiVersionAsync(System.Threading.CancellationToken)
+  name: GetLegacyMinApiVersionAsync(CancellationToken)
+  href: api/QBittorrent.Client.IQBittorrentClient.html#QBittorrent_Client_IQBittorrentClient_GetLegacyMinApiVersionAsync_System_Threading_CancellationToken_
+  commentId: M:QBittorrent.Client.IQBittorrentClient.GetLegacyMinApiVersionAsync(System.Threading.CancellationToken)
+  fullName: QBittorrent.Client.IQBittorrentClient.GetLegacyMinApiVersionAsync(System.Threading.CancellationToken)
+  nameWithType: IQBittorrentClient.GetLegacyMinApiVersionAsync(CancellationToken)
+- uid: QBittorrent.Client.IQBittorrentClient.GetLegacyMinApiVersionAsync*
+  name: GetLegacyMinApiVersionAsync
+  href: api/QBittorrent.Client.IQBittorrentClient.html#QBittorrent_Client_IQBittorrentClient_GetLegacyMinApiVersionAsync_
+  commentId: Overload:QBittorrent.Client.IQBittorrentClient.GetLegacyMinApiVersionAsync
+  isSpec: "True"
+  fullName: QBittorrent.Client.IQBittorrentClient.GetLegacyMinApiVersionAsync
+  nameWithType: IQBittorrentClient.GetLegacyMinApiVersionAsync
 - uid: QBittorrent.Client.IQBittorrentClient.GetLogAsync(QBittorrent.Client.TorrentLogSeverity,System.Int32,System.Threading.CancellationToken)
   name: GetLogAsync(TorrentLogSeverity, Int32, CancellationToken)
   href: api/QBittorrent.Client.IQBittorrentClient.html#QBittorrent_Client_IQBittorrentClient_GetLogAsync_QBittorrent_Client_TorrentLogSeverity_System_Int32_System_Threading_CancellationToken_
@@ -713,19 +739,6 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.IQBittorrentClient.GetLogAsync
   nameWithType: IQBittorrentClient.GetLogAsync
-- uid: QBittorrent.Client.IQBittorrentClient.GetMinApiVersionAsync(System.Threading.CancellationToken)
-  name: GetMinApiVersionAsync(CancellationToken)
-  href: api/QBittorrent.Client.IQBittorrentClient.html#QBittorrent_Client_IQBittorrentClient_GetMinApiVersionAsync_System_Threading_CancellationToken_
-  commentId: M:QBittorrent.Client.IQBittorrentClient.GetMinApiVersionAsync(System.Threading.CancellationToken)
-  fullName: QBittorrent.Client.IQBittorrentClient.GetMinApiVersionAsync(System.Threading.CancellationToken)
-  nameWithType: IQBittorrentClient.GetMinApiVersionAsync(CancellationToken)
-- uid: QBittorrent.Client.IQBittorrentClient.GetMinApiVersionAsync*
-  name: GetMinApiVersionAsync
-  href: api/QBittorrent.Client.IQBittorrentClient.html#QBittorrent_Client_IQBittorrentClient_GetMinApiVersionAsync_
-  commentId: Overload:QBittorrent.Client.IQBittorrentClient.GetMinApiVersionAsync
-  isSpec: "True"
-  fullName: QBittorrent.Client.IQBittorrentClient.GetMinApiVersionAsync
-  nameWithType: IQBittorrentClient.GetMinApiVersionAsync
 - uid: QBittorrent.Client.IQBittorrentClient.GetPartialDataAsync(System.Int32,System.Threading.CancellationToken)
   name: GetPartialDataAsync(Int32, CancellationToken)
   href: api/QBittorrent.Client.IQBittorrentClient.html#QBittorrent_Client_IQBittorrentClient_GetPartialDataAsync_System_Int32_System_Threading_CancellationToken_
@@ -1860,6 +1873,32 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.QBittorrentClient.GetGlobalUploadLimitAsync
   nameWithType: QBittorrentClient.GetGlobalUploadLimitAsync
+- uid: QBittorrent.Client.QBittorrentClient.GetLegacyApiVersionAsync(System.Threading.CancellationToken)
+  name: GetLegacyApiVersionAsync(CancellationToken)
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetLegacyApiVersionAsync_System_Threading_CancellationToken_
+  commentId: M:QBittorrent.Client.QBittorrentClient.GetLegacyApiVersionAsync(System.Threading.CancellationToken)
+  fullName: QBittorrent.Client.QBittorrentClient.GetLegacyApiVersionAsync(System.Threading.CancellationToken)
+  nameWithType: QBittorrentClient.GetLegacyApiVersionAsync(CancellationToken)
+- uid: QBittorrent.Client.QBittorrentClient.GetLegacyApiVersionAsync*
+  name: GetLegacyApiVersionAsync
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetLegacyApiVersionAsync_
+  commentId: Overload:QBittorrent.Client.QBittorrentClient.GetLegacyApiVersionAsync
+  isSpec: "True"
+  fullName: QBittorrent.Client.QBittorrentClient.GetLegacyApiVersionAsync
+  nameWithType: QBittorrentClient.GetLegacyApiVersionAsync
+- uid: QBittorrent.Client.QBittorrentClient.GetLegacyMinApiVersionAsync(System.Threading.CancellationToken)
+  name: GetLegacyMinApiVersionAsync(CancellationToken)
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetLegacyMinApiVersionAsync_System_Threading_CancellationToken_
+  commentId: M:QBittorrent.Client.QBittorrentClient.GetLegacyMinApiVersionAsync(System.Threading.CancellationToken)
+  fullName: QBittorrent.Client.QBittorrentClient.GetLegacyMinApiVersionAsync(System.Threading.CancellationToken)
+  nameWithType: QBittorrentClient.GetLegacyMinApiVersionAsync(CancellationToken)
+- uid: QBittorrent.Client.QBittorrentClient.GetLegacyMinApiVersionAsync*
+  name: GetLegacyMinApiVersionAsync
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetLegacyMinApiVersionAsync_
+  commentId: Overload:QBittorrent.Client.QBittorrentClient.GetLegacyMinApiVersionAsync
+  isSpec: "True"
+  fullName: QBittorrent.Client.QBittorrentClient.GetLegacyMinApiVersionAsync
+  nameWithType: QBittorrentClient.GetLegacyMinApiVersionAsync
 - uid: QBittorrent.Client.QBittorrentClient.GetLogAsync(QBittorrent.Client.TorrentLogSeverity,System.Int32,System.Threading.CancellationToken)
   name: GetLogAsync(TorrentLogSeverity, Int32, CancellationToken)
   href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetLogAsync_QBittorrent_Client_TorrentLogSeverity_System_Int32_System_Threading_CancellationToken_
@@ -1873,19 +1912,6 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.QBittorrentClient.GetLogAsync
   nameWithType: QBittorrentClient.GetLogAsync
-- uid: QBittorrent.Client.QBittorrentClient.GetMinApiVersionAsync(System.Threading.CancellationToken)
-  name: GetMinApiVersionAsync(CancellationToken)
-  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetMinApiVersionAsync_System_Threading_CancellationToken_
-  commentId: M:QBittorrent.Client.QBittorrentClient.GetMinApiVersionAsync(System.Threading.CancellationToken)
-  fullName: QBittorrent.Client.QBittorrentClient.GetMinApiVersionAsync(System.Threading.CancellationToken)
-  nameWithType: QBittorrentClient.GetMinApiVersionAsync(CancellationToken)
-- uid: QBittorrent.Client.QBittorrentClient.GetMinApiVersionAsync*
-  name: GetMinApiVersionAsync
-  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetMinApiVersionAsync_
-  commentId: Overload:QBittorrent.Client.QBittorrentClient.GetMinApiVersionAsync
-  isSpec: "True"
-  fullName: QBittorrent.Client.QBittorrentClient.GetMinApiVersionAsync
-  nameWithType: QBittorrentClient.GetMinApiVersionAsync
 - uid: QBittorrent.Client.QBittorrentClient.GetPartialDataAsync(System.Int32,System.Threading.CancellationToken)
   name: GetPartialDataAsync(Int32, CancellationToken)
   href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetPartialDataAsync_System_Int32_System_Threading_CancellationToken_

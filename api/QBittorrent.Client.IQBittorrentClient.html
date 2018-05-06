@@ -605,7 +605,7 @@
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_IQBittorrentClient_GetApiVersionAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.IQBittorrentClient.GetApiVersionAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/IQBittorrentClient.cs/#L488">View Source</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/IQBittorrentClient.cs/#L498">View Source</a>
   </span>
   <a id="QBittorrent_Client_IQBittorrentClient_GetApiVersionAsync_" data-uid="QBittorrent.Client.IQBittorrentClient.GetApiVersionAsync*"></a>
   <h4 id="QBittorrent_Client_IQBittorrentClient_GetApiVersionAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.IQBittorrentClient.GetApiVersionAsync(System.Threading.CancellationToken)">GetApiVersionAsync(CancellationToken)</h4>
@@ -614,7 +614,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;int&gt; GetApiVersionAsync(CancellationToken token = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;Version&gt; GetApiVersionAsync(CancellationToken token = default(CancellationToken))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -644,17 +644,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">System.Version</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 id="QBittorrent_Client_IQBittorrentClient_GetApiVersionAsync_System_Threading_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+For qBittorrent versions before 4.1.0 this method returns version <code>1.z</code>
+where <code>z</code> is the value returned by <a class="xref" href="QBittorrent.Client.IQBittorrentClient.html#QBittorrent_Client_IQBittorrentClient_GetLegacyApiVersionAsync_System_Threading_CancellationToken_">GetLegacyApiVersionAsync(CancellationToken)</a> method.
+</p>
+<p>
+For qBittorrent version starting from 4.1.0 this method returns version <code>x.y</code>
+where <code>x &gt;= 2</code>. 
+</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_IQBittorrentClient_GetDefaultSavePathAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.IQBittorrentClient.GetDefaultSavePathAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/IQBittorrentClient.cs/#L509">View Source</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/IQBittorrentClient.cs/#L526">View Source</a>
   </span>
   <a id="QBittorrent_Client_IQBittorrentClient_GetDefaultSavePathAsync_" data-uid="QBittorrent.Client.IQBittorrentClient.GetDefaultSavePathAsync*"></a>
   <h4 id="QBittorrent_Client_IQBittorrentClient_GetDefaultSavePathAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.IQBittorrentClient.GetDefaultSavePathAsync(System.Threading.CancellationToken)">GetDefaultSavePathAsync(CancellationToken)</h4>
@@ -847,6 +857,104 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_IQBittorrentClient_GetLegacyApiVersionAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.IQBittorrentClient.GetLegacyApiVersionAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/IQBittorrentClient.cs/#L505">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_IQBittorrentClient_GetLegacyApiVersionAsync_" data-uid="QBittorrent.Client.IQBittorrentClient.GetLegacyApiVersionAsync*"></a>
+  <h4 id="QBittorrent_Client_IQBittorrentClient_GetLegacyApiVersionAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.IQBittorrentClient.GetLegacyApiVersionAsync(System.Threading.CancellationToken)">GetLegacyApiVersionAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets the current API version of the server for qBittorrent versions up to 4.0.4.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; GetLegacyApiVersionAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_IQBittorrentClient_GetLegacyMinApiVersionAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.IQBittorrentClient.GetLegacyMinApiVersionAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/IQBittorrentClient.cs/#L512">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_IQBittorrentClient_GetLegacyMinApiVersionAsync_" data-uid="QBittorrent.Client.IQBittorrentClient.GetLegacyMinApiVersionAsync*"></a>
+  <h4 id="QBittorrent_Client_IQBittorrentClient_GetLegacyMinApiVersionAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.IQBittorrentClient.GetLegacyMinApiVersionAsync(System.Threading.CancellationToken)">GetLegacyMinApiVersionAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get the minimum API version supported by server. Any application designed to work with an API version greater than or equal to the minimum API version is guaranteed to work.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; GetLegacyMinApiVersionAsync(CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_IQBittorrentClient_GetLogAsync_QBittorrent_Client_TorrentLogSeverity_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.IQBittorrentClient.GetLogAsync(QBittorrent.Client.TorrentLogSeverity%2CSystem.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -902,55 +1010,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QBittorrent.Client.TorrentLogEntry.html">TorrentLogEntry</a>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_IQBittorrentClient_GetMinApiVersionAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.IQBittorrentClient.GetMinApiVersionAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/IQBittorrentClient.cs/#L495">View Source</a>
-  </span>
-  <a id="QBittorrent_Client_IQBittorrentClient_GetMinApiVersionAsync_" data-uid="QBittorrent.Client.IQBittorrentClient.GetMinApiVersionAsync*"></a>
-  <h4 id="QBittorrent_Client_IQBittorrentClient_GetMinApiVersionAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.IQBittorrentClient.GetMinApiVersionAsync(System.Threading.CancellationToken)">GetMinApiVersionAsync(CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Get the minimum API version supported by server. Any application designed to work with an API version greater than or equal to the minimum API version is guaranteed to work.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;int&gt; GetMinApiVersionAsync(CancellationToken token = default(CancellationToken))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
-        <td><span class="parametername">token</span></td>
-        <td><p>The cancellation token.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1076,7 +1135,7 @@
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_IQBittorrentClient_GetQBittorrentVersionAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.IQBittorrentClient.GetQBittorrentVersionAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/IQBittorrentClient.cs/#L502">View Source</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/IQBittorrentClient.cs/#L519">View Source</a>
   </span>
   <a id="QBittorrent_Client_IQBittorrentClient_GetQBittorrentVersionAsync_" data-uid="QBittorrent.Client.IQBittorrentClient.GetQBittorrentVersionAsync*"></a>
   <h4 id="QBittorrent_Client_IQBittorrentClient_GetQBittorrentVersionAsync_System_Threading_CancellationToken_" data-uid="QBittorrent.Client.IQBittorrentClient.GetQBittorrentVersionAsync(System.Threading.CancellationToken)">GetQBittorrentVersionAsync(CancellationToken)</h4>
@@ -1085,7 +1144,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;string&gt; GetQBittorrentVersionAsync(CancellationToken token = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;Version&gt; GetQBittorrentVersionAsync(CancellationToken token = default(CancellationToken))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1115,7 +1174,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">System.Version</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
