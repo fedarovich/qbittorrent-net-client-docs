@@ -81,32 +81,11 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">TorrentInfo</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QBittorrent.Client.html">QBittorrent.Client</a></h6>
   <h6><strong>Assembly</strong>: QBittorrent.Client.dll</h6>
   <h5 id="QBittorrent_Client_TorrentInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TorrentInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public class TorrentInfo : object</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -124,9 +103,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;time_active&quot;)]
-[JsonConverter(typeof(SecondsToTimeSpanConverter))]
-public TimeSpan? ActiveTime { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TimeSpan? ActiveTime { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,7 +115,7 @@ public TimeSpan? ActiveTime { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">TimeSpan</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -157,9 +134,7 @@ public TimeSpan? ActiveTime { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;added_on&quot;)]
-[JsonConverter(typeof(UnixTimeToNullableDateTimeConverter))]
-public DateTime? AddedOn { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime? AddedOn { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -171,7 +146,7 @@ public DateTime? AddedOn { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">DateTime</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -190,8 +165,7 @@ public DateTime? AddedOn { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonExtensionData]
-public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -203,7 +177,7 @@ public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pr
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">Newtonsoft.Json.Linq.JToken</span>&gt;</td>
+        <td><span class="xref">IDictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">JToken</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -222,8 +196,7 @@ public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;auto_tmm&quot;)]
-public bool AutomaticTorrentManagement { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AutomaticTorrentManagement { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -254,8 +227,7 @@ public bool AutomaticTorrentManagement { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;category&quot;)]
-public string Category { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Category { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -286,9 +258,7 @@ public string Category { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;completed&quot;)]
-[JsonConverter(typeof(NegativeToNullConverter))]
-public long? CompletedSize { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long? CompletedSize { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -319,9 +289,7 @@ public long? CompletedSize { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;completion_on&quot;)]
-[JsonConverter(typeof(UnixTimeToNullableDateTimeConverter))]
-public DateTime? CompletionOn { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime? CompletionOn { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -333,7 +301,7 @@ public DateTime? CompletionOn { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">DateTime</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -352,8 +320,7 @@ public DateTime? CompletionOn { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;num_leechs&quot;)]
-public int ConnectedLeechers { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int ConnectedLeechers { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -384,8 +351,7 @@ public int ConnectedLeechers { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;num_seeds&quot;)]
-public int ConnectedSeeds { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int ConnectedSeeds { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -416,8 +382,7 @@ public int ConnectedSeeds { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;tracker&quot;)]
-public string CurrentTracker { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string CurrentTracker { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -448,9 +413,7 @@ public string CurrentTracker { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;downloaded&quot;)]
-[JsonConverter(typeof(NegativeToNullConverter))]
-public long? Downloaded { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long? Downloaded { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -481,9 +444,7 @@ public long? Downloaded { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;downloaded_session&quot;)]
-[JsonConverter(typeof(NegativeToNullConverter))]
-public long? DownloadedInSession { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long? DownloadedInSession { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -514,9 +475,7 @@ public long? DownloadedInSession { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dl_limit&quot;)]
-[JsonConverter(typeof(NegativeToNullConverter))]
-public int? DownloadLimit { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int? DownloadLimit { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -547,8 +506,7 @@ public int? DownloadLimit { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dlspeed&quot;)]
-public int DownloadSpeed { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int DownloadSpeed { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -579,9 +537,7 @@ public int DownloadSpeed { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;eta&quot;)]
-[JsonConverter(typeof(SecondsToTimeSpanConverter))]
-public TimeSpan? EstimatedTime { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TimeSpan? EstimatedTime { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -593,7 +549,7 @@ public TimeSpan? EstimatedTime { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">TimeSpan</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -612,8 +568,7 @@ public TimeSpan? EstimatedTime { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;f_l_piece_prio&quot;)]
-public bool FirstLastPiecePrioritized { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool FirstLastPiecePrioritized { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -644,8 +599,7 @@ public bool FirstLastPiecePrioritized { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;force_start&quot;)]
-public bool ForceStart { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ForceStart { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -676,8 +630,7 @@ public bool ForceStart { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;hash&quot;)]
-public string Hash { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Hash { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -708,9 +661,7 @@ public string Hash { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;amount_left&quot;)]
-[JsonConverter(typeof(NegativeToNullConverter))]
-public long? IncompletedSize { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long? IncompletedSize { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -741,9 +692,7 @@ public long? IncompletedSize { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;last_activity&quot;)]
-[JsonConverter(typeof(UnixTimeToNullableDateTimeConverter))]
-public DateTime? LastActivityTime { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime? LastActivityTime { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -755,7 +704,7 @@ public DateTime? LastActivityTime { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">DateTime</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -774,9 +723,7 @@ public DateTime? LastActivityTime { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;seen_complete&quot;)]
-[JsonConverter(typeof(UnixTimeToNullableDateTimeConverter))]
-public DateTime? LastSeenComplete { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime? LastSeenComplete { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -788,7 +735,7 @@ public DateTime? LastSeenComplete { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">DateTime</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -807,8 +754,7 @@ public DateTime? LastSeenComplete { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;magnet_uri&quot;)]
-public string MagnetUri { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string MagnetUri { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -839,8 +785,7 @@ public string MagnetUri { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;name&quot;)]
-public string Name { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -871,8 +816,7 @@ public string Name { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;priority&quot;)]
-public int Priority { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Priority { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -903,8 +847,7 @@ public int Priority { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;progress&quot;)]
-public double Progress { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public double Progress { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -935,8 +878,7 @@ public double Progress { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;ratio&quot;)]
-public double Ratio { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public double Ratio { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -967,8 +909,7 @@ public double Ratio { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;ratio_limit&quot;)]
-public double RatioLimit { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public double RatioLimit { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -999,8 +940,7 @@ public double RatioLimit { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;save_path&quot;)]
-public string SavePath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string SavePath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1031,8 +971,7 @@ public string SavePath { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;seq_dl&quot;)]
-public bool SequentialDownload { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool SequentialDownload { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1063,8 +1002,7 @@ public bool SequentialDownload { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;size&quot;)]
-public long Size { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long Size { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1095,9 +1033,7 @@ public long Size { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;state&quot;)]
-[JsonConverter(typeof(StringEnumConverter))]
-public TorrentState State { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TorrentState State { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1128,8 +1064,7 @@ public TorrentState State { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;super_seeding&quot;)]
-public bool SuperSeeding { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool SuperSeeding { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1160,8 +1095,7 @@ public bool SuperSeeding { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;tags&quot;)]
-public IReadOnlyCollection&lt;string&gt; Tags { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;string&gt; Tags { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1173,7 +1107,7 @@ public IReadOnlyCollection&lt;string&gt; Tags { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="xref">IReadOnlyCollection</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1192,8 +1126,7 @@ public IReadOnlyCollection&lt;string&gt; Tags { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;num_incomplete&quot;)]
-public int TotalLeechers { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int TotalLeechers { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1224,8 +1157,7 @@ public int TotalLeechers { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;num_complete&quot;)]
-public int TotalSeeds { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int TotalSeeds { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1256,9 +1188,7 @@ public int TotalSeeds { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;total_size&quot;)]
-[JsonConverter(typeof(NegativeToNullConverter))]
-public long? TotalSize { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long? TotalSize { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1289,9 +1219,7 @@ public long? TotalSize { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;uploaded&quot;)]
-[JsonConverter(typeof(NegativeToNullConverter))]
-public long? Uploaded { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long? Uploaded { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1322,9 +1250,7 @@ public long? Uploaded { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;uploaded_session&quot;)]
-[JsonConverter(typeof(NegativeToNullConverter))]
-public long? UploadedInSession { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long? UploadedInSession { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1355,9 +1281,7 @@ public long? UploadedInSession { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;up_limit&quot;)]
-[JsonConverter(typeof(NegativeToNullConverter))]
-public int? UploadLimit { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int? UploadLimit { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1388,8 +1312,7 @@ public int? UploadLimit { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;upspeed&quot;)]
-public int UploadSpeed { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int UploadSpeed { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1438,8 +1361,6 @@ public int UploadSpeed { get; set; }</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a></div>
 </article>
           </div>
           

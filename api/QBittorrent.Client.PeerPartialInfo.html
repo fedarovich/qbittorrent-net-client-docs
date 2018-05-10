@@ -81,35 +81,11 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">PeerPartialInfo</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QBittorrent.Client.html">QBittorrent.Client</a></h6>
   <h6><strong>Assembly</strong>: QBittorrent.Client.dll</h6>
   <h5 id="QBittorrent_Client_PeerPartialInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PeerPartialInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public class PeerPartialInfo : object</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -127,8 +103,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonExtensionData]
-public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,7 +115,7 @@ public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pr
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">Newtonsoft.Json.Linq.JToken</span>&gt;</td>
+        <td><span class="xref">IDictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">JToken</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -159,9 +134,7 @@ public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;ip&quot;)]
-[JsonConverter(typeof(StringToIpAddressConverter))]
-public IPAddress Address { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IPAddress Address { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,7 +146,7 @@ public IPAddress Address { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.ipaddress">IPAddress</a></td>
+        <td><span class="xref">IPAddress</span></td>
         <td><p>The peer IP address.</p>
 </td>
       </tr>
@@ -193,8 +166,7 @@ public IPAddress Address { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;client&quot;)]
-public string Client { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Client { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,8 +198,7 @@ public string Client { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;connection&quot;)]
-public string ConnectionType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string ConnectionType { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -259,8 +230,7 @@ public string ConnectionType { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;country&quot;)]
-public string Country { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Country { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -292,8 +262,7 @@ public string Country { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;country_code&quot;)]
-public string CountryCode { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string CountryCode { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -325,8 +294,7 @@ public string CountryCode { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;downloaded&quot;)]
-public long? Downloaded { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long? Downloaded { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -358,8 +326,7 @@ public long? Downloaded { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dl_speed&quot;)]
-public int? DownloadSpeed { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int? DownloadSpeed { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -391,9 +358,7 @@ public int? DownloadSpeed { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;files&quot;)]
-[JsonConverter(typeof(StringToListConverter), new object[]{&quot;\n&quot;})]
-public IReadOnlyList&lt;string&gt; Files { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;string&gt; Files { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -405,7 +370,7 @@ public IReadOnlyList&lt;string&gt; Files { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><p>The files.</p>
 </td>
       </tr>
@@ -425,8 +390,7 @@ public IReadOnlyList&lt;string&gt; Files { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;flags&quot;)]
-public string Flags { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Flags { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -458,8 +422,7 @@ public string Flags { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;flags_desc&quot;)]
-public string FlagsDescription { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string FlagsDescription { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -491,8 +454,7 @@ public string FlagsDescription { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;port&quot;)]
-public int? Port { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int? Port { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -524,8 +486,7 @@ public int? Port { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;progress&quot;)]
-public double? Progress { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public double? Progress { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -557,8 +518,7 @@ public double? Progress { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;relevance&quot;)]
-public double? Relevance { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public double? Relevance { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -590,8 +550,7 @@ public double? Relevance { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;uploaded&quot;)]
-public long? Uploaded { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public long? Uploaded { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -623,8 +582,7 @@ public long? Uploaded { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;up_speed&quot;)]
-public int? UploadSpeed { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int? UploadSpeed { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
