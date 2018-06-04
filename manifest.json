@@ -41,11 +41,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.BittorrentProtocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.BittorrentProtocol.html",
+          "hash": "6LEnHyqto2lspzyoObNyng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QBittorrent.Client.ConnectionStatus.yml",
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ConnectionStatus.html",
           "hash": "gat2oKBMu59BuwRjhkoA9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.DynamicDnsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.DynamicDnsService.html",
+          "hash": "j5Xa09ysh9F6I42gZNxD+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.Encryption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.Encryption.html",
+          "hash": "UMkJB0BT0H7s4rSOQ5+AYQ=="
         }
       },
       "is_incremental": false,
@@ -81,7 +117,19 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.IQBittorrentClient.html",
-          "hash": "GaXJLzybmCa9QubF7QPJ0w=="
+          "hash": "rZsI+L+xQPs6EVgAXnFSbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.MaxRatioAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.MaxRatioAction.html",
+          "hash": "Z/9u1XadFUVdSKzsjP8+7Q=="
         }
       },
       "is_incremental": false,
@@ -125,11 +173,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.Preferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.Preferences.html",
+          "hash": "CjSSyybec4qndHjY/7j9nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.ProxyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.ProxyType.html",
+          "hash": "yE/6iEqzR07sClYQbLwgyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QBittorrent.Client.QBittorrentClient.yml",
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.QBittorrentClient.html",
-          "hash": "clGDF1GQZ65XL+nZX9M+rA=="
+          "hash": "9DuR4gonCPmokJmtXvytHg=="
         }
       },
       "is_incremental": false,
@@ -154,6 +226,42 @@
         ".html": {
           "relative_path": "api/QBittorrent.Client.Range.html",
           "hash": "1HyhpEPAcbdax4UpVUJZ3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.SaveLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.SaveLocation.html",
+          "hash": "WSU4TrUij9ZZ8m2Z+db5Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.SchedulerDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.SchedulerDay.html",
+          "hash": "Eh1cuZZ+KCKchD2t+XAzlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.StandardSaveLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.StandardSaveLocation.html",
+          "hash": "uqHtlySh1Ulp9DFUI/6FpQ=="
         }
       },
       "is_incremental": false,
@@ -321,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.html",
-          "hash": "KXsA5mOeizzXWoAnsZ4iKQ=="
+          "hash": "GgMiqgSdXl4cUS6uZ6lNRA=="
         }
       },
       "is_incremental": false,
@@ -357,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "QUK6IFt1C+xszCRpyCDPdA=="
+          "hash": "NfkuvQ3pkbc94hGj+IVxXw=="
         }
       },
       "is_incremental": false,
@@ -418,11 +526,6 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -434,6 +537,11 @@
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

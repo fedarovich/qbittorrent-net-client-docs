@@ -715,7 +715,7 @@
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_Dispose.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1410">View Source</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1452">View Source</a>
   </span>
   <a id="QBittorrent_Client_QBittorrentClient_Dispose_" data-uid="QBittorrent.Client.QBittorrentClient.Dispose*"></a>
   <h4 id="QBittorrent_Client_QBittorrentClient_Dispose" data-uid="QBittorrent.Client.QBittorrentClient.Dispose">Dispose()</h4>
@@ -1299,6 +1299,55 @@ where <code>x &gt;= 2</code>.
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<a class="xref" href="QBittorrent.Client.PeerPartialData.html">PeerPartialData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_GetPreferencesAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.GetPreferencesAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1412">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_GetPreferencesAsync_" data-uid="QBittorrent.Client.QBittorrentClient.GetPreferencesAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_GetPreferencesAsync_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.GetPreferencesAsync(CancellationToken)">GetPreferencesAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets qBittorrent preferences.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Preferences&gt; GetPreferencesAsync(CancellationToken token = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="QBittorrent.Client.Preferences.html">Preferences</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2614,6 +2663,62 @@ where <code>x &gt;= 2</code>.
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">newLocation</span></td>
         <td><p>The new location.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_QBittorrentClient_SetPreferencesAsync_QBittorrent_Client_Preferences_CancellationToken_.md&amp;value=---%0Auid%3A%20QBittorrent.Client.QBittorrentClient.SetPreferencesAsync(QBittorrent.Client.Preferences%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/QBittorrentClient.cs/#L1429">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_QBittorrentClient_SetPreferencesAsync_" data-uid="QBittorrent.Client.QBittorrentClient.SetPreferencesAsync*"></a>
+  <h4 id="QBittorrent_Client_QBittorrentClient_SetPreferencesAsync_QBittorrent_Client_Preferences_CancellationToken_" data-uid="QBittorrent.Client.QBittorrentClient.SetPreferencesAsync(QBittorrent.Client.Preferences,CancellationToken)">SetPreferencesAsync(Preferences, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Gets qBittorrent preferences.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetPreferencesAsync(Preferences preferences, CancellationToken token = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="QBittorrent.Client.Preferences.html">Preferences</a></td>
+        <td><span class="parametername">preferences</span></td>
+        <td><p>The prefences to set.
+You can set only the properties you want to change and leave the other ones as <span class="xref">null</span>.</p>
 </td>
       </tr>
       <tr>
