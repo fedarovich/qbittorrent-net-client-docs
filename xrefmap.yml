@@ -2290,6 +2290,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.Preferences.MailNotificationEnabled
   nameWithType: Preferences.MailNotificationEnabled
+- uid: QBittorrent.Client.Preferences.MailNotificationPassword
+  name: MailNotificationPassword
+  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_MailNotificationPassword
+  commentId: P:QBittorrent.Client.Preferences.MailNotificationPassword
+  fullName: QBittorrent.Client.Preferences.MailNotificationPassword
+  nameWithType: Preferences.MailNotificationPassword
+- uid: QBittorrent.Client.Preferences.MailNotificationPassword*
+  name: MailNotificationPassword
+  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_MailNotificationPassword_
+  commentId: Overload:QBittorrent.Client.Preferences.MailNotificationPassword
+  isSpec: "True"
+  fullName: QBittorrent.Client.Preferences.MailNotificationPassword
+  nameWithType: Preferences.MailNotificationPassword
 - uid: QBittorrent.Client.Preferences.MailNotificationSmtpServer
   name: MailNotificationSmtpServer
   href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_MailNotificationSmtpServer
@@ -2485,19 +2498,6 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.Preferences.MaxUploadsPerTorrent
   nameWithType: Preferences.MaxUploadsPerTorrent
-- uid: QBittorrent.Client.Preferences.Password
-  name: Password
-  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_Password
-  commentId: P:QBittorrent.Client.Preferences.Password
-  fullName: QBittorrent.Client.Preferences.Password
-  nameWithType: Preferences.Password
-- uid: QBittorrent.Client.Preferences.Password*
-  name: Password
-  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_Password_
-  commentId: Overload:QBittorrent.Client.Preferences.Password
-  isSpec: "True"
-  fullName: QBittorrent.Client.Preferences.Password
-  nameWithType: Preferences.Password
 - uid: QBittorrent.Client.Preferences.PeerExchange
   name: PeerExchange
   href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_PeerExchange
