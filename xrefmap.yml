@@ -2888,6 +2888,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.Preferences.WebUIHttps
   nameWithType: Preferences.WebUIHttps
+- uid: QBittorrent.Client.Preferences.WebUIPassword
+  name: WebUIPassword
+  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_WebUIPassword
+  commentId: P:QBittorrent.Client.Preferences.WebUIPassword
+  fullName: QBittorrent.Client.Preferences.WebUIPassword
+  nameWithType: Preferences.WebUIPassword
+- uid: QBittorrent.Client.Preferences.WebUIPassword*
+  name: WebUIPassword
+  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_WebUIPassword_
+  commentId: Overload:QBittorrent.Client.Preferences.WebUIPassword
+  isSpec: "True"
+  fullName: QBittorrent.Client.Preferences.WebUIPassword
+  nameWithType: Preferences.WebUIPassword
 - uid: QBittorrent.Client.Preferences.WebUIPasswordHash
   name: WebUIPasswordHash
   href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_WebUIPasswordHash
