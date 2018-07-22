@@ -2108,19 +2108,6 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.Preferences.ExportDirectory
   nameWithType: Preferences.ExportDirectory
-- uid: QBittorrent.Client.Preferences.ExportDirectoryEnabled
-  name: ExportDirectoryEnabled
-  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_ExportDirectoryEnabled
-  commentId: P:QBittorrent.Client.Preferences.ExportDirectoryEnabled
-  fullName: QBittorrent.Client.Preferences.ExportDirectoryEnabled
-  nameWithType: Preferences.ExportDirectoryEnabled
-- uid: QBittorrent.Client.Preferences.ExportDirectoryEnabled*
-  name: ExportDirectoryEnabled
-  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_ExportDirectoryEnabled_
-  commentId: Overload:QBittorrent.Client.Preferences.ExportDirectoryEnabled
-  isSpec: "True"
-  fullName: QBittorrent.Client.Preferences.ExportDirectoryEnabled
-  nameWithType: Preferences.ExportDirectoryEnabled
 - uid: QBittorrent.Client.Preferences.ExportDirectoryForFinished
   name: ExportDirectoryForFinished
   href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_ExportDirectoryForFinished
