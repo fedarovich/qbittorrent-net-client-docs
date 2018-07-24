@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.Preferences.html",
-          "hash": "Np+n+2rqa3GIC+CrTYz89g=="
+          "hash": "ffCesmyGlPPMg1e8N/aF0g=="
         }
       },
       "is_incremental": false,
@@ -221,6 +221,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.QBittorrentClientRequestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.QBittorrentClientRequestException.html",
+          "hash": "U/wpKjDCrELIx7x9J3ZdtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QBittorrent.Client.Range.yml",
       "output": {
         ".html": {
@@ -237,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SaveLocation.html",
-          "hash": "WSU4TrUij9ZZ8m2Z+db5Ww=="
+          "hash": "i1Xuv5hPGJpAJcU3/9ba4A=="
         }
       },
       "is_incremental": false,
@@ -429,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.html",
-          "hash": "GgMiqgSdXl4cUS6uZ6lNRA=="
+          "hash": "Pjm02F74nAfKLNwpJkfuCg=="
         }
       },
       "is_incremental": false,
@@ -465,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "NfkuvQ3pkbc94hGj+IVxXw=="
+          "hash": "4M3UKhzWgUA4XepnYN/bjw=="
         }
       },
       "is_incremental": false,
@@ -526,11 +538,11 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },

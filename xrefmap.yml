@@ -3987,6 +3987,38 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.QBittorrentClientExtensions.ToggleSequentialDownloadAsync
   nameWithType: QBittorrentClientExtensions.ToggleSequentialDownloadAsync
+- uid: QBittorrent.Client.QBittorrentClientRequestException
+  name: QBittorrentClientRequestException
+  href: api/QBittorrent.Client.QBittorrentClientRequestException.html
+  commentId: T:QBittorrent.Client.QBittorrentClientRequestException
+  fullName: QBittorrent.Client.QBittorrentClientRequestException
+  nameWithType: QBittorrentClientRequestException
+- uid: QBittorrent.Client.QBittorrentClientRequestException.#ctor(System.String,HttpStatusCode)
+  name: QBittorrentClientRequestException(String, HttpStatusCode)
+  href: api/QBittorrent.Client.QBittorrentClientRequestException.html#QBittorrent_Client_QBittorrentClientRequestException__ctor_System_String_HttpStatusCode_
+  commentId: M:QBittorrent.Client.QBittorrentClientRequestException.#ctor(System.String,HttpStatusCode)
+  fullName: QBittorrent.Client.QBittorrentClientRequestException.QBittorrentClientRequestException(System.String, HttpStatusCode)
+  nameWithType: QBittorrentClientRequestException.QBittorrentClientRequestException(String, HttpStatusCode)
+- uid: QBittorrent.Client.QBittorrentClientRequestException.#ctor*
+  name: QBittorrentClientRequestException
+  href: api/QBittorrent.Client.QBittorrentClientRequestException.html#QBittorrent_Client_QBittorrentClientRequestException__ctor_
+  commentId: Overload:QBittorrent.Client.QBittorrentClientRequestException.#ctor
+  isSpec: "True"
+  fullName: QBittorrent.Client.QBittorrentClientRequestException.QBittorrentClientRequestException
+  nameWithType: QBittorrentClientRequestException.QBittorrentClientRequestException
+- uid: QBittorrent.Client.QBittorrentClientRequestException.StatusCode
+  name: StatusCode
+  href: api/QBittorrent.Client.QBittorrentClientRequestException.html#QBittorrent_Client_QBittorrentClientRequestException_StatusCode
+  commentId: P:QBittorrent.Client.QBittorrentClientRequestException.StatusCode
+  fullName: QBittorrent.Client.QBittorrentClientRequestException.StatusCode
+  nameWithType: QBittorrentClientRequestException.StatusCode
+- uid: QBittorrent.Client.QBittorrentClientRequestException.StatusCode*
+  name: StatusCode
+  href: api/QBittorrent.Client.QBittorrentClientRequestException.html#QBittorrent_Client_QBittorrentClientRequestException_StatusCode_
+  commentId: Overload:QBittorrent.Client.QBittorrentClientRequestException.StatusCode
+  isSpec: "True"
+  fullName: QBittorrent.Client.QBittorrentClientRequestException.StatusCode
+  nameWithType: QBittorrentClientRequestException.StatusCode
 - uid: QBittorrent.Client.Range
   name: Range
   href: api/QBittorrent.Client.Range.html
