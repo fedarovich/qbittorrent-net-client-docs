@@ -54,155 +54,155 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.AddTorrentFilesRequest.TorrentFiles
   nameWithType: AddTorrentFilesRequest.TorrentFiles
-- uid: QBittorrent.Client.AddTorrentRequest
-  name: AddTorrentRequest
-  href: api/QBittorrent.Client.AddTorrentRequest.html
-  commentId: T:QBittorrent.Client.AddTorrentRequest
-  fullName: QBittorrent.Client.AddTorrentRequest
-  nameWithType: AddTorrentRequest
-- uid: QBittorrent.Client.AddTorrentRequest.Category
+- uid: QBittorrent.Client.AddTorrentRequestBase
+  name: AddTorrentRequestBase
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html
+  commentId: T:QBittorrent.Client.AddTorrentRequestBase
+  fullName: QBittorrent.Client.AddTorrentRequestBase
+  nameWithType: AddTorrentRequestBase
+- uid: QBittorrent.Client.AddTorrentRequestBase.Category
   name: Category
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_Category
-  commentId: P:QBittorrent.Client.AddTorrentRequest.Category
-  fullName: QBittorrent.Client.AddTorrentRequest.Category
-  nameWithType: AddTorrentRequest.Category
-- uid: QBittorrent.Client.AddTorrentRequest.Category*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Category
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.Category
+  fullName: QBittorrent.Client.AddTorrentRequestBase.Category
+  nameWithType: AddTorrentRequestBase.Category
+- uid: QBittorrent.Client.AddTorrentRequestBase.Category*
   name: Category
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_Category_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.Category
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Category_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.Category
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.Category
-  nameWithType: AddTorrentRequest.Category
-- uid: QBittorrent.Client.AddTorrentRequest.Cookie
+  fullName: QBittorrent.Client.AddTorrentRequestBase.Category
+  nameWithType: AddTorrentRequestBase.Category
+- uid: QBittorrent.Client.AddTorrentRequestBase.Cookie
   name: Cookie
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_Cookie
-  commentId: P:QBittorrent.Client.AddTorrentRequest.Cookie
-  fullName: QBittorrent.Client.AddTorrentRequest.Cookie
-  nameWithType: AddTorrentRequest.Cookie
-- uid: QBittorrent.Client.AddTorrentRequest.Cookie*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Cookie
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.Cookie
+  fullName: QBittorrent.Client.AddTorrentRequestBase.Cookie
+  nameWithType: AddTorrentRequestBase.Cookie
+- uid: QBittorrent.Client.AddTorrentRequestBase.Cookie*
   name: Cookie
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_Cookie_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.Cookie
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Cookie_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.Cookie
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.Cookie
-  nameWithType: AddTorrentRequest.Cookie
-- uid: QBittorrent.Client.AddTorrentRequest.CreateRootFolder
+  fullName: QBittorrent.Client.AddTorrentRequestBase.Cookie
+  nameWithType: AddTorrentRequestBase.Cookie
+- uid: QBittorrent.Client.AddTorrentRequestBase.CreateRootFolder
   name: CreateRootFolder
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_CreateRootFolder
-  commentId: P:QBittorrent.Client.AddTorrentRequest.CreateRootFolder
-  fullName: QBittorrent.Client.AddTorrentRequest.CreateRootFolder
-  nameWithType: AddTorrentRequest.CreateRootFolder
-- uid: QBittorrent.Client.AddTorrentRequest.CreateRootFolder*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_CreateRootFolder
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.CreateRootFolder
+  fullName: QBittorrent.Client.AddTorrentRequestBase.CreateRootFolder
+  nameWithType: AddTorrentRequestBase.CreateRootFolder
+- uid: QBittorrent.Client.AddTorrentRequestBase.CreateRootFolder*
   name: CreateRootFolder
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_CreateRootFolder_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.CreateRootFolder
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_CreateRootFolder_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.CreateRootFolder
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.CreateRootFolder
-  nameWithType: AddTorrentRequest.CreateRootFolder
-- uid: QBittorrent.Client.AddTorrentRequest.DownloadFolder
+  fullName: QBittorrent.Client.AddTorrentRequestBase.CreateRootFolder
+  nameWithType: AddTorrentRequestBase.CreateRootFolder
+- uid: QBittorrent.Client.AddTorrentRequestBase.DownloadFolder
   name: DownloadFolder
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_DownloadFolder
-  commentId: P:QBittorrent.Client.AddTorrentRequest.DownloadFolder
-  fullName: QBittorrent.Client.AddTorrentRequest.DownloadFolder
-  nameWithType: AddTorrentRequest.DownloadFolder
-- uid: QBittorrent.Client.AddTorrentRequest.DownloadFolder*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_DownloadFolder
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.DownloadFolder
+  fullName: QBittorrent.Client.AddTorrentRequestBase.DownloadFolder
+  nameWithType: AddTorrentRequestBase.DownloadFolder
+- uid: QBittorrent.Client.AddTorrentRequestBase.DownloadFolder*
   name: DownloadFolder
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_DownloadFolder_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.DownloadFolder
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_DownloadFolder_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.DownloadFolder
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.DownloadFolder
-  nameWithType: AddTorrentRequest.DownloadFolder
-- uid: QBittorrent.Client.AddTorrentRequest.DownloadLimit
+  fullName: QBittorrent.Client.AddTorrentRequestBase.DownloadFolder
+  nameWithType: AddTorrentRequestBase.DownloadFolder
+- uid: QBittorrent.Client.AddTorrentRequestBase.DownloadLimit
   name: DownloadLimit
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_DownloadLimit
-  commentId: P:QBittorrent.Client.AddTorrentRequest.DownloadLimit
-  fullName: QBittorrent.Client.AddTorrentRequest.DownloadLimit
-  nameWithType: AddTorrentRequest.DownloadLimit
-- uid: QBittorrent.Client.AddTorrentRequest.DownloadLimit*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_DownloadLimit
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.DownloadLimit
+  fullName: QBittorrent.Client.AddTorrentRequestBase.DownloadLimit
+  nameWithType: AddTorrentRequestBase.DownloadLimit
+- uid: QBittorrent.Client.AddTorrentRequestBase.DownloadLimit*
   name: DownloadLimit
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_DownloadLimit_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.DownloadLimit
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_DownloadLimit_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.DownloadLimit
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.DownloadLimit
-  nameWithType: AddTorrentRequest.DownloadLimit
-- uid: QBittorrent.Client.AddTorrentRequest.FirstLastPiecePrioritized
+  fullName: QBittorrent.Client.AddTorrentRequestBase.DownloadLimit
+  nameWithType: AddTorrentRequestBase.DownloadLimit
+- uid: QBittorrent.Client.AddTorrentRequestBase.FirstLastPiecePrioritized
   name: FirstLastPiecePrioritized
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_FirstLastPiecePrioritized
-  commentId: P:QBittorrent.Client.AddTorrentRequest.FirstLastPiecePrioritized
-  fullName: QBittorrent.Client.AddTorrentRequest.FirstLastPiecePrioritized
-  nameWithType: AddTorrentRequest.FirstLastPiecePrioritized
-- uid: QBittorrent.Client.AddTorrentRequest.FirstLastPiecePrioritized*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_FirstLastPiecePrioritized
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.FirstLastPiecePrioritized
+  fullName: QBittorrent.Client.AddTorrentRequestBase.FirstLastPiecePrioritized
+  nameWithType: AddTorrentRequestBase.FirstLastPiecePrioritized
+- uid: QBittorrent.Client.AddTorrentRequestBase.FirstLastPiecePrioritized*
   name: FirstLastPiecePrioritized
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_FirstLastPiecePrioritized_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.FirstLastPiecePrioritized
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_FirstLastPiecePrioritized_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.FirstLastPiecePrioritized
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.FirstLastPiecePrioritized
-  nameWithType: AddTorrentRequest.FirstLastPiecePrioritized
-- uid: QBittorrent.Client.AddTorrentRequest.Paused
+  fullName: QBittorrent.Client.AddTorrentRequestBase.FirstLastPiecePrioritized
+  nameWithType: AddTorrentRequestBase.FirstLastPiecePrioritized
+- uid: QBittorrent.Client.AddTorrentRequestBase.Paused
   name: Paused
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_Paused
-  commentId: P:QBittorrent.Client.AddTorrentRequest.Paused
-  fullName: QBittorrent.Client.AddTorrentRequest.Paused
-  nameWithType: AddTorrentRequest.Paused
-- uid: QBittorrent.Client.AddTorrentRequest.Paused*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Paused
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.Paused
+  fullName: QBittorrent.Client.AddTorrentRequestBase.Paused
+  nameWithType: AddTorrentRequestBase.Paused
+- uid: QBittorrent.Client.AddTorrentRequestBase.Paused*
   name: Paused
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_Paused_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.Paused
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Paused_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.Paused
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.Paused
-  nameWithType: AddTorrentRequest.Paused
-- uid: QBittorrent.Client.AddTorrentRequest.Rename
+  fullName: QBittorrent.Client.AddTorrentRequestBase.Paused
+  nameWithType: AddTorrentRequestBase.Paused
+- uid: QBittorrent.Client.AddTorrentRequestBase.Rename
   name: Rename
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_Rename
-  commentId: P:QBittorrent.Client.AddTorrentRequest.Rename
-  fullName: QBittorrent.Client.AddTorrentRequest.Rename
-  nameWithType: AddTorrentRequest.Rename
-- uid: QBittorrent.Client.AddTorrentRequest.Rename*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Rename
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.Rename
+  fullName: QBittorrent.Client.AddTorrentRequestBase.Rename
+  nameWithType: AddTorrentRequestBase.Rename
+- uid: QBittorrent.Client.AddTorrentRequestBase.Rename*
   name: Rename
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_Rename_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.Rename
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Rename_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.Rename
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.Rename
-  nameWithType: AddTorrentRequest.Rename
-- uid: QBittorrent.Client.AddTorrentRequest.SequentialDownload
+  fullName: QBittorrent.Client.AddTorrentRequestBase.Rename
+  nameWithType: AddTorrentRequestBase.Rename
+- uid: QBittorrent.Client.AddTorrentRequestBase.SequentialDownload
   name: SequentialDownload
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_SequentialDownload
-  commentId: P:QBittorrent.Client.AddTorrentRequest.SequentialDownload
-  fullName: QBittorrent.Client.AddTorrentRequest.SequentialDownload
-  nameWithType: AddTorrentRequest.SequentialDownload
-- uid: QBittorrent.Client.AddTorrentRequest.SequentialDownload*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_SequentialDownload
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.SequentialDownload
+  fullName: QBittorrent.Client.AddTorrentRequestBase.SequentialDownload
+  nameWithType: AddTorrentRequestBase.SequentialDownload
+- uid: QBittorrent.Client.AddTorrentRequestBase.SequentialDownload*
   name: SequentialDownload
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_SequentialDownload_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.SequentialDownload
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_SequentialDownload_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.SequentialDownload
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.SequentialDownload
-  nameWithType: AddTorrentRequest.SequentialDownload
-- uid: QBittorrent.Client.AddTorrentRequest.SkipHashChecking
+  fullName: QBittorrent.Client.AddTorrentRequestBase.SequentialDownload
+  nameWithType: AddTorrentRequestBase.SequentialDownload
+- uid: QBittorrent.Client.AddTorrentRequestBase.SkipHashChecking
   name: SkipHashChecking
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_SkipHashChecking
-  commentId: P:QBittorrent.Client.AddTorrentRequest.SkipHashChecking
-  fullName: QBittorrent.Client.AddTorrentRequest.SkipHashChecking
-  nameWithType: AddTorrentRequest.SkipHashChecking
-- uid: QBittorrent.Client.AddTorrentRequest.SkipHashChecking*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_SkipHashChecking
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.SkipHashChecking
+  fullName: QBittorrent.Client.AddTorrentRequestBase.SkipHashChecking
+  nameWithType: AddTorrentRequestBase.SkipHashChecking
+- uid: QBittorrent.Client.AddTorrentRequestBase.SkipHashChecking*
   name: SkipHashChecking
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_SkipHashChecking_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.SkipHashChecking
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_SkipHashChecking_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.SkipHashChecking
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.SkipHashChecking
-  nameWithType: AddTorrentRequest.SkipHashChecking
-- uid: QBittorrent.Client.AddTorrentRequest.UploadLimit
+  fullName: QBittorrent.Client.AddTorrentRequestBase.SkipHashChecking
+  nameWithType: AddTorrentRequestBase.SkipHashChecking
+- uid: QBittorrent.Client.AddTorrentRequestBase.UploadLimit
   name: UploadLimit
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_UploadLimit
-  commentId: P:QBittorrent.Client.AddTorrentRequest.UploadLimit
-  fullName: QBittorrent.Client.AddTorrentRequest.UploadLimit
-  nameWithType: AddTorrentRequest.UploadLimit
-- uid: QBittorrent.Client.AddTorrentRequest.UploadLimit*
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_UploadLimit
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.UploadLimit
+  fullName: QBittorrent.Client.AddTorrentRequestBase.UploadLimit
+  nameWithType: AddTorrentRequestBase.UploadLimit
+- uid: QBittorrent.Client.AddTorrentRequestBase.UploadLimit*
   name: UploadLimit
-  href: api/QBittorrent.Client.AddTorrentRequest.html#QBittorrent_Client_AddTorrentRequest_UploadLimit_
-  commentId: Overload:QBittorrent.Client.AddTorrentRequest.UploadLimit
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_UploadLimit_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.UploadLimit
   isSpec: "True"
-  fullName: QBittorrent.Client.AddTorrentRequest.UploadLimit
-  nameWithType: AddTorrentRequest.UploadLimit
+  fullName: QBittorrent.Client.AddTorrentRequestBase.UploadLimit
+  nameWithType: AddTorrentRequestBase.UploadLimit
 - uid: QBittorrent.Client.AddTorrentUrlsRequest
   name: AddTorrentUrlsRequest
   href: api/QBittorrent.Client.AddTorrentUrlsRequest.html
@@ -3065,19 +3065,6 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.QBittorrentClient.AddTorrentsAsync
   nameWithType: QBittorrentClient.AddTorrentsAsync
-- uid: QBittorrent.Client.QBittorrentClient.AddTorrentsCoreAsync(Uri,MultipartFormDataContent,QBittorrent.Client.AddTorrentRequest,CancellationToken)
-  name: AddTorrentsCoreAsync(Uri, MultipartFormDataContent, AddTorrentRequest, CancellationToken)
-  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_AddTorrentsCoreAsync_Uri_MultipartFormDataContent_QBittorrent_Client_AddTorrentRequest_CancellationToken_
-  commentId: M:QBittorrent.Client.QBittorrentClient.AddTorrentsCoreAsync(Uri,MultipartFormDataContent,QBittorrent.Client.AddTorrentRequest,CancellationToken)
-  fullName: QBittorrent.Client.QBittorrentClient.AddTorrentsCoreAsync(Uri, MultipartFormDataContent, QBittorrent.Client.AddTorrentRequest, CancellationToken)
-  nameWithType: QBittorrentClient.AddTorrentsCoreAsync(Uri, MultipartFormDataContent, AddTorrentRequest, CancellationToken)
-- uid: QBittorrent.Client.QBittorrentClient.AddTorrentsCoreAsync*
-  name: AddTorrentsCoreAsync
-  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_AddTorrentsCoreAsync_
-  commentId: Overload:QBittorrent.Client.QBittorrentClient.AddTorrentsCoreAsync
-  isSpec: "True"
-  fullName: QBittorrent.Client.QBittorrentClient.AddTorrentsCoreAsync
-  nameWithType: QBittorrentClient.AddTorrentsCoreAsync
 - uid: QBittorrent.Client.QBittorrentClient.AddTrackersAsync(System.String,IEnumerable{Uri},CancellationToken)
   name: AddTrackersAsync(String, IEnumerable<Uri>, CancellationToken)
   href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_AddTrackersAsync_System_String_IEnumerable_Uri__CancellationToken_

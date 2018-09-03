@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Agents/BA01VSTS/_work/10/s/docs",
+  "source_base_path": "C:/Agents/BA01VSTS/_work/13/s/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.AddTorrentFilesRequest.html",
-          "hash": "xydMLKhtsCY45kVbQ+anQg=="
+          "hash": "Q4bWjrZH/KI/euod+Sf3iA=="
         }
       },
       "is_incremental": false,
@@ -17,11 +17,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/QBittorrent.Client.AddTorrentRequest.yml",
+      "source_relative_path": "api/QBittorrent.Client.AddTorrentRequestBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/QBittorrent.Client.AddTorrentRequest.html",
-          "hash": "hfMy4C6Ct1G8y+MW+ZFqCg=="
+          "relative_path": "api/QBittorrent.Client.AddTorrentRequestBase.html",
+          "hash": "KzxYjIkOA8pZ03YY4iwL4g=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.AddTorrentUrlsRequest.html",
-          "hash": "424HqFsKLQdoq+HXS4r4fA=="
+          "hash": "tpvc3+GufxIeyg7KnTFWSQ=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.QBittorrentClient.html",
-          "hash": "fv6GXn5EmPkPvruWFTJXlg=="
+          "hash": "ONu6cUv98rXDjAQJCcamHg=="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.html",
-          "hash": "Pjm02F74nAfKLNwpJkfuCg=="
+          "hash": "PxAMm662cv5oqapFscpUjQ=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "4M3UKhzWgUA4XepnYN/bjw=="
+          "hash": "cIkcyQwKvFlLjnG4FLsWtQ=="
         }
       },
       "is_incremental": false,
@@ -538,9 +538,9 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
@@ -551,9 +551,9 @@
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
