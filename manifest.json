@@ -41,6 +41,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.ApiLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.ApiLevel.html",
+          "hash": "FzRneWPTUb0rN7tzABBsvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QBittorrent.Client.BittorrentProtocol.yml",
       "output": {
         ".html": {
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.QBittorrentClient.html",
-          "hash": "ONu6cUv98rXDjAQJCcamHg=="
+          "hash": "z16EfbP5LW7v9PuE0rjOSg=="
         }
       },
       "is_incremental": false,
@@ -441,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.html",
-          "hash": "PxAMm662cv5oqapFscpUjQ=="
+          "hash": "63QzKoper8e+aAeiv3eqjg=="
         }
       },
       "is_incremental": false,
@@ -477,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "cIkcyQwKvFlLjnG4FLsWtQ=="
+          "hash": "HCVpYR140f1Adh0XOQLQvQ=="
         }
       },
       "is_incremental": false,
@@ -538,9 +550,9 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
@@ -551,9 +563,9 @@
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

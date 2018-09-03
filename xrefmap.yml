@@ -250,6 +250,30 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.AddTorrentUrlsRequest.TorrentUrls
   nameWithType: AddTorrentUrlsRequest.TorrentUrls
+- uid: QBittorrent.Client.ApiLevel
+  name: ApiLevel
+  href: api/QBittorrent.Client.ApiLevel.html
+  commentId: T:QBittorrent.Client.ApiLevel
+  fullName: QBittorrent.Client.ApiLevel
+  nameWithType: ApiLevel
+- uid: QBittorrent.Client.ApiLevel.Auto
+  name: Auto
+  href: api/QBittorrent.Client.ApiLevel.html#QBittorrent_Client_ApiLevel_Auto
+  commentId: F:QBittorrent.Client.ApiLevel.Auto
+  fullName: QBittorrent.Client.ApiLevel.Auto
+  nameWithType: ApiLevel.Auto
+- uid: QBittorrent.Client.ApiLevel.V1
+  name: V1
+  href: api/QBittorrent.Client.ApiLevel.html#QBittorrent_Client_ApiLevel_V1
+  commentId: F:QBittorrent.Client.ApiLevel.V1
+  fullName: QBittorrent.Client.ApiLevel.V1
+  nameWithType: ApiLevel.V1
+- uid: QBittorrent.Client.ApiLevel.V2
+  name: V2
+  href: api/QBittorrent.Client.ApiLevel.html#QBittorrent_Client_ApiLevel_V2
+  commentId: F:QBittorrent.Client.ApiLevel.V2
+  fullName: QBittorrent.Client.ApiLevel.V2
+  nameWithType: ApiLevel.V2
 - uid: QBittorrent.Client.BittorrentProtocol
   name: BittorrentProtocol
   href: api/QBittorrent.Client.BittorrentProtocol.html
@@ -3026,6 +3050,18 @@ references:
   commentId: M:QBittorrent.Client.QBittorrentClient.#ctor(Uri,HttpMessageHandler,System.Boolean)
   fullName: QBittorrent.Client.QBittorrentClient.QBittorrentClient(Uri, HttpMessageHandler, System.Boolean)
   nameWithType: QBittorrentClient.QBittorrentClient(Uri, HttpMessageHandler, Boolean)
+- uid: QBittorrent.Client.QBittorrentClient.#ctor(Uri,QBittorrent.Client.ApiLevel)
+  name: QBittorrentClient(Uri, ApiLevel)
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient__ctor_Uri_QBittorrent_Client_ApiLevel_
+  commentId: M:QBittorrent.Client.QBittorrentClient.#ctor(Uri,QBittorrent.Client.ApiLevel)
+  fullName: QBittorrent.Client.QBittorrentClient.QBittorrentClient(Uri, QBittorrent.Client.ApiLevel)
+  nameWithType: QBittorrentClient.QBittorrentClient(Uri, ApiLevel)
+- uid: QBittorrent.Client.QBittorrentClient.#ctor(Uri,QBittorrent.Client.ApiLevel,HttpMessageHandler,System.Boolean)
+  name: QBittorrentClient(Uri, ApiLevel, HttpMessageHandler, Boolean)
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient__ctor_Uri_QBittorrent_Client_ApiLevel_HttpMessageHandler_System_Boolean_
+  commentId: M:QBittorrent.Client.QBittorrentClient.#ctor(Uri,QBittorrent.Client.ApiLevel,HttpMessageHandler,System.Boolean)
+  fullName: QBittorrent.Client.QBittorrentClient.QBittorrentClient(Uri, QBittorrent.Client.ApiLevel, HttpMessageHandler, System.Boolean)
+  nameWithType: QBittorrentClient.QBittorrentClient(Uri, ApiLevel, HttpMessageHandler, Boolean)
 - uid: QBittorrent.Client.QBittorrentClient.#ctor*
   name: QBittorrentClient
   href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient__ctor_
