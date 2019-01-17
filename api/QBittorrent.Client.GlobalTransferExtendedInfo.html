@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class GlobalTransferExtendedInfo
    | qBittorrent Client Library for .Net ">
-    <meta name="generator" content="docfx 2.35.4.0">
+    <meta name="generator" content="docfx 2.39.1.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -111,6 +111,27 @@
     <div>
       <a class="xref" href="QBittorrent.Client.GlobalTransferInfo.html#QBittorrent_Client_GlobalTransferInfo_AdditionalData">GlobalTransferInfo.AdditionalData</a>
     </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QBittorrent.Client.html">QBittorrent.Client</a></h6>
   <h6><strong>Assembly</strong>: QBittorrent.Client.dll</h6>
@@ -134,7 +155,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? AllTimeDownloaded { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;alltime_dl&quot;)]
+[JsonConverter(typeof(NegativeToNullConverter))]
+public long? AllTimeDownloaded { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,7 +188,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? AllTimeUploaded { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;alltime_ul&quot;)]
+[JsonConverter(typeof(NegativeToNullConverter))]
+public long? AllTimeUploaded { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -196,7 +221,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool GlobalAltSpeedLimitsEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;use_alt_speed_limits&quot;)]
+public bool GlobalAltSpeedLimitsEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -227,7 +253,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double? GlobalRatio { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public double? GlobalRatio { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -258,7 +285,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? RefreshInterval { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;refresh_interval&quot;)]
+[JsonConverter(typeof(NegativeToNullConverter))]
+public int? RefreshInterval { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -289,7 +318,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? TotalBuffersSize { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;total_buffers_size&quot;)]
+[JsonConverter(typeof(NegativeToNullConverter))]
+public long? TotalBuffersSize { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -320,7 +351,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? TotalPeerConnections { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;total_peer_connections&quot;)]
+[JsonConverter(typeof(NegativeToNullConverter))]
+public long? TotalPeerConnections { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -351,7 +384,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? TotalWasted { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;total_wasted_session&quot;)]
+[JsonConverter(typeof(NegativeToNullConverter))]
+public long? TotalWasted { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Preferences
    | qBittorrent Client Library for .Net ">
-    <meta name="generator" content="docfx 2.35.4.0">
+    <meta name="generator" content="docfx 2.39.1.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -81,11 +81,36 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">Preferences</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QBittorrent.Client.html">QBittorrent.Client</a></h6>
   <h6><strong>Assembly</strong>: QBittorrent.Client.dll</h6>
   <h5 id="QBittorrent_Client_Preferences_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Preferences : object</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonObject(ItemNullValueHandling = NullValueHandling.Ignore)]
+public class Preferences</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -103,7 +128,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IList&lt;string&gt; AdditinalTrackers { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;add_trackers&quot;)]
+[JsonConverter(typeof(SeparatedStringToListConverter), new object[]{&quot;\n&quot;})]
+public IList&lt;string&gt; AdditinalTrackers { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -115,7 +142,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -134,7 +161,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonExtensionData]
+public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,7 +174,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IDictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">JToken</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">Newtonsoft.Json.Linq.JToken</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -165,7 +193,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? AdditionalTrackersEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;add_trackers_enabled&quot;)]
+public bool? AdditionalTrackersEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -196,7 +225,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? AlternativeDownloadLimit { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;alt_dl_limit&quot;)]
+public int? AlternativeDownloadLimit { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -227,7 +257,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? AlternativeUploadLimit { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;alt_up_limit&quot;)]
+public int? AlternativeUploadLimit { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -258,7 +289,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? AnonymousMode { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;anonymous_mode&quot;)]
+public bool? AnonymousMode { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -289,7 +321,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? AppendExtensionToIncompleteFiles { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;incomplete_files_ext&quot;)]
+public bool? AppendExtensionToIncompleteFiles { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -320,7 +353,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? AutorunEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;autorun_enabled&quot;)]
+public bool? AutorunEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -351,7 +385,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string AutorunProgram { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;autorun_program&quot;)]
+public string AutorunProgram { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -382,7 +417,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IList&lt;string&gt; BannedIpAddresses { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;banned_IPs&quot;)]
+[JsonConverter(typeof(SeparatedStringToListConverter), new object[]{&quot;\n&quot;})]
+public IList&lt;string&gt; BannedIpAddresses { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -394,7 +431,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -413,7 +450,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BittorrentProtocol? BittorrentProtocol { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;bittorrent_protocol&quot;)]
+public BittorrentProtocol? BittorrentProtocol { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -444,7 +482,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IList&lt;string&gt; BypassAuthenticationSubnetWhitelist { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;bypass_auth_subnet_whitelist&quot;)]
+[JsonConverter(typeof(SeparatedStringToListConverter), new object[]{&quot;,&quot;, &quot;\n&quot;})]
+public IList&lt;string&gt; BypassAuthenticationSubnetWhitelist { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -456,7 +496,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -480,7 +520,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? BypassAuthenticationSubnetWhitelistEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;bypass_auth_subnet_whitelist_enabled&quot;)]
+public bool? BypassAuthenticationSubnetWhitelistEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -516,7 +557,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? BypassLocalAuthentication { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;bypass_local_auth&quot;)]
+public bool? BypassLocalAuthentication { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -547,7 +589,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? DHT { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dht&quot;)]
+public bool? DHT { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -578,7 +621,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? DHTPort { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dht_port&quot;)]
+public int? DHTPort { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -609,7 +653,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? DHTSameAsBT { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dhtSameAsBT&quot;)]
+public bool? DHTSameAsBT { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -640,7 +685,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? DoNotCountSlowTorrents { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dont_count_slow_torrents&quot;)]
+public bool? DoNotCountSlowTorrents { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -671,7 +717,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? DownloadLimit { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dl_limit&quot;)]
+public int? DownloadLimit { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -702,7 +749,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DynamicDnsDomain { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dyndns_domain&quot;)]
+public string DynamicDnsDomain { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -733,7 +781,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? DynamicDnsEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dyndns_enabled&quot;)]
+public bool? DynamicDnsEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -764,7 +813,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DynamicDnsPassword { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dyndns_password&quot;)]
+public string DynamicDnsPassword { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -795,7 +845,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DynamicDnsService? DynamicDnsService { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dyndns_service&quot;)]
+public DynamicDnsService? DynamicDnsService { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -826,7 +877,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DynamicDnsUsername { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dyndns_username&quot;)]
+public string DynamicDnsUsername { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -857,7 +909,9 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? EnableUTP { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;enable_utp&quot;)]
+[Obsolete(&quot;Use BittorrentProtocol property for qBittorrent 4.x&quot;)]
+public bool? EnableUTP { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -888,7 +942,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Encryption? Encryption { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;encryption&quot;)]
+public Encryption? Encryption { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -919,7 +974,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ExportDirectory { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;export_dir&quot;)]
+public string ExportDirectory { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -950,7 +1006,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ExportDirectoryForFinished { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;export_dir_fin&quot;)]
+public string ExportDirectoryForFinished { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -981,7 +1038,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? ForceProxy { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;force_proxy&quot;)]
+public bool? ForceProxy { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1012,7 +1070,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IpFilterEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;ip_filter_enabled&quot;)]
+public bool? IpFilterEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1043,7 +1102,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IpFilterPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;ip_filter_path&quot;)]
+public string IpFilterPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1074,7 +1134,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IpFilterTrackers { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;ip_filter_trackers&quot;)]
+public bool? IpFilterTrackers { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1106,7 +1167,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? LimitTcpOverhead { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;limit_tcp_overhead&quot;)]
+public bool? LimitTcpOverhead { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1137,7 +1199,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? LimitUTPRate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;limit_utp_rate&quot;)]
+public bool? LimitUTPRate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1168,7 +1231,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? ListenPort { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;listen_port&quot;)]
+public int? ListenPort { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1199,7 +1263,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Locale { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;locale&quot;)]
+public string Locale { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1230,7 +1295,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? LocalPeerDiscovery { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;lsd&quot;)]
+public bool? LocalPeerDiscovery { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1261,7 +1327,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? MailNotificationAuthenticationEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;mail_notification_auth_enabled&quot;)]
+public bool? MailNotificationAuthenticationEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1292,7 +1359,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string MailNotificationEmailAddress { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;mail_notification_email&quot;)]
+public string MailNotificationEmailAddress { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1323,7 +1391,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? MailNotificationEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;mail_notification_enabled&quot;)]
+public bool? MailNotificationEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1354,7 +1423,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string MailNotificationPassword { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;mail_notification_password&quot;)]
+public string MailNotificationPassword { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1385,7 +1455,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string MailNotificationSmtpServer { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;mail_notification_smtp&quot;)]
+public string MailNotificationSmtpServer { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1416,7 +1487,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? MailNotificationSslEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;mail_notification_ssl_enabled&quot;)]
+public bool? MailNotificationSslEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1447,7 +1519,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string MailNotificationUsername { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;mail_notification_username&quot;)]
+public string MailNotificationUsername { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1478,7 +1551,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? MaxActiveDownloads { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_active_downloads&quot;)]
+public int? MaxActiveDownloads { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1509,7 +1583,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? MaxActiveTorrents { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_active_torrents&quot;)]
+public int? MaxActiveTorrents { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1540,7 +1615,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? MaxActiveUploads { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_active_uploads&quot;)]
+public int? MaxActiveUploads { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1571,7 +1647,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? MaxConnections { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_connec&quot;)]
+public int? MaxConnections { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1602,7 +1679,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? MaxConnectionsPerTorrent { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_connec_per_torrent&quot;)]
+public int? MaxConnectionsPerTorrent { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1633,7 +1711,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double? MaxRatio { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_ratio&quot;)]
+public double? MaxRatio { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1664,7 +1743,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MaxRatioAction? MaxRatioAction { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_ratio_act&quot;)]
+public MaxRatioAction? MaxRatioAction { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1695,7 +1775,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? MaxRatioEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_ratio_enabled&quot;)]
+public bool? MaxRatioEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1726,7 +1807,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? MaxSeedingTime { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_seeding_time&quot;)]
+public int? MaxSeedingTime { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1757,7 +1839,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? MaxSeedingTimeEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_seeding_time_enabled&quot;)]
+public bool? MaxSeedingTimeEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1788,7 +1871,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? MaxUploads { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_uploads&quot;)]
+public int? MaxUploads { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1819,7 +1903,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? MaxUploadsPerTorrent { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_uploads_per_torrent&quot;)]
+public int? MaxUploadsPerTorrent { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1850,7 +1935,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? PeerExchange { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;pex&quot;)]
+public bool? PeerExchange { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1881,7 +1967,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? PreallocateAll { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;preallocate_all&quot;)]
+public bool? PreallocateAll { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1912,7 +1999,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ProxyAddress { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;proxy_ip&quot;)]
+public string ProxyAddress { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1943,7 +2031,9 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? ProxyAuthenticationEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;proxy_auth_enabled&quot;)]
+[Obsolete(&quot;Use ProxyType instead.&quot;)]
+public bool? ProxyAuthenticationEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1974,7 +2064,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ProxyPassword { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;proxy_password&quot;)]
+public string ProxyPassword { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2005,7 +2096,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? ProxyPeerConnections { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;proxy_peer_connections&quot;)]
+public bool? ProxyPeerConnections { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2036,7 +2128,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? ProxyPort { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;proxy_port&quot;)]
+public int? ProxyPort { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2067,7 +2160,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ProxyType? ProxyType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;proxy_type&quot;)]
+public ProxyType? ProxyType { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2098,7 +2192,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ProxyUsername { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;proxy_username&quot;)]
+public string ProxyUsername { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2129,7 +2224,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? QueueingEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;queueing_enabled&quot;)]
+public bool? QueueingEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2160,7 +2256,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? RandomPort { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;random_port&quot;)]
+public bool? RandomPort { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2191,7 +2288,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? RssAutoDownloadingEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;rss_auto_downloading_enabled&quot;)]
+public bool? RssAutoDownloadingEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2222,7 +2320,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? RssMaxArticlesPerFeed { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;rss_max_articles_per_feed&quot;)]
+public int? RssMaxArticlesPerFeed { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2253,7 +2352,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? RssProcessingEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;rss_processing_enabled&quot;)]
+public bool? RssProcessingEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2284,7 +2384,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint? RssRefreshInterval { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;rss_refresh_interval&quot;)]
+public uint? RssRefreshInterval { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2296,7 +2397,7 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">System.UInt32</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2315,7 +2416,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SavePath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;save_path&quot;)]
+public string SavePath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2346,7 +2448,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;string, SaveLocation&gt; ScanDirectories { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;scan_dirs&quot;)]
+public IDictionary&lt;string, SaveLocation&gt; ScanDirectories { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2358,7 +2461,7 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IDictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="QBittorrent.Client.SaveLocation.html">SaveLocation</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="QBittorrent.Client.SaveLocation.html">SaveLocation</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2377,7 +2480,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? ScheduleFromHour { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;schedule_from_hour&quot;)]
+public int? ScheduleFromHour { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2408,7 +2512,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? ScheduleFromMinute { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;schedule_from_min&quot;)]
+public int? ScheduleFromMinute { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2439,7 +2544,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SchedulerDay? SchedulerDays { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;scheduler_days&quot;)]
+public SchedulerDay? SchedulerDays { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2470,7 +2576,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? SchedulerEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;scheduler_enabled&quot;)]
+public bool? SchedulerEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2501,7 +2608,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? ScheduleToHour { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;schedule_to_hour&quot;)]
+public int? ScheduleToHour { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2532,7 +2640,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? ScheduleToMinute { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;schedule_to_min&quot;)]
+public int? ScheduleToMinute { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2563,7 +2672,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TempPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;temp_path&quot;)]
+public string TempPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2594,7 +2704,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? TempPathEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;temp_path_enabled&quot;)]
+public bool? TempPathEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2625,7 +2736,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? UploadLimit { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;up_limit&quot;)]
+public int? UploadLimit { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2656,7 +2768,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? UpnpEnabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;upnp&quot;)]
+public bool? UpnpEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2687,7 +2800,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string WebUIAddress { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;web_ui_address&quot;)]
+public string WebUIAddress { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2718,7 +2832,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string WebUIDomain { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;web_ui_domain_list&quot;)]
+public string WebUIDomain { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2749,7 +2864,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? WebUIHttps { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;use_https&quot;)]
+public bool? WebUIHttps { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2780,7 +2896,8 @@ should be applied to estimated TCP overhead (service data: e.g. packet headers).
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string WebUIPassword { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public string WebUIPassword { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2815,7 +2932,8 @@ If a <a class="xref" href="QBittorrent.Client.Preferences.html">Preferences</a> 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string WebUIPasswordHash { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public string WebUIPasswordHash { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2850,7 +2968,8 @@ It is ignored when sending requests to the server.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? WebUIPort { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;web_ui_port&quot;)]
+public int? WebUIPort { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2881,7 +3000,8 @@ It is ignored when sending requests to the server.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string WebUISslCertificate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;ssl_cert&quot;)]
+public string WebUISslCertificate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2912,7 +3032,8 @@ It is ignored when sending requests to the server.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string WebUISslKey { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;ssl_key&quot;)]
+public string WebUISslKey { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2943,7 +3064,8 @@ It is ignored when sending requests to the server.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? WebUIUpnp { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;web_ui_upnp&quot;)]
+public bool? WebUIUpnp { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2974,7 +3096,8 @@ It is ignored when sending requests to the server.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string WebUIUsername { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;web_ui_username&quot;)]
+public string WebUIUsername { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

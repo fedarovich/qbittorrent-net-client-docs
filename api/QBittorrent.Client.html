@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace QBittorrent.Client
    | qBittorrent Client Library for .Net ">
-    <meta name="generator" content="docfx 2.35.4.0">
+    <meta name="generator" content="docfx 2.39.1.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -83,8 +83,20 @@
       <h4><a class="xref" href="QBittorrent.Client.AddTorrentRequestBase.html">AddTorrentRequestBase</a></h4>
       <section><p>The base class for add torrent requests.</p>
 </section>
+      <h4><a class="xref" href="QBittorrent.Client.AddTorrentsRequest.html">AddTorrentsRequest</a></h4>
+      <section><p>Request to add new torrents using torrent files and/or URLs.</p>
+</section>
       <h4><a class="xref" href="QBittorrent.Client.AddTorrentUrlsRequest.html">AddTorrentUrlsRequest</a></h4>
       <section><p>Request to add new torrents using torrent URLs.</p>
+</section>
+      <h4><a class="xref" href="QBittorrent.Client.ApiLevelAttribute.html">ApiLevelAttribute</a></h4>
+      <section><p>Annotates the minimal API Level that supports the annotated method.</p>
+</section>
+      <h4><a class="xref" href="QBittorrent.Client.ApiNotSupportedException.html">ApiNotSupportedException</a></h4>
+      <section><p>This exception is thrown on attempts to use functions not supported in current API version.</p>
+</section>
+      <h4><a class="xref" href="QBittorrent.Client.Category.html">Category</a></h4>
+      <section><p>Describes torrent category and the corresponding save path.</p>
 </section>
       <h4><a class="xref" href="QBittorrent.Client.GlobalTransferExtendedInfo.html">GlobalTransferExtendedInfo</a></h4>
       <section><p>Represents global transfer info with additional information and statistics.</p>
@@ -93,10 +105,13 @@
       <section><p>Represents global transfer info.</p>
 </section>
       <h4><a class="xref" href="QBittorrent.Client.PartialData.html">PartialData</a></h4>
-      <section><p>Represents full or partial data returned by <a class="xref" href="QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetPartialDataAsync_System_Int32_CancellationToken_">GetPartialDataAsync(Int32, CancellationToken)</a> method.</p>
+      <section><p>Represents full or partial data returned by <a class="xref" href="QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetPartialDataAsync_System_Int32_System_Threading_CancellationToken_">GetPartialDataAsync(Int32, CancellationToken)</a> method.</p>
+</section>
+      <h4><a class="xref" href="QBittorrent.Client.PeerLogEntry.html">PeerLogEntry</a></h4>
+      <section><p>Represents QBittorrent peer log entry.</p>
 </section>
       <h4><a class="xref" href="QBittorrent.Client.PeerPartialData.html">PeerPartialData</a></h4>
-      <section><p>Represents full or partial data returned by <a class="xref" href="QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetPeerPartialDataAsync_System_String_System_Int32_CancellationToken_">GetPeerPartialDataAsync(String, Int32, CancellationToken)</a> method.</p>
+      <section><p>Represents full or partial data returned by <a class="xref" href="QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetPeerPartialDataAsync_System_String_System_Int32_System_Threading_CancellationToken_">GetPeerPartialDataAsync(String, Int32, CancellationToken)</a> method.</p>
 </section>
       <h4><a class="xref" href="QBittorrent.Client.PeerPartialInfo.html">PeerPartialInfo</a></h4>
       <section><p>Provides the full or partial information about a torrent peer.</p>
@@ -112,6 +127,21 @@
 </section>
       <h4><a class="xref" href="QBittorrent.Client.QBittorrentClientRequestException.html">QBittorrentClientRequestException</a></h4>
       <section><p>This exception is thrown if QBittorrent server answers with non-success status code.</p>
+</section>
+      <h4><a class="xref" href="QBittorrent.Client.RssArticle.html">RssArticle</a></h4>
+      <section><p>Represents an RSS article.</p>
+</section>
+      <h4><a class="xref" href="QBittorrent.Client.RssAutoDownloadingRule.html">RssAutoDownloadingRule</a></h4>
+      <section><p>Represents an RSS auto-downloading rule.</p>
+</section>
+      <h4><a class="xref" href="QBittorrent.Client.RssFeed.html">RssFeed</a></h4>
+      <section><p>Represents an RSS Feed.</p>
+</section>
+      <h4><a class="xref" href="QBittorrent.Client.RssFolder.html">RssFolder</a></h4>
+      <section><p>Represents an RSS folder.</p>
+</section>
+      <h4><a class="xref" href="QBittorrent.Client.RssItem.html">RssItem</a></h4>
+      <section><p>A base class for RSS items: feeds and folders.</p>
 </section>
       <h4><a class="xref" href="QBittorrent.Client.TorrentContent.html">TorrentContent</a></h4>
       <section><p>Represents torrent content file info.</p>
@@ -136,6 +166,9 @@
 </section>
     <h3 id="structs">Structs
   </h3>
+      <h4><a class="xref" href="QBittorrent.Client.ApiVersion.html">ApiVersion</a></h4>
+      <section><p>Represents the API version.</p>
+</section>
       <h4><a class="xref" href="QBittorrent.Client.Range.html">Range</a></h4>
       <section><p>Torrent piece range.</p>
 </section>
@@ -145,6 +178,9 @@
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="QBittorrent.Client.IQBittorrentClient.html">IQBittorrentClient</a></h4>
+      <section><p>Provides access to qBittorrent remote API.</p>
+</section>
+      <h4><a class="xref" href="QBittorrent.Client.IQBittorrentClient2.html">IQBittorrentClient2</a></h4>
       <section><p>Provides access to qBittorrent remote API.</p>
 </section>
     <h3 id="enums">Enums

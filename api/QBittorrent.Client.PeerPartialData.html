@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PeerPartialData
    | qBittorrent Client Library for .Net ">
-    <meta name="generator" content="docfx 2.35.4.0">
+    <meta name="generator" content="docfx 2.39.1.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -73,7 +73,7 @@
   
   <h1 id="QBittorrent_Client_PeerPartialData" data-uid="QBittorrent.Client.PeerPartialData" class="text-break">Class PeerPartialData
   </h1>
-  <div class="markdown level0 summary"><p>Represents full or partial data returned by <a class="xref" href="QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetPeerPartialDataAsync_System_String_System_Int32_CancellationToken_">GetPeerPartialDataAsync(String, Int32, CancellationToken)</a> method.</p>
+  <div class="markdown level0 summary"><p>Represents full or partial data returned by <a class="xref" href="QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetPeerPartialDataAsync_System_String_System_Int32_System_Threading_CancellationToken_">GetPeerPartialDataAsync(String, Int32, CancellationToken)</a> method.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -81,11 +81,35 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">PeerPartialData</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QBittorrent.Client.html">QBittorrent.Client</a></h6>
   <h6><strong>Assembly</strong>: QBittorrent.Client.dll</h6>
   <h5 id="QBittorrent_Client_PeerPartialData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PeerPartialData : object</code></pre>
+    <pre><code class="lang-csharp hljs">public class PeerPartialData</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -103,7 +127,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonExtensionData]
+public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -115,7 +140,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IDictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">JToken</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">Newtonsoft.Json.Linq.JToken</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -134,7 +159,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool FullUpdate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;full_update&quot;)]
+public bool FullUpdate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,7 +193,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyDictionary&lt;string, PeerPartialInfo&gt; PeersChanged { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;peers&quot;)]
+public IReadOnlyDictionary&lt;string, PeerPartialInfo&gt; PeersChanged { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,7 +206,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyDictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="QBittorrent.Client.PeerPartialInfo.html">PeerPartialInfo</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="QBittorrent.Client.PeerPartialInfo.html">PeerPartialInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -198,7 +225,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;string&gt; PeersRemoved { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;peers_removed&quot;)]
+public IReadOnlyList&lt;string&gt; PeersRemoved { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -210,7 +238,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -229,7 +257,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ResponseId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;rid&quot;)]
+public int ResponseId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -261,7 +290,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ShowFlags { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;show_flags&quot;)]
+public bool ShowFlags { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
