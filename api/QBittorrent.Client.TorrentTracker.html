@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TorrentTracker
    | qBittorrent Client Library for .Net ">
-    <meta name="generator" content="docfx 2.39.1.0">
+    <meta name="generator" content="docfx 2.40.9.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -118,7 +118,7 @@
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_AdditionalData.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.AdditionalData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L43">View Source</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L102">View Source</a>
   </span>
   <a id="QBittorrent_Client_TorrentTracker_AdditionalData_" data-uid="QBittorrent.Client.TorrentTracker.AdditionalData*"></a>
   <h4 id="QBittorrent_Client_TorrentTracker_AdditionalData" data-uid="QBittorrent.Client.TorrentTracker.AdditionalData">AdditionalData</h4>
@@ -147,10 +147,78 @@ public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pr
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_CompletedDownloads.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.CompletedDownloads%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L80">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_TorrentTracker_CompletedDownloads_" data-uid="QBittorrent.Client.TorrentTracker.CompletedDownloads*"></a>
+  <h4 id="QBittorrent_Client_TorrentTracker_CompletedDownloads" data-uid="QBittorrent.Client.TorrentTracker.CompletedDownloads">CompletedDownloads</h4>
+  <div class="markdown level1 summary"><p>Number of completed downloads for current torrent reported by the tracker</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;num_downloaded&quot;)]
+[JsonConverter(typeof(NegativeToNullConverter))]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public int? CompletedDownloads { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_Leeches.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.Leeches%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L72">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_TorrentTracker_Leeches_" data-uid="QBittorrent.Client.TorrentTracker.Leeches*"></a>
+  <h4 id="QBittorrent_Client_TorrentTracker_Leeches" data-uid="QBittorrent.Client.TorrentTracker.Leeches">Leeches</h4>
+  <div class="markdown level1 summary"><p>Number of leeches for current torrent reported by the tracker</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;num_leeches&quot;)]
+[JsonConverter(typeof(NegativeToNullConverter))]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public int? Leeches { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_Message.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.Message%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L36">View Source</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L95">View Source</a>
   </span>
   <a id="QBittorrent_Client_TorrentTracker_Message_" data-uid="QBittorrent.Client.TorrentTracker.Message*"></a>
   <h4 id="QBittorrent_Client_TorrentTracker_Message" data-uid="QBittorrent.Client.TorrentTracker.Message">Message</h4>
@@ -182,7 +250,7 @@ public string Message { get; set; }</code></pre>
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_Peers.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.Peers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L29">View Source</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L57">View Source</a>
   </span>
   <a id="QBittorrent_Client_TorrentTracker_Peers_" data-uid="QBittorrent.Client.TorrentTracker.Peers*"></a>
   <h4 id="QBittorrent_Client_TorrentTracker_Peers" data-uid="QBittorrent.Client.TorrentTracker.Peers">Peers</h4>
@@ -212,19 +280,53 @@ public int? Peers { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_Status.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.Status%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_Seeds.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.Seeds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L23">View Source</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L64">View Source</a>
   </span>
-  <a id="QBittorrent_Client_TorrentTracker_Status_" data-uid="QBittorrent.Client.TorrentTracker.Status*"></a>
-  <h4 id="QBittorrent_Client_TorrentTracker_Status" data-uid="QBittorrent.Client.TorrentTracker.Status">Status</h4>
-  <div class="markdown level1 summary"><p>Tracker status (translated string)</p>
+  <a id="QBittorrent_Client_TorrentTracker_Seeds_" data-uid="QBittorrent.Client.TorrentTracker.Seeds*"></a>
+  <h4 id="QBittorrent_Client_TorrentTracker_Seeds" data-uid="QBittorrent.Client.TorrentTracker.Seeds">Seeds</h4>
+  <div class="markdown level1 summary"><p>Number of seeds for current torrent reported by the tracker</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;status&quot;)]
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;num_seeds&quot;)]
+[JsonConverter(typeof(NegativeToNullConverter))]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public int? Seeds { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_Status.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.Status%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L41">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_TorrentTracker_Status_" data-uid="QBittorrent.Client.TorrentTracker.Status*"></a>
+  <h4 id="QBittorrent_Client_TorrentTracker_Status" data-uid="QBittorrent.Client.TorrentTracker.Status">Status</h4>
+  <div class="markdown level1 summary"><p>Tracker status as string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
 public string Status { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -242,12 +344,92 @@ public string Status { get; set; }</code></pre>
       </tr>
     </tbody>
   </table>
+  <h5 id="QBittorrent_Client_TorrentTracker_Status_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Until API v2.2.0 this property might return localized status string.</p>
+<p>Starting from API v2.2.0 this property always returns English status string.</p>
+</div>
+  <h5 id="QBittorrent_Client_TorrentTracker_Status_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="QBittorrent.Client.TorrentTracker.html#QBittorrent_Client_TorrentTracker_TrackerStatus">TrackerStatus</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_Tier.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.Tier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L88">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_TorrentTracker_Tier_" data-uid="QBittorrent.Client.TorrentTracker.Tier*"></a>
+  <h4 id="QBittorrent_Client_TorrentTracker_Tier" data-uid="QBittorrent.Client.TorrentTracker.Tier">Tier</h4>
+  <div class="markdown level1 summary"><p>Tracker priority tier. Lower tier trackers are tried before higher tiers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;tier&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public int? Tier { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_TrackerStatus.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.TrackerStatus%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L51">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_TorrentTracker_TrackerStatus_" data-uid="QBittorrent.Client.TorrentTracker.TrackerStatus*"></a>
+  <h4 id="QBittorrent_Client_TorrentTracker_TrackerStatus" data-uid="QBittorrent.Client.TorrentTracker.TrackerStatus">TrackerStatus</h4>
+  <div class="markdown level1 summary"><p>Tracker status</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public TorrentTrackerStatus? TrackerStatus { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="QBittorrent.Client.TorrentTrackerStatus.html">TorrentTrackerStatus</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="QBittorrent_Client_TorrentTracker_TrackerStatus_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Until API v2.2.0 this property might always return null on non-English localizations.</p>
+</div>
+  <h5 id="QBittorrent_Client_TorrentTracker_TrackerStatus_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="QBittorrent.Client.TorrentTracker.html#QBittorrent_Client_TorrentTracker_Status">Status</a></div>
+  </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker_Url.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker.Url%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L17">View Source</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L30">View Source</a>
   </span>
   <a id="QBittorrent_Client_TorrentTracker_Url_" data-uid="QBittorrent.Client.TorrentTracker.Url*"></a>
   <h4 id="QBittorrent_Client_TorrentTracker_Url" data-uid="QBittorrent.Client.TorrentTracker.Url">Url</h4>
@@ -285,7 +467,7 @@ public Uri Url { get; set; }</code></pre>
                     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTracker.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTracker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTracker.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

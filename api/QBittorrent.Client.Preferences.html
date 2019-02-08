@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Preferences
    | qBittorrent Client Library for .Net ">
-    <meta name="generator" content="docfx 2.39.1.0">
+    <meta name="generator" content="docfx 2.40.9.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -152,7 +152,7 @@ public IList&lt;string&gt; AdditinalTrackers { get; set; }</code></pre>
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_AdditionalData.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.AdditionalData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L608">View Source</a>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L718">View Source</a>
   </span>
   <a id="QBittorrent_Client_Preferences_AdditionalData_" data-uid="QBittorrent.Client.Preferences.AdditionalData*"></a>
   <h4 id="QBittorrent_Client_Preferences_AdditionalData" data-uid="QBittorrent.Client.Preferences.AdditionalData">AdditionalData</h4>
@@ -195,6 +195,39 @@ public IDictionary&lt;string, JToken&gt; AdditionalData { get; set; }</code></pr
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;add_trackers_enabled&quot;)]
 public bool? AdditionalTrackersEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_AddTorrentPaused.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.AddTorrentPaused%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L617">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_AddTorrentPaused_" data-uid="QBittorrent.Client.Preferences.AddTorrentPaused*"></a>
+  <h4 id="QBittorrent_Client_Preferences_AddTorrentPaused" data-uid="QBittorrent.Client.Preferences.AddTorrentPaused">AddTorrentPaused</h4>
+  <div class="markdown level1 summary"><p>True if torrents should be added in a Paused state</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;start_paused_enabled&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public bool? AddTorrentPaused { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -271,6 +304,72 @@ public int? AlternativeUploadLimit { get; set; }</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_AlternativeWebUIEnabled.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.AlternativeWebUIEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L700">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_AlternativeWebUIEnabled_" data-uid="QBittorrent.Client.Preferences.AlternativeWebUIEnabled*"></a>
+  <h4 id="QBittorrent_Client_Preferences_AlternativeWebUIEnabled" data-uid="QBittorrent.Client.Preferences.AlternativeWebUIEnabled">AlternativeWebUIEnabled</h4>
+  <div class="markdown level1 summary"><p>True if an alternative WebUI should be used</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;alternative_webui_enabled&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public bool? AlternativeWebUIEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_AlternativeWebUIPath.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.AlternativeWebUIPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L708">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_AlternativeWebUIPath_" data-uid="QBittorrent.Client.Preferences.AlternativeWebUIPath*"></a>
+  <h4 id="QBittorrent_Client_Preferences_AlternativeWebUIPath" data-uid="QBittorrent.Client.Preferences.AlternativeWebUIPath">AlternativeWebUIPath</h4>
+  <div class="markdown level1 summary"><p>File path to the alternative WebUI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;alternative_webui_path&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public string AlternativeWebUIPath { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -399,6 +498,138 @@ public string AutorunProgram { get; set; }</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_AutoTMMEnabledByDefault.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.AutoTMMEnabledByDefault%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L631">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_AutoTMMEnabledByDefault_" data-uid="QBittorrent.Client.Preferences.AutoTMMEnabledByDefault*"></a>
+  <h4 id="QBittorrent_Client_Preferences_AutoTMMEnabledByDefault" data-uid="QBittorrent.Client.Preferences.AutoTMMEnabledByDefault">AutoTMMEnabledByDefault</h4>
+  <div class="markdown level1 summary"><p>True if Automatic Torrent Management is enabled by default</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;auto_tmm_enabled&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public bool? AutoTMMEnabledByDefault { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_AutoTMMRetainedWhenCategoryChanges.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.AutoTMMRetainedWhenCategoryChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L639">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_AutoTMMRetainedWhenCategoryChanges_" data-uid="QBittorrent.Client.Preferences.AutoTMMRetainedWhenCategoryChanges*"></a>
+  <h4 id="QBittorrent_Client_Preferences_AutoTMMRetainedWhenCategoryChanges" data-uid="QBittorrent.Client.Preferences.AutoTMMRetainedWhenCategoryChanges">AutoTMMRetainedWhenCategoryChanges</h4>
+  <div class="markdown level1 summary"><p>True if torrent should be relocated when its category changes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;torrent_changed_tmm_enabled&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public bool? AutoTMMRetainedWhenCategoryChanges { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_AutoTMMRetainedWhenCategorySavePathChanges.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.AutoTMMRetainedWhenCategorySavePathChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L656">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_AutoTMMRetainedWhenCategorySavePathChanges_" data-uid="QBittorrent.Client.Preferences.AutoTMMRetainedWhenCategorySavePathChanges*"></a>
+  <h4 id="QBittorrent_Client_Preferences_AutoTMMRetainedWhenCategorySavePathChanges" data-uid="QBittorrent.Client.Preferences.AutoTMMRetainedWhenCategorySavePathChanges">AutoTMMRetainedWhenCategorySavePathChanges</h4>
+  <div class="markdown level1 summary"><p>True if torrent should be relocated when its category&apos;s save path changes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;category_changed_tmm_enabled&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public bool? AutoTMMRetainedWhenCategorySavePathChanges { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_AutoTMMRetainedWhenDefaultSavePathChanges.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.AutoTMMRetainedWhenDefaultSavePathChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L647">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_AutoTMMRetainedWhenDefaultSavePathChanges_" data-uid="QBittorrent.Client.Preferences.AutoTMMRetainedWhenDefaultSavePathChanges*"></a>
+  <h4 id="QBittorrent_Client_Preferences_AutoTMMRetainedWhenDefaultSavePathChanges" data-uid="QBittorrent.Client.Preferences.AutoTMMRetainedWhenDefaultSavePathChanges">AutoTMMRetainedWhenDefaultSavePathChanges</h4>
+  <div class="markdown level1 summary"><p>True if torrent should be relocated when the default save path changes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;save_path_changed_tmm_enabled&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public bool? AutoTMMRetainedWhenDefaultSavePathChanges { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -559,6 +790,39 @@ public bool? BypassAuthenticationSubnetWhitelistEnabled { get; set; }</code></pr
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;bypass_local_auth&quot;)]
 public bool? BypassLocalAuthentication { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_CreateTorrentSubfolder.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.CreateTorrentSubfolder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L610">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_CreateTorrentSubfolder_" data-uid="QBittorrent.Client.Preferences.CreateTorrentSubfolder*"></a>
+  <h4 id="QBittorrent_Client_Preferences_CreateTorrentSubfolder" data-uid="QBittorrent.Client.Preferences.CreateTorrentSubfolder">CreateTorrentSubfolder</h4>
+  <div class="markdown level1 summary"><p>True if a subfolder should be created when adding a torrent</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;create_subfolder_enabled&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public bool? CreateTorrentSubfolder { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1154,6 +1418,39 @@ public bool? IpFilterTrackers { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_LimitLAN.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.LimitLAN%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L671">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_LimitLAN_" data-uid="QBittorrent.Client.Preferences.LimitLAN*"></a>
+  <h4 id="QBittorrent_Client_Preferences_LimitLAN" data-uid="QBittorrent.Client.Preferences.LimitLAN">LimitLAN</h4>
+  <div class="markdown level1 summary"><p>True if <a class="xref" href="QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_DownloadLimit">DownloadLimit</a> and <a class="xref" href="QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_UploadLimit">UploadLimit</a> should be applied to peers on the LAN</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;limit_lan_peers&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public bool? LimitLAN { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_LimitTcpOverhead.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.LimitTcpOverhead%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -1425,6 +1722,39 @@ public bool? MailNotificationEnabled { get; set; }</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;mail_notification_password&quot;)]
 public string MailNotificationPassword { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_MailNotificationSender.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.MailNotificationSender%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L664">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_MailNotificationSender_" data-uid="QBittorrent.Client.Preferences.MailNotificationSender*"></a>
+  <h4 id="QBittorrent_Client_Preferences_MailNotificationSender" data-uid="QBittorrent.Client.Preferences.MailNotificationSender">MailNotificationSender</h4>
+  <div class="markdown level1 summary"><p>E-mail where notifications should originate from</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;mail_notification_sender&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public string MailNotificationSender { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2660,6 +2990,105 @@ public int? ScheduleToMinute { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_SlowTorrentDownloadRateThreshold.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.SlowTorrentDownloadRateThreshold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L679">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_SlowTorrentDownloadRateThreshold_" data-uid="QBittorrent.Client.Preferences.SlowTorrentDownloadRateThreshold*"></a>
+  <h4 id="QBittorrent_Client_Preferences_SlowTorrentDownloadRateThreshold" data-uid="QBittorrent.Client.Preferences.SlowTorrentDownloadRateThreshold">SlowTorrentDownloadRateThreshold</h4>
+  <div class="markdown level1 summary"><p>Download rate in KiB/s for a torrent to be considered &quot;slow&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;slow_torrent_dl_rate_threshold&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public int? SlowTorrentDownloadRateThreshold { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_SlowTorrentInactiveTime.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.SlowTorrentInactiveTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L693">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_SlowTorrentInactiveTime_" data-uid="QBittorrent.Client.Preferences.SlowTorrentInactiveTime*"></a>
+  <h4 id="QBittorrent_Client_Preferences_SlowTorrentInactiveTime" data-uid="QBittorrent.Client.Preferences.SlowTorrentInactiveTime">SlowTorrentInactiveTime</h4>
+  <div class="markdown level1 summary"><p>Time in seconds a torrent should be inactive before considered &quot;slow&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;slow_torrent_inactive_timer&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public int? SlowTorrentInactiveTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_SlowTorrentUploadRateThreshold.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.SlowTorrentUploadRateThreshold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L686">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_SlowTorrentUploadRateThreshold_" data-uid="QBittorrent.Client.Preferences.SlowTorrentUploadRateThreshold*"></a>
+  <h4 id="QBittorrent_Client_Preferences_SlowTorrentUploadRateThreshold" data-uid="QBittorrent.Client.Preferences.SlowTorrentUploadRateThreshold">SlowTorrentUploadRateThreshold</h4>
+  <div class="markdown level1 summary"><p>Upload rate in KiB/s for a torrent to be considered &quot;slow&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;slow_torrent_ul_rate_threshold&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public int? SlowTorrentUploadRateThreshold { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_TempPath.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.TempPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -2718,6 +3147,38 @@ public bool? TempPathEnabled { get; set; }</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_Preferences_TorrentFileAutoDeleteMode.md&amp;value=---%0Auid%3A%20QBittorrent.Client.Preferences.TorrentFileAutoDeleteMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/Preferences.cs/#L624">View Source</a>
+  </span>
+  <a id="QBittorrent_Client_Preferences_TorrentFileAutoDeleteMode_" data-uid="QBittorrent.Client.Preferences.TorrentFileAutoDeleteMode*"></a>
+  <h4 id="QBittorrent_Client_Preferences_TorrentFileAutoDeleteMode" data-uid="QBittorrent.Client.Preferences.TorrentFileAutoDeleteMode">TorrentFileAutoDeleteMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;auto_delete_mode&quot;)]
+[ApiLevel(ApiLevel.V2, MinVersion = &quot;2.2.0&quot;)]
+public TorrentFileAutoDeleteMode? TorrentFileAutoDeleteMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="QBittorrent.Client.TorrentFileAutoDeleteMode.html">TorrentFileAutoDeleteMode</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

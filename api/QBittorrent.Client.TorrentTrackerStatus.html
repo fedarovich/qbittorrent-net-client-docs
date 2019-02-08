@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum SchedulerDay
+    <title>Enum TorrentTrackerStatus
    | qBittorrent Client Library for .Net </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum SchedulerDay
+    <meta name="title" content="Enum TorrentTrackerStatus
    | qBittorrent Client Library for .Net ">
     <meta name="generator" content="docfx 2.40.9.0">
     
@@ -68,19 +68,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="QBittorrent.Client.SchedulerDay">
+            <article class="content wrap" id="_content" data-uid="QBittorrent.Client.TorrentTrackerStatus">
   
   
-  <h1 id="QBittorrent_Client_SchedulerDay" data-uid="QBittorrent.Client.SchedulerDay" class="text-break">Enum SchedulerDay
+  <h1 id="QBittorrent_Client_TorrentTrackerStatus" data-uid="QBittorrent.Client.TorrentTrackerStatus" class="text-break">Enum TorrentTrackerStatus
   </h1>
-  <div class="markdown level0 summary"><p>Scheduler day.</p>
+  <div class="markdown level0 summary"><p>Describes torrent tracker status</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="QBittorrent.Client.html">QBittorrent.Client</a></h6>
   <h6><strong>Assembly</strong>: QBittorrent.Client.dll</h6>
-  <h5 id="QBittorrent_Client_SchedulerDay_syntax">Syntax</h5>
+  <h5 id="QBittorrent_Client_TorrentTrackerStatus_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum SchedulerDay</code></pre>
+    <pre><code class="lang-csharp hljs">public enum TorrentTrackerStatus</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -93,53 +93,28 @@
     <thead>
     <tbody>
       <tr>
-        <td id="QBittorrent_Client_SchedulerDay_Every">Every</td>
-        <td><p>Every day</p>
+        <td id="QBittorrent_Client_TorrentTrackerStatus_Disabled">Disabled</td>
+        <td><p>Tracker is disabled (used for DHT, PeX, and LSD)</p>
 </td>
       </tr>
       <tr>
-        <td id="QBittorrent_Client_SchedulerDay_Friday">Friday</td>
-        <td><p>Every Friday</p>
+        <td id="QBittorrent_Client_TorrentTrackerStatus_NotContacted">NotContacted</td>
+        <td><p>Tracker has not been contacted yet</p>
 </td>
       </tr>
       <tr>
-        <td id="QBittorrent_Client_SchedulerDay_Monday">Monday</td>
-        <td><p>Every Monday</p>
+        <td id="QBittorrent_Client_TorrentTrackerStatus_NotWorking">NotWorking</td>
+        <td><p>Tracker has been contacted, but it is not working (or doesn&apos;t send proper replies)</p>
 </td>
       </tr>
       <tr>
-        <td id="QBittorrent_Client_SchedulerDay_Saturday">Saturday</td>
-        <td><p>Every Saturday</p>
+        <td id="QBittorrent_Client_TorrentTrackerStatus_Updating">Updating</td>
+        <td><p>Tracker is currently being updated</p>
 </td>
       </tr>
       <tr>
-        <td id="QBittorrent_Client_SchedulerDay_Sunday">Sunday</td>
-        <td><p>Every Sunday</p>
-</td>
-      </tr>
-      <tr>
-        <td id="QBittorrent_Client_SchedulerDay_Thursday">Thursday</td>
-        <td><p>Every Thursday</p>
-</td>
-      </tr>
-      <tr>
-        <td id="QBittorrent_Client_SchedulerDay_Tuesday">Tuesday</td>
-        <td><p>Every Tuesday</p>
-</td>
-      </tr>
-      <tr>
-        <td id="QBittorrent_Client_SchedulerDay_Wednesday">Wednesday</td>
-        <td><p>Every </p>
-</td>
-      </tr>
-      <tr>
-        <td id="QBittorrent_Client_SchedulerDay_Weekday">Weekday</td>
-        <td><p>Every weekday</p>
-</td>
-      </tr>
-      <tr>
-        <td id="QBittorrent_Client_SchedulerDay_Weekend">Weekend</td>
-        <td><p>Every weekday</p>
+        <td id="QBittorrent_Client_TorrentTrackerStatus_Working">Working</td>
+        <td><p>Tracker has been contacted and is working</p>
 </td>
       </tr>
     </tbody>
@@ -152,10 +127,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_SchedulerDay.md&amp;value=---%0Auid%3A%20QBittorrent.Client.SchedulerDay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/fedarovich/qbittorrent-net-client/new/master/apiSpec/new?filename=QBittorrent_Client_TorrentTrackerStatus.md&amp;value=---%0Auid%3A%20QBittorrent.Client.TorrentTrackerStatus%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/SchedulerDay.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/fedarovich/qbittorrent-net-client/blob/master/src/QBittorrent.Client/TorrentTrackerStatus.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
