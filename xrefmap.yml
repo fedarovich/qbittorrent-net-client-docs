@@ -9223,6 +9223,12 @@ references:
   commentId: F:QBittorrent.Client.TorrentState.MissingFiles
   fullName: QBittorrent.Client.TorrentState.MissingFiles
   nameWithType: TorrentState.MissingFiles
+- uid: QBittorrent.Client.TorrentState.Moving
+  name: Moving
+  href: api/QBittorrent.Client.TorrentState.html#QBittorrent_Client_TorrentState_Moving
+  commentId: F:QBittorrent.Client.TorrentState.Moving
+  fullName: QBittorrent.Client.TorrentState.Moving
+  nameWithType: TorrentState.Moving
 - uid: QBittorrent.Client.TorrentState.PausedDownload
   name: PausedDownload
   href: api/QBittorrent.Client.TorrentState.html#QBittorrent_Client_TorrentState_PausedDownload
