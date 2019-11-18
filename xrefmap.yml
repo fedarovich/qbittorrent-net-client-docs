@@ -5172,6 +5172,12 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.QBittorrentClient.MoveRssItemAsync
   nameWithType: QBittorrentClient.MoveRssItemAsync
+- uid: QBittorrent.Client.QBittorrentClient.NewApiLegacyFallbackVersion
+  name: NewApiLegacyFallbackVersion
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_NewApiLegacyFallbackVersion
+  commentId: F:QBittorrent.Client.QBittorrentClient.NewApiLegacyFallbackVersion
+  fullName: QBittorrent.Client.QBittorrentClient.NewApiLegacyFallbackVersion
+  nameWithType: QBittorrentClient.NewApiLegacyFallbackVersion
 - uid: QBittorrent.Client.QBittorrentClient.PauseAllAsync(System.Threading.CancellationToken)
   name: PauseAllAsync(CancellationToken)
   href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_PauseAllAsync_System_Threading_CancellationToken_
