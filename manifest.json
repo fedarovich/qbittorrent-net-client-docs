@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/agent/_work/3/s/docs",
+  "source_base_path": "C:/agent/_work/4/s/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.AddTorrentFilesRequest.html",
-          "hash": "GEVoF1gBxNKWLXN8A+2Hbg=="
+          "hash": "2yaliNNoXsLFj/vUWeEKPg=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.AddTorrentRequestBase.html",
-          "hash": "qe68qSTCrvcsiF0OEqOU0g=="
+          "hash": "eYvWdqBghLcymh2SxAk7Gw=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.AddTorrentUrlsRequest.html",
-          "hash": "ykyPG1OP9ljtvUXOJB172A=="
+          "hash": "jEv88i0rDha+PlmKb11m5A=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.AddTorrentsRequest.html",
-          "hash": "gOlDmVSSC56RFtqTH4oVlg=="
+          "hash": "UO2BH4e/xkhpHQU6q+09Sg=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ApiLevel.html",
-          "hash": "mhLi18ZEClZRitQ9WhAgbA=="
+          "hash": "NXfLlNyeby7WKW6a+krQQQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ApiLevelAttribute.html",
-          "hash": "KAMyVRcneRllDaulw2Xgtw=="
+          "hash": "y1RjxMPpyvPJX0XEH4EBtw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ApiNotSupportedException.html",
-          "hash": "gL2eipe8BKi6KmVWIf5XOg=="
+          "hash": "I5af5fJjrfrFu1a4igdiqw=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ApiVersion.html",
-          "hash": "FXkDVl5oBN0a2lUwKJ2dzw=="
+          "hash": "Rcpft1+ybn2mhXBMbTsC1Q=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.BittorrentProtocol.html",
-          "hash": "LhEaZ3Ah77Je+FL/jUu/7w=="
+          "hash": "8eW5J6p6/NC23AC+q+yZMg=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.BuildInfo.html",
-          "hash": "jApKiA26mtaK4h55Ml9zCg=="
+          "hash": "xVO2BMc69K01xMYN5J6FSw=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.Category.html",
-          "hash": "aujzM0m3wuTLq5AXXLJ+zg=="
+          "hash": "P8YaW1IZzVDaXI1H2e4Syg=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ChokingAlgorithm.html",
-          "hash": "MCXa/t7InI2J15PhDND/4w=="
+          "hash": "8qFQOuna7InY7Con9A/JGw=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ConnectionStatus.html",
-          "hash": "VvmGLA3UApAV6YRXpTH3ng=="
+          "hash": "qAOKVIL+sj6vl1IoeNxrqA=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.DeprecatedAttribute.html",
-          "hash": "Svz/4uFjgoNgZLiKgCGJVw=="
+          "hash": "rx7wThqD41F4CP+RZaFVIQ=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.DynamicDnsService.html",
-          "hash": "abVxVYpYs81MzUN65n83Cw=="
+          "hash": "On2KiXgg1OQYf7lSpRv0qw=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.Encryption.html",
-          "hash": "CmwZnOewQByM3DwbQFzdbg=="
+          "hash": "Ur47u0MrqlbiDzGGlozUqA=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.GlobalTransferExtendedInfo.html",
-          "hash": "IUnYEII+73y4nTMe0ghD0A=="
+          "hash": "Q2p6aw8aSRlp2hKmb3G5TQ=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.GlobalTransferInfo.html",
-          "hash": "nJEmAlXSrVQvOSyUzU7Jkg=="
+          "hash": "ncJ/pRYRXD6sY3S3itpxMg=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.IQBittorrentClient.html",
-          "hash": "1jK9xnx6eLMuGIGo93j+zA=="
+          "hash": "pYk2A4tlLeIMFkPB218BVw=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.IQBittorrentClient2.html",
-          "hash": "Sfgo/Cw9KVfF9s+rgEd1MA=="
+          "hash": "GpBzU1eJHZwLsIJLFItwhA=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.MaxRatioAction.html",
-          "hash": "7dnFjUQamnLr6uhMUe4COA=="
+          "hash": "W6Mi4sJrr7o3lFmJDH10Kg=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.NetInterface.html",
-          "hash": "RqgUIEfZuNo/JdaZZ96rCQ=="
+          "hash": "ElHXmIdg3CA768U8IxrvAw=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.PartialData.html",
-          "hash": "hWZhaapnSjrKrUJLZ/KSBQ=="
+          "hash": "hWzqbbZCfvmKAchUUzD4LQ=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.PeerAddResult.html",
-          "hash": "GvTbMY4y/wTfzWcaxS8kQQ=="
+          "hash": "6g/Gqq7Ta/4nZj2s3P7fig=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.PeerLogEntry.html",
-          "hash": "g7sHClG58sx3zuZLG3eMZw=="
+          "hash": "pEJ6M0MAnh5Kd7mF/MXZlw=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.PeerPartialData.html",
-          "hash": "QbalkejwihWSP+V63yl/hA=="
+          "hash": "T/w6WSPEw+KUvcmd7qan7A=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.PeerPartialInfo.html",
-          "hash": "cptWQLZTK8fv7YoljcYtog=="
+          "hash": "3ecFPHllSpsrBvoI51FiqQ=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.Preferences.html",
-          "hash": "AwZQ+sEJxnVRQSykSwWndg=="
+          "hash": "7W1R7QnjAjuG6qJVkNwpLw=="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ProxyType.html",
-          "hash": "MVH5Scxw+tisJeM4A7skOA=="
+          "hash": "3CSHhbjaDmRPviXfGa/MUQ=="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.QBittorrentClient.html",
-          "hash": "9Kx1+kFmPMfbCBVDUdCwQg=="
+          "hash": "/CZTN2wumLu1kHwAOZt8hw=="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.QBittorrentClientExtensions.html",
-          "hash": "grdw31IqE3GO3Hk8zT8eOw=="
+          "hash": "9g7j3nC4rdNVs2utiJyapw=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.QBittorrentClientRequestException.html",
-          "hash": "myqxXMyqul8v32dYo8MXSA=="
+          "hash": "2WFg+37QC519N/rKRtF72g=="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.Range.html",
-          "hash": "2ox+H+gZoyAS5I1LxZmBfg=="
+          "hash": "PNqECNiPJuSaEWn/j9mIxQ=="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.RssArticle.html",
-          "hash": "Y8Hh8EjyKF3Sp5AQFNVemA=="
+          "hash": "Pgo1908tveEXEcwMprJc0Q=="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.RssAutoDownloadingRule.html",
-          "hash": "CXFWEmMQVzPHOFDOgheRjw=="
+          "hash": "D/wcjhUC4DXb8ZHMtzEwIg=="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.RssFeed.html",
-          "hash": "ypwuiNIeszpgBiGWiraflA=="
+          "hash": "OWMcUQDBMUna8+cIOtr85A=="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.RssFolder.html",
-          "hash": "YwLbVcoVZFh7w/D8afyE6A=="
+          "hash": "8Entbhld5Mbqhl7Mskbedw=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.RssItem.html",
-          "hash": "WO+4etUKh01Dp9AUuTD78Q=="
+          "hash": "aQLQf9lopKYM5EgGF6YMKg=="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SaveLocation.html",
-          "hash": "bfqGxYBlIOEPttBaRfI+6A=="
+          "hash": "9ypsvCrDj1+O8N9qpWKwjg=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SchedulerDay.html",
-          "hash": "ehC7QbBoo/FQldUD7iJ4SQ=="
+          "hash": "8phxlT05zArH3WKNLZOqBQ=="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SearchJobStatus.html",
-          "hash": "9Q5XBZEUz0TQaad/BnUfHg=="
+          "hash": "1OxUMJxKLc847J+o78mKxQ=="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,19 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SearchPlugin.html",
-          "hash": "+BP3aU1tubxnoHMBL8Nazg=="
+          "hash": "/HKJcu9foEbRV1fhW2t9Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QBittorrent.Client.SearchPluginCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QBittorrent.Client.SearchPluginCategory.html",
+          "hash": "g3/YhTZo6Muja+pcdAvMtg=="
         }
       },
       "is_incremental": false,
@@ -513,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SearchResult.html",
-          "hash": "47dD8VFj57o4Lpim3BoG2Q=="
+          "hash": "gafozDxOAeELUVV48mWYdA=="
         }
       },
       "is_incremental": false,
@@ -525,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SearchResults.html",
-          "hash": "1sYZ43AvZsg8PA9uNlq/Qg=="
+          "hash": "4bpWXj1197jS4iZt/r2scw=="
         }
       },
       "is_incremental": false,
@@ -537,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SearchStatus.html",
-          "hash": "yDpf2zFyR+tF9NBz/oiPOw=="
+          "hash": "GHa/OI78YmksCcWxdl0cRg=="
         }
       },
       "is_incremental": false,
@@ -549,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SeedChokingAlgorithm.html",
-          "hash": "sEr5MFGoPZ/9Chca0TmQtg=="
+          "hash": "rE9DB8UTAe2WSSLsf/2Hrw=="
         }
       },
       "is_incremental": false,
@@ -561,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ShareLimits.Ratio.html",
-          "hash": "UcrcetKNQlXjIrHjNtEDGg=="
+          "hash": "/R3gBRinYFqX922DtBlwtw=="
         }
       },
       "is_incremental": false,
@@ -573,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ShareLimits.SeedingTime.html",
-          "hash": "K+KfqwsxUr17Ns6xtkVTJQ=="
+          "hash": "MgM1jgtWEMNp6wMnI3CZ6g=="
         }
       },
       "is_incremental": false,
@@ -585,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ShareLimits.html",
-          "hash": "nbDR5XKFNxi/7Jis6P2Zsg=="
+          "hash": "Y9u/nin3kQCuas9VnruOOw=="
         }
       },
       "is_incremental": false,
@@ -597,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.StandardSaveLocation.html",
-          "hash": "BfYV/EO+jsL4E6Q9l3K08Q=="
+          "hash": "gl1D6RIOZC8unx61qMEVPA=="
         }
       },
       "is_incremental": false,
@@ -609,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentContent.html",
-          "hash": "noenBpGhcUhyu2m4lXBYgg=="
+          "hash": "X1N6DghOj00ms7qwIbbTCA=="
         }
       },
       "is_incremental": false,
@@ -621,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentContentPriority.html",
-          "hash": "kujXq3G2YvF63UnZ4xItVQ=="
+          "hash": "KXW3C4XBNE296mgMmM/phA=="
         }
       },
       "is_incremental": false,
@@ -633,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentFileAutoDeleteMode.html",
-          "hash": "Ejc4podcTtmzAEuQ78jcRA=="
+          "hash": "osG44+1UDIWIV21NJAqLog=="
         }
       },
       "is_incremental": false,
@@ -645,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentInfo.html",
-          "hash": "fv7fKbVpnIHMR0IDnxflxw=="
+          "hash": "WYtO09cySm50t31ou/D3vw=="
         }
       },
       "is_incremental": false,
@@ -657,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentListFilter.html",
-          "hash": "bTtf79hLDXRrePKPvnuRNg=="
+          "hash": "xJryKCaBQXvqGua/j+e1Og=="
         }
       },
       "is_incremental": false,
@@ -669,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentListQuery.html",
-          "hash": "3afoUY0Kh09Dsa2Oydr3Kw=="
+          "hash": "6RvsbsifmLWRxuyIP0hR0g=="
         }
       },
       "is_incremental": false,
@@ -681,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentLogEntry.html",
-          "hash": "45i01/9Og4ERXheWz3VVqQ=="
+          "hash": "0veXx8jOIt9Gpp8hg502+g=="
         }
       },
       "is_incremental": false,
@@ -693,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentLogSeverity.html",
-          "hash": "2hIx28ghiA2TBc8dms2RdQ=="
+          "hash": "jtI1niPCd8FBRj5lcuPORw=="
         }
       },
       "is_incremental": false,
@@ -705,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentPartialInfo.html",
-          "hash": "3fU8TgA8l8/SIctWLEr04A=="
+          "hash": "9+08fRpDlP5XCgkXTTpvCg=="
         }
       },
       "is_incremental": false,
@@ -717,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentPieceState.html",
-          "hash": "al+6B5QS+fXNaEZ49cgMpg=="
+          "hash": "VOe4Mx/NSj8hYgJ8dC9+Ww=="
         }
       },
       "is_incremental": false,
@@ -729,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentPriorityChange.html",
-          "hash": "vj+b6zShy3oSrgBuj4CBUQ=="
+          "hash": "uLpFO8TFWeSrOkYF5b7mug=="
         }
       },
       "is_incremental": false,
@@ -741,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentProperties.html",
-          "hash": "7GphdgBqkHMexOUes/IX6A=="
+          "hash": "uvfeLBZtwaP52n8EEWcisA=="
         }
       },
       "is_incremental": false,
@@ -753,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentState.html",
-          "hash": "jSeBInITpNARbcmPwFXj4w=="
+          "hash": "O72AQcqEaZDcG11v53+jHA=="
         }
       },
       "is_incremental": false,
@@ -765,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentTracker.html",
-          "hash": "jVNVzhRxoTNkt8VL74Z8Ew=="
+          "hash": "/Dk1Ha61TXXFuf1d86bGxA=="
         }
       },
       "is_incremental": false,
@@ -777,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentTrackerStatus.html",
-          "hash": "4j3jrfhf4vbdlNSX+JMzyg=="
+          "hash": "SsatbilngRw0H2olN6WNow=="
         }
       },
       "is_incremental": false,
@@ -789,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.UtpTcpMixedModeAlgorithm.html",
-          "hash": "mKXTA+l3sFBQzPLnts1TMw=="
+          "hash": "rQWhIYVtsBBOxgRK6UNXOw=="
         }
       },
       "is_incremental": false,
@@ -801,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.html",
-          "hash": "WA++7ONJIEBziBjloGb6gA=="
+          "hash": "QQNYl/FUhxhmGri9AoQ1CQ=="
         }
       },
       "is_incremental": false,
@@ -813,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "zZgCvWEyhNBasrL/xghMCw=="
+          "hash": "H6cJtmKDQ0AkC5MPR04Vzg=="
         }
       },
       "is_incremental": false,
@@ -825,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "2/PmwzH3XAonOsH0Fu1GGA=="
+          "hash": "qfVkVgW/a9RWQprZzErPRQ=="
         }
       },
       "is_incremental": false,
@@ -837,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "rAYAW8RYBaQr80fGxEwtLw=="
+          "hash": "ltWkJPLtIxqGOF6NSLWMmw=="
         }
       },
       "is_incremental": false,
@@ -871,7 +883,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Ckwy6U1xhgawd9oX5nCPXA=="
+          "hash": "BujtSb7TivQ3wDjbDUpvEQ=="
         }
       },
       "is_incremental": false,
@@ -883,7 +895,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "CmRz5Ue6QYJ7q/g6TFZPRQ=="
+          "hash": "mali57g8sHHR/YPMSYxM7Q=="
         }
       },
       "is_incremental": false,
@@ -897,14 +909,21 @@
         "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 68,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -913,15 +932,9 @@
           "total_file_count": 3,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 67,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
