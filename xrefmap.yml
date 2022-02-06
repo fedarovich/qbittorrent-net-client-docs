@@ -86,6 +86,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.AddTorrentRequestBase.Category
   nameWithType: AddTorrentRequestBase.Category
+- uid: QBittorrent.Client.AddTorrentRequestBase.ContentLayout
+  name: ContentLayout
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_ContentLayout
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.ContentLayout
+  fullName: QBittorrent.Client.AddTorrentRequestBase.ContentLayout
+  nameWithType: AddTorrentRequestBase.ContentLayout
+- uid: QBittorrent.Client.AddTorrentRequestBase.ContentLayout*
+  name: ContentLayout
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_ContentLayout_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.ContentLayout
+  isSpec: "True"
+  fullName: QBittorrent.Client.AddTorrentRequestBase.ContentLayout
+  nameWithType: AddTorrentRequestBase.ContentLayout
 - uid: QBittorrent.Client.AddTorrentRequestBase.Cookie
   name: Cookie
   href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Cookie
@@ -164,6 +177,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.AddTorrentRequestBase.Paused
   nameWithType: AddTorrentRequestBase.Paused
+- uid: QBittorrent.Client.AddTorrentRequestBase.RatioLimit
+  name: RatioLimit
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_RatioLimit
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.RatioLimit
+  fullName: QBittorrent.Client.AddTorrentRequestBase.RatioLimit
+  nameWithType: AddTorrentRequestBase.RatioLimit
+- uid: QBittorrent.Client.AddTorrentRequestBase.RatioLimit*
+  name: RatioLimit
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_RatioLimit_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.RatioLimit
+  isSpec: "True"
+  fullName: QBittorrent.Client.AddTorrentRequestBase.RatioLimit
+  nameWithType: AddTorrentRequestBase.RatioLimit
 - uid: QBittorrent.Client.AddTorrentRequestBase.Rename
   name: Rename
   href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Rename
@@ -177,6 +203,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.AddTorrentRequestBase.Rename
   nameWithType: AddTorrentRequestBase.Rename
+- uid: QBittorrent.Client.AddTorrentRequestBase.SeedingTimeLimit
+  name: SeedingTimeLimit
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_SeedingTimeLimit
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.SeedingTimeLimit
+  fullName: QBittorrent.Client.AddTorrentRequestBase.SeedingTimeLimit
+  nameWithType: AddTorrentRequestBase.SeedingTimeLimit
+- uid: QBittorrent.Client.AddTorrentRequestBase.SeedingTimeLimit*
+  name: SeedingTimeLimit
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_SeedingTimeLimit_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.SeedingTimeLimit
+  isSpec: "True"
+  fullName: QBittorrent.Client.AddTorrentRequestBase.SeedingTimeLimit
+  nameWithType: AddTorrentRequestBase.SeedingTimeLimit
 - uid: QBittorrent.Client.AddTorrentRequestBase.SequentialDownload
   name: SequentialDownload
   href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_SequentialDownload
@@ -203,6 +242,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.AddTorrentRequestBase.SkipHashChecking
   nameWithType: AddTorrentRequestBase.SkipHashChecking
+- uid: QBittorrent.Client.AddTorrentRequestBase.Tags
+  name: Tags
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Tags
+  commentId: P:QBittorrent.Client.AddTorrentRequestBase.Tags
+  fullName: QBittorrent.Client.AddTorrentRequestBase.Tags
+  nameWithType: AddTorrentRequestBase.Tags
+- uid: QBittorrent.Client.AddTorrentRequestBase.Tags*
+  name: Tags
+  href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_Tags_
+  commentId: Overload:QBittorrent.Client.AddTorrentRequestBase.Tags
+  isSpec: "True"
+  fullName: QBittorrent.Client.AddTorrentRequestBase.Tags
+  nameWithType: AddTorrentRequestBase.Tags
 - uid: QBittorrent.Client.AddTorrentRequestBase.UploadLimit
   name: UploadLimit
   href: api/QBittorrent.Client.AddTorrentRequestBase.html#QBittorrent_Client_AddTorrentRequestBase_UploadLimit
@@ -422,6 +474,12 @@ references:
   commentId: M:QBittorrent.Client.ApiNotSupportedException.#ctor(QBittorrent.Client.ApiLevel,System.Version)
   fullName: QBittorrent.Client.ApiNotSupportedException.ApiNotSupportedException(QBittorrent.Client.ApiLevel, System.Version)
   nameWithType: ApiNotSupportedException.ApiNotSupportedException(ApiLevel, Version)
+- uid: QBittorrent.Client.ApiNotSupportedException.#ctor(QBittorrent.Client.ApiLevel,System.Version,System.Version)
+  name: ApiNotSupportedException(ApiLevel, Version, Version)
+  href: api/QBittorrent.Client.ApiNotSupportedException.html#QBittorrent_Client_ApiNotSupportedException__ctor_QBittorrent_Client_ApiLevel_System_Version_System_Version_
+  commentId: M:QBittorrent.Client.ApiNotSupportedException.#ctor(QBittorrent.Client.ApiLevel,System.Version,System.Version)
+  fullName: QBittorrent.Client.ApiNotSupportedException.ApiNotSupportedException(QBittorrent.Client.ApiLevel, System.Version, System.Version)
+  nameWithType: ApiNotSupportedException.ApiNotSupportedException(ApiLevel, Version, Version)
 - uid: QBittorrent.Client.ApiNotSupportedException.#ctor(System.String,QBittorrent.Client.ApiLevel)
   name: ApiNotSupportedException(String, ApiLevel)
   href: api/QBittorrent.Client.ApiNotSupportedException.html#QBittorrent_Client_ApiNotSupportedException__ctor_System_String_QBittorrent_Client_ApiLevel_
@@ -434,6 +492,12 @@ references:
   commentId: M:QBittorrent.Client.ApiNotSupportedException.#ctor(System.String,QBittorrent.Client.ApiLevel,System.Version)
   fullName: QBittorrent.Client.ApiNotSupportedException.ApiNotSupportedException(System.String, QBittorrent.Client.ApiLevel, System.Version)
   nameWithType: ApiNotSupportedException.ApiNotSupportedException(String, ApiLevel, Version)
+- uid: QBittorrent.Client.ApiNotSupportedException.#ctor(System.String,QBittorrent.Client.ApiLevel,System.Version,System.Version)
+  name: ApiNotSupportedException(String, ApiLevel, Version, Version)
+  href: api/QBittorrent.Client.ApiNotSupportedException.html#QBittorrent_Client_ApiNotSupportedException__ctor_System_String_QBittorrent_Client_ApiLevel_System_Version_System_Version_
+  commentId: M:QBittorrent.Client.ApiNotSupportedException.#ctor(System.String,QBittorrent.Client.ApiLevel,System.Version,System.Version)
+  fullName: QBittorrent.Client.ApiNotSupportedException.ApiNotSupportedException(System.String, QBittorrent.Client.ApiLevel, System.Version, System.Version)
+  nameWithType: ApiNotSupportedException.ApiNotSupportedException(String, ApiLevel, Version, Version)
 - uid: QBittorrent.Client.ApiNotSupportedException.#ctor*
   name: ApiNotSupportedException
   href: api/QBittorrent.Client.ApiNotSupportedException.html#QBittorrent_Client_ApiNotSupportedException__ctor_
@@ -441,6 +505,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.ApiNotSupportedException.ApiNotSupportedException
   nameWithType: ApiNotSupportedException.ApiNotSupportedException
+- uid: QBittorrent.Client.ApiNotSupportedException.MaxApiVersion
+  name: MaxApiVersion
+  href: api/QBittorrent.Client.ApiNotSupportedException.html#QBittorrent_Client_ApiNotSupportedException_MaxApiVersion
+  commentId: P:QBittorrent.Client.ApiNotSupportedException.MaxApiVersion
+  fullName: QBittorrent.Client.ApiNotSupportedException.MaxApiVersion
+  nameWithType: ApiNotSupportedException.MaxApiVersion
+- uid: QBittorrent.Client.ApiNotSupportedException.MaxApiVersion*
+  name: MaxApiVersion
+  href: api/QBittorrent.Client.ApiNotSupportedException.html#QBittorrent_Client_ApiNotSupportedException_MaxApiVersion_
+  commentId: Overload:QBittorrent.Client.ApiNotSupportedException.MaxApiVersion
+  isSpec: "True"
+  fullName: QBittorrent.Client.ApiNotSupportedException.MaxApiVersion
+  nameWithType: ApiNotSupportedException.MaxApiVersion
 - uid: QBittorrent.Client.ApiNotSupportedException.RequiredApiLevel
   name: RequiredApiLevel
   href: api/QBittorrent.Client.ApiNotSupportedException.html#QBittorrent_Client_ApiNotSupportedException_RequiredApiLevel
@@ -799,6 +876,19 @@ references:
   commentId: T:QBittorrent.Client.Category
   fullName: QBittorrent.Client.Category
   nameWithType: Category
+- uid: QBittorrent.Client.Category.AdditionalData
+  name: AdditionalData
+  href: api/QBittorrent.Client.Category.html#QBittorrent_Client_Category_AdditionalData
+  commentId: P:QBittorrent.Client.Category.AdditionalData
+  fullName: QBittorrent.Client.Category.AdditionalData
+  nameWithType: Category.AdditionalData
+- uid: QBittorrent.Client.Category.AdditionalData*
+  name: AdditionalData
+  href: api/QBittorrent.Client.Category.html#QBittorrent_Client_Category_AdditionalData_
+  commentId: Overload:QBittorrent.Client.Category.AdditionalData
+  isSpec: "True"
+  fullName: QBittorrent.Client.Category.AdditionalData
+  nameWithType: Category.AdditionalData
 - uid: QBittorrent.Client.Category.Name
   name: Name
   href: api/QBittorrent.Client.Category.html#QBittorrent_Client_Category_Name
@@ -2478,6 +2568,22 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.IQBittorrentClient2.GetTagsAsync
   nameWithType: IQBittorrentClient2.GetTagsAsync
+- uid: QBittorrent.Client.IQBittorrentClient2.GetTorrentContentsAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  name: GetTorrentContentsAsync(String, IEnumerable<String>, CancellationToken)
+  href: api/QBittorrent.Client.IQBittorrentClient2.html#QBittorrent_Client_IQBittorrentClient2_GetTorrentContentsAsync_System_String_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_
+  commentId: M:QBittorrent.Client.IQBittorrentClient2.GetTorrentContentsAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  name.vb: GetTorrentContentsAsync(String, IEnumerable(Of String), CancellationToken)
+  fullName: QBittorrent.Client.IQBittorrentClient2.GetTorrentContentsAsync(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Threading.CancellationToken)
+  fullName.vb: QBittorrent.Client.IQBittorrentClient2.GetTorrentContentsAsync(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Threading.CancellationToken)
+  nameWithType: IQBittorrentClient2.GetTorrentContentsAsync(String, IEnumerable<String>, CancellationToken)
+  nameWithType.vb: IQBittorrentClient2.GetTorrentContentsAsync(String, IEnumerable(Of String), CancellationToken)
+- uid: QBittorrent.Client.IQBittorrentClient2.GetTorrentContentsAsync*
+  name: GetTorrentContentsAsync
+  href: api/QBittorrent.Client.IQBittorrentClient2.html#QBittorrent_Client_IQBittorrentClient2_GetTorrentContentsAsync_
+  commentId: Overload:QBittorrent.Client.IQBittorrentClient2.GetTorrentContentsAsync
+  isSpec: "True"
+  fullName: QBittorrent.Client.IQBittorrentClient2.GetTorrentContentsAsync
+  nameWithType: IQBittorrentClient2.GetTorrentContentsAsync
 - uid: QBittorrent.Client.IQBittorrentClient2.InstallSearchPluginsAsync(System.Collections.Generic.IEnumerable{System.Uri},System.Threading.CancellationToken)
   name: InstallSearchPluginsAsync(IEnumerable<Uri>, CancellationToken)
   href: api/QBittorrent.Client.IQBittorrentClient2.html#QBittorrent_Client_IQBittorrentClient2_InstallSearchPluginsAsync_System_Collections_Generic_IEnumerable_System_Uri__System_Threading_CancellationToken_
@@ -2583,6 +2689,12 @@ references:
   commentId: M:QBittorrent.Client.IQBittorrentClient2.RenameFileAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
   fullName: QBittorrent.Client.IQBittorrentClient2.RenameFileAsync(System.String, System.Int32, System.String, System.Threading.CancellationToken)
   nameWithType: IQBittorrentClient2.RenameFileAsync(String, Int32, String, CancellationToken)
+- uid: QBittorrent.Client.IQBittorrentClient2.RenameFileAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  name: RenameFileAsync(String, String, String, CancellationToken)
+  href: api/QBittorrent.Client.IQBittorrentClient2.html#QBittorrent_Client_IQBittorrentClient2_RenameFileAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:QBittorrent.Client.IQBittorrentClient2.RenameFileAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  fullName: QBittorrent.Client.IQBittorrentClient2.RenameFileAsync(System.String, System.String, System.String, System.Threading.CancellationToken)
+  nameWithType: IQBittorrentClient2.RenameFileAsync(String, String, String, CancellationToken)
 - uid: QBittorrent.Client.IQBittorrentClient2.RenameFileAsync*
   name: RenameFileAsync
   href: api/QBittorrent.Client.IQBittorrentClient2.html#QBittorrent_Client_IQBittorrentClient2_RenameFileAsync_
@@ -2590,6 +2702,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.IQBittorrentClient2.RenameFileAsync
   nameWithType: IQBittorrentClient2.RenameFileAsync
+- uid: QBittorrent.Client.IQBittorrentClient2.RenameFolderAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  name: RenameFolderAsync(String, String, String, CancellationToken)
+  href: api/QBittorrent.Client.IQBittorrentClient2.html#QBittorrent_Client_IQBittorrentClient2_RenameFolderAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:QBittorrent.Client.IQBittorrentClient2.RenameFolderAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  fullName: QBittorrent.Client.IQBittorrentClient2.RenameFolderAsync(System.String, System.String, System.String, System.Threading.CancellationToken)
+  nameWithType: IQBittorrentClient2.RenameFolderAsync(String, String, String, CancellationToken)
+- uid: QBittorrent.Client.IQBittorrentClient2.RenameFolderAsync*
+  name: RenameFolderAsync
+  href: api/QBittorrent.Client.IQBittorrentClient2.html#QBittorrent_Client_IQBittorrentClient2_RenameFolderAsync_
+  commentId: Overload:QBittorrent.Client.IQBittorrentClient2.RenameFolderAsync
+  isSpec: "True"
+  fullName: QBittorrent.Client.IQBittorrentClient2.RenameFolderAsync
+  nameWithType: IQBittorrentClient2.RenameFolderAsync
 - uid: QBittorrent.Client.IQBittorrentClient2.RenameRssAutoDownloadingRuleAsync(System.String,System.String,System.Threading.CancellationToken)
   name: RenameRssAutoDownloadingRuleAsync(String, String, CancellationToken)
   href: api/QBittorrent.Client.IQBittorrentClient2.html#QBittorrent_Client_IQBittorrentClient2_RenameRssAutoDownloadingRuleAsync_System_String_System_String_System_Threading_CancellationToken_
@@ -5158,6 +5283,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.Preferences.TempPathEnabled
   nameWithType: Preferences.TempPathEnabled
+- uid: QBittorrent.Client.Preferences.TorrentContentLayout
+  name: TorrentContentLayout
+  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_TorrentContentLayout
+  commentId: P:QBittorrent.Client.Preferences.TorrentContentLayout
+  fullName: QBittorrent.Client.Preferences.TorrentContentLayout
+  nameWithType: Preferences.TorrentContentLayout
+- uid: QBittorrent.Client.Preferences.TorrentContentLayout*
+  name: TorrentContentLayout
+  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_TorrentContentLayout_
+  commentId: Overload:QBittorrent.Client.Preferences.TorrentContentLayout
+  isSpec: "True"
+  fullName: QBittorrent.Client.Preferences.TorrentContentLayout
+  nameWithType: Preferences.TorrentContentLayout
 - uid: QBittorrent.Client.Preferences.TorrentFileAutoDeleteMode
   name: TorrentFileAutoDeleteMode
   href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_TorrentFileAutoDeleteMode
@@ -6332,6 +6470,15 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.QBittorrentClient.GetTagsAsync
   nameWithType: QBittorrentClient.GetTagsAsync
+- uid: QBittorrent.Client.QBittorrentClient.GetTorrentContentsAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  name: GetTorrentContentsAsync(String, IEnumerable<String>, CancellationToken)
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetTorrentContentsAsync_System_String_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_
+  commentId: M:QBittorrent.Client.QBittorrentClient.GetTorrentContentsAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  name.vb: GetTorrentContentsAsync(String, IEnumerable(Of String), CancellationToken)
+  fullName: QBittorrent.Client.QBittorrentClient.GetTorrentContentsAsync(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Threading.CancellationToken)
+  fullName.vb: QBittorrent.Client.QBittorrentClient.GetTorrentContentsAsync(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Threading.CancellationToken)
+  nameWithType: QBittorrentClient.GetTorrentContentsAsync(String, IEnumerable<String>, CancellationToken)
+  nameWithType.vb: QBittorrentClient.GetTorrentContentsAsync(String, IEnumerable(Of String), CancellationToken)
 - uid: QBittorrent.Client.QBittorrentClient.GetTorrentContentsAsync(System.String,System.Threading.CancellationToken)
   name: GetTorrentContentsAsync(String, CancellationToken)
   href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_GetTorrentContentsAsync_System_String_System_Threading_CancellationToken_
@@ -6630,6 +6777,12 @@ references:
   commentId: M:QBittorrent.Client.QBittorrentClient.RenameFileAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
   fullName: QBittorrent.Client.QBittorrentClient.RenameFileAsync(System.String, System.Int32, System.String, System.Threading.CancellationToken)
   nameWithType: QBittorrentClient.RenameFileAsync(String, Int32, String, CancellationToken)
+- uid: QBittorrent.Client.QBittorrentClient.RenameFileAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  name: RenameFileAsync(String, String, String, CancellationToken)
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_RenameFileAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:QBittorrent.Client.QBittorrentClient.RenameFileAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  fullName: QBittorrent.Client.QBittorrentClient.RenameFileAsync(System.String, System.String, System.String, System.Threading.CancellationToken)
+  nameWithType: QBittorrentClient.RenameFileAsync(String, String, String, CancellationToken)
 - uid: QBittorrent.Client.QBittorrentClient.RenameFileAsync*
   name: RenameFileAsync
   href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_RenameFileAsync_
@@ -6637,6 +6790,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.QBittorrentClient.RenameFileAsync
   nameWithType: QBittorrentClient.RenameFileAsync
+- uid: QBittorrent.Client.QBittorrentClient.RenameFolderAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  name: RenameFolderAsync(String, String, String, CancellationToken)
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_RenameFolderAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:QBittorrent.Client.QBittorrentClient.RenameFolderAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  fullName: QBittorrent.Client.QBittorrentClient.RenameFolderAsync(System.String, System.String, System.String, System.Threading.CancellationToken)
+  nameWithType: QBittorrentClient.RenameFolderAsync(String, String, String, CancellationToken)
+- uid: QBittorrent.Client.QBittorrentClient.RenameFolderAsync*
+  name: RenameFolderAsync
+  href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_RenameFolderAsync_
+  commentId: Overload:QBittorrent.Client.QBittorrentClient.RenameFolderAsync
+  isSpec: "True"
+  fullName: QBittorrent.Client.QBittorrentClient.RenameFolderAsync
+  nameWithType: QBittorrentClient.RenameFolderAsync
 - uid: QBittorrent.Client.QBittorrentClient.RenameRssAutoDownloadingRuleAsync(System.String,System.String,System.Threading.CancellationToken)
   name: RenameRssAutoDownloadingRuleAsync(String, String, CancellationToken)
   href: api/QBittorrent.Client.QBittorrentClient.html#QBittorrent_Client_QBittorrentClient_RenameRssAutoDownloadingRuleAsync_System_String_System_String_System_Threading_CancellationToken_
@@ -8892,6 +9058,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.TorrentContent.Availability
   nameWithType: TorrentContent.Availability
+- uid: QBittorrent.Client.TorrentContent.Index
+  name: Index
+  href: api/QBittorrent.Client.TorrentContent.html#QBittorrent_Client_TorrentContent_Index
+  commentId: P:QBittorrent.Client.TorrentContent.Index
+  fullName: QBittorrent.Client.TorrentContent.Index
+  nameWithType: TorrentContent.Index
+- uid: QBittorrent.Client.TorrentContent.Index*
+  name: Index
+  href: api/QBittorrent.Client.TorrentContent.html#QBittorrent_Client_TorrentContent_Index_
+  commentId: Overload:QBittorrent.Client.TorrentContent.Index
+  isSpec: "True"
+  fullName: QBittorrent.Client.TorrentContent.Index
+  nameWithType: TorrentContent.Index
 - uid: QBittorrent.Client.TorrentContent.IsSeeding
   name: IsSeeding
   href: api/QBittorrent.Client.TorrentContent.html#QBittorrent_Client_TorrentContent_IsSeeding
@@ -8970,6 +9149,30 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.TorrentContent.Size
   nameWithType: TorrentContent.Size
+- uid: QBittorrent.Client.TorrentContentLayout
+  name: TorrentContentLayout
+  href: api/QBittorrent.Client.TorrentContentLayout.html
+  commentId: T:QBittorrent.Client.TorrentContentLayout
+  fullName: QBittorrent.Client.TorrentContentLayout
+  nameWithType: TorrentContentLayout
+- uid: QBittorrent.Client.TorrentContentLayout.NoSubfolder
+  name: NoSubfolder
+  href: api/QBittorrent.Client.TorrentContentLayout.html#QBittorrent_Client_TorrentContentLayout_NoSubfolder
+  commentId: F:QBittorrent.Client.TorrentContentLayout.NoSubfolder
+  fullName: QBittorrent.Client.TorrentContentLayout.NoSubfolder
+  nameWithType: TorrentContentLayout.NoSubfolder
+- uid: QBittorrent.Client.TorrentContentLayout.Original
+  name: Original
+  href: api/QBittorrent.Client.TorrentContentLayout.html#QBittorrent_Client_TorrentContentLayout_Original
+  commentId: F:QBittorrent.Client.TorrentContentLayout.Original
+  fullName: QBittorrent.Client.TorrentContentLayout.Original
+  nameWithType: TorrentContentLayout.Original
+- uid: QBittorrent.Client.TorrentContentLayout.Subfolder
+  name: Subfolder
+  href: api/QBittorrent.Client.TorrentContentLayout.html#QBittorrent_Client_TorrentContentLayout_Subfolder
+  commentId: F:QBittorrent.Client.TorrentContentLayout.Subfolder
+  fullName: QBittorrent.Client.TorrentContentLayout.Subfolder
+  nameWithType: TorrentContentLayout.Subfolder
 - uid: QBittorrent.Client.TorrentContentPriority
   name: TorrentContentPriority
   href: api/QBittorrent.Client.TorrentContentPriority.html
@@ -9171,6 +9374,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.TorrentInfo.ConnectedSeeds
   nameWithType: TorrentInfo.ConnectedSeeds
+- uid: QBittorrent.Client.TorrentInfo.ContentPath
+  name: ContentPath
+  href: api/QBittorrent.Client.TorrentInfo.html#QBittorrent_Client_TorrentInfo_ContentPath
+  commentId: P:QBittorrent.Client.TorrentInfo.ContentPath
+  fullName: QBittorrent.Client.TorrentInfo.ContentPath
+  nameWithType: TorrentInfo.ContentPath
+- uid: QBittorrent.Client.TorrentInfo.ContentPath*
+  name: ContentPath
+  href: api/QBittorrent.Client.TorrentInfo.html#QBittorrent_Client_TorrentInfo_ContentPath_
+  commentId: Overload:QBittorrent.Client.TorrentInfo.ContentPath
+  isSpec: "True"
+  fullName: QBittorrent.Client.TorrentInfo.ContentPath
+  nameWithType: TorrentInfo.ContentPath
 - uid: QBittorrent.Client.TorrentInfo.CurrentTracker
   name: CurrentTracker
   href: api/QBittorrent.Client.TorrentInfo.html#QBittorrent_Client_TorrentInfo_CurrentTracker
@@ -9418,6 +9634,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.TorrentInfo.SavePath
   nameWithType: TorrentInfo.SavePath
+- uid: QBittorrent.Client.TorrentInfo.SeedingTime
+  name: SeedingTime
+  href: api/QBittorrent.Client.TorrentInfo.html#QBittorrent_Client_TorrentInfo_SeedingTime
+  commentId: P:QBittorrent.Client.TorrentInfo.SeedingTime
+  fullName: QBittorrent.Client.TorrentInfo.SeedingTime
+  nameWithType: TorrentInfo.SeedingTime
+- uid: QBittorrent.Client.TorrentInfo.SeedingTime*
+  name: SeedingTime
+  href: api/QBittorrent.Client.TorrentInfo.html#QBittorrent_Client_TorrentInfo_SeedingTime_
+  commentId: Overload:QBittorrent.Client.TorrentInfo.SeedingTime
+  isSpec: "True"
+  fullName: QBittorrent.Client.TorrentInfo.SeedingTime
+  nameWithType: TorrentInfo.SeedingTime
 - uid: QBittorrent.Client.TorrentInfo.SequentialDownload
   name: SequentialDownload
   href: api/QBittorrent.Client.TorrentInfo.html#QBittorrent_Client_TorrentInfo_SequentialDownload
@@ -9762,6 +9991,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.TorrentListQuery.SortBy
   nameWithType: TorrentListQuery.SortBy
+- uid: QBittorrent.Client.TorrentListQuery.Tag
+  name: Tag
+  href: api/QBittorrent.Client.TorrentListQuery.html#QBittorrent_Client_TorrentListQuery_Tag
+  commentId: P:QBittorrent.Client.TorrentListQuery.Tag
+  fullName: QBittorrent.Client.TorrentListQuery.Tag
+  nameWithType: TorrentListQuery.Tag
+- uid: QBittorrent.Client.TorrentListQuery.Tag*
+  name: Tag
+  href: api/QBittorrent.Client.TorrentListQuery.html#QBittorrent_Client_TorrentListQuery_Tag_
+  commentId: Overload:QBittorrent.Client.TorrentListQuery.Tag
+  isSpec: "True"
+  fullName: QBittorrent.Client.TorrentListQuery.Tag
+  nameWithType: TorrentListQuery.Tag
 - uid: QBittorrent.Client.TorrentLogEntry
   name: TorrentLogEntry
   href: api/QBittorrent.Client.TorrentLogEntry.html
