@@ -4790,6 +4790,32 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.Preferences.MaxConnectionsPerTorrent
   nameWithType: Preferences.MaxConnectionsPerTorrent
+- uid: QBittorrent.Client.Preferences.MaxInactiveSeedingTime
+  name: MaxInactiveSeedingTime
+  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_MaxInactiveSeedingTime
+  commentId: P:QBittorrent.Client.Preferences.MaxInactiveSeedingTime
+  fullName: QBittorrent.Client.Preferences.MaxInactiveSeedingTime
+  nameWithType: Preferences.MaxInactiveSeedingTime
+- uid: QBittorrent.Client.Preferences.MaxInactiveSeedingTime*
+  name: MaxInactiveSeedingTime
+  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_MaxInactiveSeedingTime_
+  commentId: Overload:QBittorrent.Client.Preferences.MaxInactiveSeedingTime
+  isSpec: "True"
+  fullName: QBittorrent.Client.Preferences.MaxInactiveSeedingTime
+  nameWithType: Preferences.MaxInactiveSeedingTime
+- uid: QBittorrent.Client.Preferences.MaxInactiveSeedingTimeEnabled
+  name: MaxInactiveSeedingTimeEnabled
+  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_MaxInactiveSeedingTimeEnabled
+  commentId: P:QBittorrent.Client.Preferences.MaxInactiveSeedingTimeEnabled
+  fullName: QBittorrent.Client.Preferences.MaxInactiveSeedingTimeEnabled
+  nameWithType: Preferences.MaxInactiveSeedingTimeEnabled
+- uid: QBittorrent.Client.Preferences.MaxInactiveSeedingTimeEnabled*
+  name: MaxInactiveSeedingTimeEnabled
+  href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_MaxInactiveSeedingTimeEnabled_
+  commentId: Overload:QBittorrent.Client.Preferences.MaxInactiveSeedingTimeEnabled
+  isSpec: "True"
+  fullName: QBittorrent.Client.Preferences.MaxInactiveSeedingTimeEnabled
+  nameWithType: Preferences.MaxInactiveSeedingTimeEnabled
 - uid: QBittorrent.Client.Preferences.MaxRatio
   name: MaxRatio
   href: api/QBittorrent.Client.Preferences.html#QBittorrent_Client_Preferences_MaxRatio
