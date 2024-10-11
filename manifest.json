@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.AddTorrentFilesRequest.html",
-          "hash": "yG3WVSqC16FKrJRu9J07Ktx7E5x9xuAe6PdXvN2j590="
+          "hash": "9kSa3RCs4HwvSFNxEV7QdATxYtKWqFkHPcQCQS0An9A="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.AddTorrentRequestBase.html",
-          "hash": "asJ1MgAKmN5tmKr8nBtRqPqjMv5JheBQBXZtpB6yaNQ="
+          "hash": "XMsIoQkYh68RUwjR0inf/EuIQeCTKykkwgC3OUDMOfc="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.AddTorrentUrlsRequest.html",
-          "hash": "ddY9v+AHolD/Kz2TXxuijK7oW76F0wEDLyb/+PkquRg="
+          "hash": "mQLI4nEPZz+WAS9Sd85gsO5fl0O4xh4SQfKHbZ47wvg="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.AddTorrentsRequest.html",
-          "hash": "7XH/8wDzozx6S6I6EMeD3jedCJJXfvWgz+k1TFjuCU0="
+          "hash": "N1u9v7yI/LgXL8BFPlozoNVxJQNupsgc0MEOjWJvHio="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ApiLevelAttribute.html",
-          "hash": "Od0aqbyipAgfaW78QHsI3zASbDz1Pk2NAGLFrQLDD0s="
+          "hash": "qNSFHqrmvGsG3EzLuV4mp0LlRw2cvMRpunjRL2QX/WY="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ApiNotSupportedException.html",
-          "hash": "qEU7uCWTJUPgd9P3FXFraH4zZJwNOKFn5tgyWKpHiWo="
+          "hash": "n98wZA0wzZmAlQ/zpBgTMX1TINdu1sobVECK9XriC2U="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ApiVersion.html",
-          "hash": "5r50eDShMGw3aDvq2GBtzdccV9UPE3aWn9xvDYI+Peg="
+          "hash": "vs6zVzsbG+KQ3k6C0NOG7lt9VnYJGNa5vQVyjwr39AE="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.BuildInfo.html",
-          "hash": "yH9KwmrcqexFdrftl3rLHYNBGWTARhS819X+/sMg7W4="
+          "hash": "Zotbg0y9Bk3ZD/SMOsafNMF4/sbGdJ9EoBGsXEIPs1M="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.Category.html",
-          "hash": "IusnccvW+D5b6BhkjVBb6GvN7Le6gq6jQrIEQLFdR4c="
+          "hash": "o6mowNfLL1GgPS+SLbIDAYYbgtDiY56b7n/xLsw1Iow="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.DeprecatedAttribute.html",
-          "hash": "jxgQoTMatIdO6Hq3bjSBzcEZqOKusbqHHoG4wyeqSCg="
+          "hash": "o0AT4eZcUyScuh4efzDiXGNhsK1QYUM4G7BP4yPxmgM="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.GlobalTransferExtendedInfo.html",
-          "hash": "PG7jVCEKliSMFXNu1J3E4skZer1HdnnRN6mLPX4ygqY="
+          "hash": "/KYYSYrAKbSf9Wd2BmF46FM4uDJmVVgZCRAasQyTACM="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.GlobalTransferInfo.html",
-          "hash": "2TgahyIKlyO8izSsY8Zok4nNBWeiOL8eDUpOnUs/Cb8="
+          "hash": "86mtm4hq4MbAJI7YQQmWusQaKRprV9UnVA8HAXNtVuw="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.IQBittorrentClient.html",
-          "hash": "lIxtAaeWu3IOhQ7tA7bOiqwteZ5CzCIz8qpMEEal20Y="
+          "hash": "rJIdz3q1Auv1Z5hSKc3zjM/JrnOTyBffgrhhkucsrGM="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.IQBittorrentClient2.html",
-          "hash": "cWKNb3q5xU4+JTx8ojJhRa8q5qMX7n+eoRuDX5NFQD4="
+          "hash": "rvhacQ6lqgTYOtQjAMvcvxoeWZzukZuj6WNhjt4Yh2U="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.NetInterface.html",
-          "hash": "wU8bcElr0crYcVosqjNeqcg0lbKr7j8F5SHEcBtagbA="
+          "hash": "stRdQ/DDiJf/lGnnPym15WCEGOlqkh2NHK3C1PO9Bow="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.PartialData.html",
-          "hash": "Nz10xCQk8JPWuCvbsJ+HK428+QKm3GY1LP06Hwvrs/M="
+          "hash": "x5yTRdN6oLP+YBGkMhxvzfCHQiggwZKL4Em3NuO4HmM="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.PeerAddResult.html",
-          "hash": "2TvwvGvHqfnmBRg6nLB3nfusMuVDQU0zEJye8q2PeR8="
+          "hash": "4KISf3FKceJZaGlhRlYId1BilOlvB+CDS/w2dIzTfY4="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.PeerLogEntry.html",
-          "hash": "q65/vgL0FcO11Uvk++w+qzPasJ5k2s3TBeX60xDckNw="
+          "hash": "rn7JEECHwRFuoKbOYSrFToYg1wpcHtHRNKpPak7F0YM="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.PeerPartialData.html",
-          "hash": "MUDPg1LRdBumS6eiRWBVz4D47VCJD/ILIWIWmDhy5uo="
+          "hash": "Iw115gMIFHQVdPRryYPkyznGmgZcKoJPq0Z2BccE0mA="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.PeerPartialInfo.html",
-          "hash": "krdW3A2PnU1Ywfdh4Uz7yyD5Occo6bFl+CwgwUdJgJM="
+          "hash": "KFN2t2geB79x/vzmkp/Se0G+9wVQByFTLTe+Mg3qUVg="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.Preferences.html",
-          "hash": "kl3wN788Y4+abikhY8bCDLiN4gwpwe0wE2YnQI/jS9c="
+          "hash": "skPZZIuNjI14hvIIAJrt+6ya5wzYy3Gqf7AoIjOt0dQ="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ProxyTypeConverter.html",
-          "hash": "7n4AuxAmDL/QkTW2Zr9JR5x7tsIGnMC0eXAhCBeiNJ4="
+          "hash": "chgpShEgDb+Ngn79LOgkP7+woatEC3zpUrOFs8ACceM="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.QBittorrentClient.html",
-          "hash": "Kt5jkQLCaYtkkxmFRcIpvAeJuwXV4cax4w9OlAHQrCM="
+          "hash": "kAq+kI70qJ5qxy+DlnnBKudUxTtFsFLp2IQnf0yYh7Y="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.QBittorrentClientExtensions.html",
-          "hash": "uJ0lFOkK2t8HVW2seh5R/ZcUVyjfrcHkVrEqaL6aHzk="
+          "hash": "YjLk1QG7BnrbIHwRwL9W6AwJJV8A1ZwYRg6KCwkN0F4="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.QBittorrentClientRequestException.html",
-          "hash": "6dWPAmqrXgR6diyT/kF11iK0bRnt6sAKOSu6Hc4UIcg="
+          "hash": "Y89ULkvJY516Yx5NBzRW6SUctQhbK1aEfmDUutBTQc0="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.Range.html",
-          "hash": "9vUdS3eIpdJFatGDjeekXeeypQQ+DO2/4G1h7ck8ibo="
+          "hash": "TQ7h6AgrVcklChHxCu8ByBDe0DlBqco9uZIl8TdD7ls="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.RssArticle.html",
-          "hash": "YXxKeCIUdcmuLFn1R38zFORNkHcSzgm8/1Dic9oZ67o="
+          "hash": "WgICjRRoKm3OG8QnicQiNyct8Z5REHD4jB8RcCWvWzU="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.RssAutoDownloadingRule.html",
-          "hash": "5apqRqWvOqrfEJYHVRHvN00MNBtg+/SZKFNmxoIe98s="
+          "hash": "Zm1RrCVdT0yPzgL4hA8+RUx56JgPhIge85Kx4bC1hHA="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.RssFeed.html",
-          "hash": "bjqi4E8BZhKOkk0weTluR8ENxlW8B4A44f4o41ZYCQQ="
+          "hash": "CxN53RKzojCuzxqdsIa1REQLoBBVwpT49RPZY1vdgsA="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.RssFolder.html",
-          "hash": "2pNyGd2B6NDxuUhThtwcXVqcV26OvSrptjB7nm9CVA0="
+          "hash": "zf14tpodmfUR0LnfB0h39i/rvGh7M2oorYx+TXF+098="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.RssItem.html",
-          "hash": "XnYFNvYzWNR5GHWi5kMuG5yi+eJE/V2dGCO/5KKyau4="
+          "hash": "rwrKicc3hyX+MHYUAIUQj4Vz4ucIioI/h1En/RIXq3c="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SaveLocation.html",
-          "hash": "Li+HsjJRD1DRLd6IpO68oHKd7c8riFTLsgrVOQLM8H4="
+          "hash": "dzUT3ZohNHJjaQtmiVbmpcQ7i9P6CVT8Fdr1w/pqHw8="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SearchPlugin.html",
-          "hash": "unAih316pJ4fZaYcUG2f1bi5FK4um6dEDDnHGKMeDEM="
+          "hash": "LdLrIFWVs/s3esUQr/iQoQ0c1oUWXcVxeZMbUoU5u0Q="
         }
       },
       "is_incremental": false,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SearchPluginCategory.html",
-          "hash": "wvGzk3Tqw1DwmCoNivAqibV1rkKP7KReY4RqN1WmIbQ="
+          "hash": "gJ8EGJ2KWuQ6RjQJTci+gK2m6qIxTgeVzlgo/gfjkKc="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SearchResult.html",
-          "hash": "pQ36GRm6JgXDuOssHcMY/RmptQkf6pjshAYYYn6sLHs="
+          "hash": "2XxWd9e0lpz2cc7UDWI3edI2jkVMiQAbOn3hSstZG4M="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SearchResults.html",
-          "hash": "lL5N41JBv6m6fWkIA4BbcROI0gX5naod7pqQ276wEuo="
+          "hash": "K5nyFds7W+b6d7T1ljzntf5SvydCWcmgYmr0jXECvO4="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.SearchStatus.html",
-          "hash": "99MX6y+13zLqNK4+VB6GtcTsloKAR02a4G+9/Cs2fmE="
+          "hash": "muEmQtaON9C9KiCLvIx/oCrw70Vs8Wf/Fn4+KKMwArU="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ShareLimits.Ratio.html",
-          "hash": "Jt9s6NYbmJVptVDT3KaabyTQzaaamlvc7IMJQON2waU="
+          "hash": "kzLmdbyUYGq1unLcGy9h3ZoHH/QFkQdhMwoV5liiwpc="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ShareLimits.SeedingTime.html",
-          "hash": "e2cB/CPcPyKU6d990tEAXW9GJA2+R4kb0U8C1lkk5iw="
+          "hash": "on+LLmUyNaUaM08bFPbcKFynfRUK7N7diev6QWAZpqI="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.ShareLimits.html",
-          "hash": "PUah85YW0IBLeBxJ/DBNsm5UGpX5Oty1IlGS1QgGipw="
+          "hash": "VxLhll8eTORWH71QwMk1piLxMMZmq+WGeU4pcMO1UxI="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentContent.html",
-          "hash": "uQsg+AKDOrc4nEj85GgXyvcEm9T+gKRYkX/d0cry1kk="
+          "hash": "1bV3wskxQbzDFYBSz13F9PmKDzj3l0kFOmgUCN4YryM="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentInfo.html",
-          "hash": "RZ5sY3dYdo37RxxgcBEj0/tchd1PPCIH1RPihkx2kfw="
+          "hash": "VxQZyA8hl312FtDAN3lo3N/p348bE+MuXWxuyH/MAxg="
         }
       },
       "is_incremental": false,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentListQuery.html",
-          "hash": "8U9c0DFSpIkolB/FJ4lB6nsGAmroob+hlduKxjSBLwE="
+          "hash": "P6R4iEEVvP/8ygOK3IDtfM9jsDZeboMlsM4un6AO8dc="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentLogEntry.html",
-          "hash": "1gj56jdInkrd6op+c/45+zsaPsfE/dEmQ1aNMZ0cA8w="
+          "hash": "joDrW/4i3RVocJ1Zq/VREQDEfjlBsJf73LBdSQJUEBE="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentPartialInfo.html",
-          "hash": "/PmX6pc4Fnz78EiVrrVtlcAsX31kHCp99xJkoUJTw9s="
+          "hash": "y/g5Dh0m5NmAkG/rooAcStWJVUAmZApxjYDC4XEiHP4="
         }
       },
       "is_incremental": false,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentProperties.html",
-          "hash": "eu5YDy3ucvCrbrVRbMR7GzAxwQZuyAyNPAgB6bMmjLw="
+          "hash": "h9WK4cFOYToOBLumsQ7b3Ffll4GhGm7/iqVlKxGPNU4="
         }
       },
       "is_incremental": false,
@@ -801,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/QBittorrent.Client.TorrentTracker.html",
-          "hash": "3XLNLXcGsTU90/Kte02nCKhuGpCd5mJA3lRDdq+mXIk="
+          "hash": "DRmjimcc9yr9rEWOBErCGfUKX1cj6mi9sT30wbzIe2A="
         }
       },
       "is_incremental": false,

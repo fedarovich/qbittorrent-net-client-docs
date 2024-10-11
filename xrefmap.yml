@@ -857,6 +857,19 @@ references:
   isSpec: "True"
   fullName: QBittorrent.Client.BuildInfo.OpenSslVersion
   nameWithType: BuildInfo.OpenSslVersion
+- uid: QBittorrent.Client.BuildInfo.Platform
+  name: Platform
+  href: api/QBittorrent.Client.BuildInfo.html#QBittorrent_Client_BuildInfo_Platform
+  commentId: P:QBittorrent.Client.BuildInfo.Platform
+  fullName: QBittorrent.Client.BuildInfo.Platform
+  nameWithType: BuildInfo.Platform
+- uid: QBittorrent.Client.BuildInfo.Platform*
+  name: Platform
+  href: api/QBittorrent.Client.BuildInfo.html#QBittorrent_Client_BuildInfo_Platform_
+  commentId: Overload:QBittorrent.Client.BuildInfo.Platform
+  isSpec: "True"
+  fullName: QBittorrent.Client.BuildInfo.Platform
+  nameWithType: BuildInfo.Platform
 - uid: QBittorrent.Client.BuildInfo.QtVersion
   name: QtVersion
   href: api/QBittorrent.Client.BuildInfo.html#QBittorrent_Client_BuildInfo_QtVersion
